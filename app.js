@@ -9,11 +9,12 @@ var express = require('express')
   , http = require('http')
   , path = require('path')
   , swig = require('swig')
-  , angular = require('angular')
-    ;
+    , angular = require('angular');
 
 var app = express();
-
+var swig  = require('swig');
+swig.renderFile('views/layout.html', {
+});
 // all environments
 app.engine('html', swig.renderFile);
 app.set('port', process.env.PORT || 5000);
@@ -24,7 +25,9 @@ app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
-
+//app.get('/', function(req, res){
+	//	res.render('index.html');
+	//    });
 
 app.get('/', routes.index);
 app.get('/users', user.list);
