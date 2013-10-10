@@ -3,16 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="57325d0f-94a3-4907-af18-e6df1cb75852" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.html" afterPath="$PROJECT_DIR$/views/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/served.time" afterPath="$PROJECT_DIR$/.idea/served.time" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="served.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/app.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381183333788" ignored="false" />
-    <file path="/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381183773084" ignored="false" />
+    <file path="/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381388887982" ignored="false" />
     <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381387861770" ignored="false" />
     <file path="/Mac OS X copy.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381178748366" ignored="false" />
-    <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381388012709" ignored="false" />
+    <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381395229925" ignored="false" />
     <file path="/contact.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381182088404" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,8 +140,15 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="57" selection-start="263" selection-end="263" vertical-scroll-proportion="0.18637274">
-              <folding />
+            <state line="143" column="19" selection-start="5956" selection-end="5956" vertical-scroll-proportion="0.6002004">
+              <folding>
+                <element signature="tag#article#0;tag#section#0" expanded="false" />
+                <element signature="tag#section#0;tag#section#0" expanded="false" />
+                <element signature="tag#ul#0;tag#article#1;tag#section#0;tag#section#0" expanded="false" />
+                <element signature="tag#header#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
+                <element signature="tag#ul#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
+                <element signature="tag#ul#0;tag#section#1;tag#article#1;tag#section#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +156,7 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="53" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
+            <state line="34" column="12" selection-start="1249" selection-end="1301" vertical-scroll-proportion="-18.6">
               <folding />
             </state>
           </provider>
@@ -301,7 +308,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.116463736" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="editor.preferences.smartKeys" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -575,7 +582,14 @@
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="tag#article#0;tag#section#0" expanded="false" />
+            <element signature="tag#section#0;tag#section#0" expanded="false" />
+            <element signature="tag#ul#0;tag#article#1;tag#section#0;tag#section#0" expanded="false" />
+            <element signature="tag#header#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
+            <element signature="tag#ul#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
+            <element signature="tag#ul#0;tag#section#1;tag#article#1;tag#section#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,15 +658,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
+        <state line="34" column="12" selection-start="1249" selection-end="1301" vertical-scroll-proportion="-18.6">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="263" selection-end="263" vertical-scroll-proportion="0.18637274">
-          <folding />
+        <state line="143" column="19" selection-start="5956" selection-end="5956" vertical-scroll-proportion="0.6002004">
+          <folding>
+            <element signature="tag#article#0;tag#section#0" expanded="false" />
+            <element signature="tag#section#0;tag#section#0" expanded="false" />
+            <element signature="tag#ul#0;tag#article#1;tag#section#0;tag#section#0" expanded="false" />
+            <element signature="tag#header#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
+            <element signature="tag#ul#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
+            <element signature="tag#ul#0;tag#section#1;tag#article#1;tag#section#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -30,13 +30,12 @@
             </ul>
         </nav>
         {% endblock %}
-        {% block pageHeader %}
-        <header>
-            <h1>
-                default
-            </h1>
+
+        <header id="page_header">
+            {% block  page_header %}
+
+            {% endblock %}
         </header>
-        {% endblock %}
         <main class="main">
             {% block content %}
             {% endblock %}
