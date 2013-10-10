@@ -1,5 +1,5 @@
 $blue : #79DAFF;
-
+$intense_blue: #06BAFF;
 @font-face{
 	font-family: Avenir;
 	src: url("/sass/fonts/avenir_next.ttf");
@@ -10,10 +10,19 @@ a{
 li{
 	list-style-type: none;
 }
-ul, h1, h2, h3, h4, h5 , h6, ul, li, p{
+ul, h1, h2, h3, h4, h5 , h6, ul, li, p, hr, blockquote{
 		-webkit-margin-before: 0;
 		-webkit-margin-after: 0;
-		-webkit-padding-start:0
+		-webkit-padding-start:0;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+}
+hr{
+  display: inline;
+  border: none;
+  outline: none;
+  height: 1px;
+  opacity:0.0;
 }
 html { font-size: 62.5%; }
 header, footer, nav {
@@ -27,16 +36,26 @@ header, footer, nav {
 		}
 	}
 }
+.flexbox .top_nav ul{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+}
+.no-flexbox .top_nav ul{
+  display: block;
+  float: right;
+  li{
+    display: inline-table;
+  }
+}
 .top_nav{
 		width: 100%;
+      min-width: 705px;
 		position: relative;
 		height: 8rem;
 		position:absolute;
 		ul{
-			display: flex;
-			flex-direction: row;
-			align-content: center;
-			justify-content: flex-end;
 			height: 100%;
 			max-width: 96rem;
 			min-width: 40rem;
@@ -46,7 +65,7 @@ header, footer, nav {
 			display: table;
 			text-align: center;
 			transition: all 0.5s;
-			background: #79DAFF;
+			background: $blue;
 			width: 7rem;
 			height: 7rem;
 			padding: 0.5rem;
@@ -71,84 +90,19 @@ body, header, footer, .main{
 	min-width: 40rem;
 	width: 100%;
 }
+.main{
+  margin: 3rem auto;
+}
 header{
 	background: $blue;
-	height: 8rem;
 	display: flex;
-	h1{
-		padding-left: 4rem;
-	}
 }
 h1 {
 	font-size: 4.4rem;
 	color: white;
  }
-table {
-	background: white;
-	border-collapse: collapse;
-	font: normal normal 100 2rem "Avenir" sans-serif;
-}
-table, thead, tbody, tfoot {
-	width: 100%;
-}
-thead {
-	font-size: 2.3rem;
-}
-tbody {
-	border-top: 20px;
-}
-tr {
-	width: 100%;
-	border-spacing: 0;
-	height: 60px;
-}
-th{
-	padding-left: 2rem;
-}
-td {
-	padding: 1rem 0 0 2rem;
-}
-.hider{
-	background:transparent;
-	padding: 5px;
-	border-left: none;
-	border-right: none;
-}
-
-.price, .description{
-	padding-right: 60px;
-	text-align: left;
-}
-.price {
-	white-space: nowrap;
-}
-.description{
-	text-transform: lowercase;
-}
-sup{
-font-size: 1.2rem;
-}
-tfoot{
-	sup{
-		font-size: 0.8rem;
-	}
-	tr:first-of-type td:first-of-type{
-		padding-top: 30px;
-	}
-	font: normal normal 300 1.4rem "Avenir", sans-serif;
-	tr{
-		height: 30px;
-	}
-	td{
-		padding: 0.5rem 0 0 2rem;
-	}
-}
-tfoot td{
-}
-
 footer{
 	width: 100%;
-	background: $blue;
 	>div{
 		max-width: 96rem;
 		min-width: 40rem;
@@ -171,59 +125,79 @@ footer{
 		}
 	}
 }
-.stripe{
-	height: 6rem;
-}
-.animating{
-	  -webkit-backface-visibility: hidden;
-	  -webkit-transition: translate3d(0,0,0);
-}
 
-
-  #recommendation{
-    blockquote{}
-    p{}
-  }
+#page_header{
+  height: 8rem;
+}
+.top_nav li, #page_header, footer{
+  background: $intense_blue;
+}
+#recommendation{
+  blockquote{}
+  p{}
+}
 #resume{}
-#education{}
 #experience{}
 #skills{}
 .major_section{
-  .section_header{}
-}
-.position{
-  header{
-    h1{}
+  .section_header{
+    margin:  2rem auto;
+    h1{
+      padding-left: 4rem;
+      font-size:  3rem;
+    }
   }
+  .position{
+    >header{
+      margin:  2rem auto 0.5rem;
+    }
+  }
+}
+.skills_list{
   ul{
-    li{}
+    display: flex;
+    flex-direction: row;
+  div{
+    flex: 1;
+  }
   }
 }
-/*
+#education .position li {
+  display: inline-block;
+}
+.position , .skills_list{
+  margin-left: 4rem;
+  > header {
+  background: none;
+    h1 {
+      font-size: 2rem;
+      color: #555;
+    }
+  }
+}
+#experience{
+  li{
+    &:before{
+     content: "\2014"
+    }
+  }
+}
+.major_section {
+  font: normal normal 300 1.6rem "Raleway", sans-serif;
+  overflow:  hidden;
+  .section_header {
+    height: 6.5rem;
+  }
+  .section_header  h1 {
+    font-size: 3rem !important;
+  }
+}
 
-<aside id="recommendation">
-    <blockquote>
-    <p>
-<section id="resume">
-    <article id="education" class="major_section">
-        <header class="section_header">
-        <section class="position">
-            <header>
-            <ul>
-    <section id="experience" class="major_section">
-        <header class="section_header">
-        <section class="position">
-            <header>
-                <h1>
-            <ul>
-                <li>
-    <article id="skills" class="major_section">
-        <header class="section_header">
-            <h1>
-            <section>
-                <header>
-                    <h1>
-                <ul>*/
+
+.animating{
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: translate3d(0,0,0);
+}
 
 .cf {
   overflow: hidden;
@@ -242,5 +216,27 @@ footer{
   width: 0;
   left: 0;
   opacity: 0.0;
+
+}
+.collapsed{
+  position: relative;
+  top: 100rem;
+}
+.major_section.collapsed{
+  top: 0;
+  height: 8rem;
+}
+.collapsed{
+ transition-property: all;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -ms-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
 
 }

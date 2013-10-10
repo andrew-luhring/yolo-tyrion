@@ -1,3 +1,0 @@
-/**
- * @author Andrew S Luhring
- */
