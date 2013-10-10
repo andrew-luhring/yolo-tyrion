@@ -2,17 +2,300 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57325d0f-94a3-4907-af18-e6df1cb75852" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSFontFaceRule.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSFontFaceRule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSImportRule.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSImportRule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSKeyframeRule.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSKeyframeRule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSKeyframesRule.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSKeyframesRule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSMediaRule.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSMediaRule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSRule.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSRule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSStyleDeclaration.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSStyleDeclaration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSStyleRule.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSStyleRule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSStyleSheet.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/CSSStyleSheet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/MediaList.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/MediaList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/StyleSheet.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/StyleSheet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/lib/agent.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/lib/agent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/agent.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/agent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/docs/api.html" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/docs/api.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/assert.test.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/assert.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/async.test.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/async.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/serial/async.test.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/serial/async.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/auth.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/lib/autocomplete.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/lib/autocomplete.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/lib/bar.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/lib/bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/bar.test.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/bar.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/tools/base64.html" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/tools/base64.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/basicAuth.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/basicAuth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/benchmark/bench-multipart-parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/benchmark/bench-multipart-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/benchmark/bench-multipart-parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/benchmark/bench-multipart-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/benchmark.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/benchmark.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/big-not-pretty.xml" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/big-not-pretty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/bm.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/bm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/buffer-overrun.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/buffer-overrun.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/buffer_bench.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/buffer_bench.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/build/build.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/build/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/cache.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/cdata-end-split.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/cdata-end-split.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/cdata-fake-end.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/cdata-fake-end.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/cdata-multiple.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/cdata-multiple.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/client.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/clone.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/clone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/codec.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/codec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/commander/lib/commander.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/commander/lib/commander.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/common.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/common.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/common.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/common.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/component.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/component.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/components/component-emitter/component.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/components/component-emitter/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/emitter-component/component.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/emitter-component/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/component.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/compress.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/compress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/lib/connect-redis.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/lib/connect-redis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/connect.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/connect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session/cookie.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session/cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/cookieParser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/cookieParser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/cookieSession.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/cookieSession.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/cookiejar/cookiejar.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/cookiejar/cookiejar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/tests/crc.test.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/tests/crc.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/csrf.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/csrf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/diff_multi_bench_output.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/diff_multi_bench_output.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/directory.html" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/directory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/directory.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/directory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/duplicate-attribute.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/duplicate-attribute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/emitter-component/test/emitter.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/emitter-component/test/emitter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/encoding.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/encoding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/lib/eql.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/lib/eql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/error.html" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/error.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/errorHandler.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/errorHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/example.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/example.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/better-assert/example.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/better-assert/example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/examples.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/examples.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/test/exist.test.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/test/exist.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/expect.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/expect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/favicon.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/favicon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/file.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/file.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/lib/file.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/lib/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/lib/foo.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/lib/foo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/foo.test.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/foo.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/docs/layout/foot.html" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/docs/layout/foot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/generate_commands.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/generate_commands.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/get-products.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/get-products.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/docs/layout/head.html" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/docs/layout/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/docs/head.html" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/docs/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/lib/head.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/lib/head.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/hello-world.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/hello-world.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/lib/parser/hiredis.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/lib/parser/hiredis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/hiredis_parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/hiredis_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/http.test.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/http.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/serial/http.test.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/test/serial/http.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/lib/incoming_form.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/lib/incoming_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/docs/index.html" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/index.html" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/index.html" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.html" afterPath="$PROJECT_DIR$/views/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/index.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/commander/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/commander/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/cookie/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/cookie/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/pause/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/pause/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/qs/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/qs/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/methods/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/components/component-emitter/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/components/component-emitter/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/parsers/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/parsers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/better-assert/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/better-assert/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/better-assert/node_modules/callsite/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/better-assert/node_modules/callsite/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/emitter-component/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/emitter-component/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/lib/parser/javascript.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/lib/parser/javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/jquery.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/json.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/example/json.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/example/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/parsers/json.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/parsers/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/json_parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/json_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/limit.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/limit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/logger.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/logger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session/memory.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session/memory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/methodOverride.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/methodOverride.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/mime.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/mime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/mime/mime.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/mime/mime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/misc.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/misc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/mocha.css" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/mocha.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/mocha.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/mocha.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/monitor.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/monitor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/multi.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/multi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/multi2.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/multi2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/multi_bench.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/multi_bench.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/multipart.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/multipart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/multipart.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/multipart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/fixture/multipart.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/fixture/multipart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/lib/multipart_parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/lib/multipart_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/no-filename.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/no-filename.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/fixture/js/no-filename.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/fixture/js/no-filename.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/not-pretty.xml" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/not-pretty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/octet_parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/octet_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/package.json" afterPath="$PROJECT_DIR$/node_modules/autocomplete/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/package.json" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/package.json" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/support/expresso/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/commander/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/cookie/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/pause/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/pause/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/qs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/better-assert/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/better-assert/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/better-assert/node_modules/callsite/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/better-assert/node_modules/callsite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/cookiejar/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/cookiejar/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/emitter-component/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/emitter-component/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/mime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/cookie/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/cookie/test/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/cssom/lib/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/parser-position.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/parser-position.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/part.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/part.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/patch.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/patch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/example/post.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/example/post.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/example/post.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/example/post.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/preamble.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/preamble.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/pretty-print.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/pretty-print.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/proto.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/proto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/psubscribe.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/psubscribe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/pubsub/pub.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/pubsub/pub.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/rpushblpop/pub.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/rpushblpop/pub.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/qs.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/browser/qs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/query.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/querystring.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/querystring.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/lib/querystring.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/lib/querystring.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/querystring_parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/lib/querystring_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/lib/querystring_parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/lib/querystring_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/lib/queue.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/lib/queue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/re_sub_test.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/re_sub_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/tool/record.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/tool/record.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/tool/record.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/tool/record.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/response.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/response.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/responseTime.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/responseTime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/examples/runner.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/examples/runner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/script-close-better.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/script-close-better.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/self-closing-child-strict.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/self-closing-child-strict.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/self-closing-child.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/self-closing-child.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/self-closing-tag.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/self-closing-tag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/lib/send.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/lib/send.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/cookie/test/serialize.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/cookie/test/serialize.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/served.time" afterPath="$PROJECT_DIR$/.idea/served.time" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/pubsub/server.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/pubsub/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/rpushblpop/server.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/rpushblpop/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session/session.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session/session.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/shopping.xml" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/shopping.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/lib/should.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/lib/should.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/test/should.test.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/node_modules/should/test/should.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/special-chars-in-filename.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/special-chars-in-filename.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/fixture/js/special-chars-in-filename.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/fixture/js/special-chars-in-filename.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/speed/speed.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/benches/stress/speed/speed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/static.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/static.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/staticCache.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/staticCache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session/store.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session/store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/strict.dtd" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/strict.dtd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/stringify.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/test/stringify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/style.css" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/subquery.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/subquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/test/supertest.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/test/supertest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/docs/tail.html" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/docs/tail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/lib/tail.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/qs/lib/tail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/standalone/test-connection-aborted.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/standalone/test-connection-aborted.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/standalone/test-content-transfer-encoding.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/standalone/test-content-transfer-encoding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple/test-file.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple/test-file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/unit/test-file.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/unit/test-file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/simple/test-file.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/simple/test-file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/integration/test-fixtures.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/integration/test-fixtures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/integration/test-fixtures.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/integration/test-fixtures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple/test-incoming-form.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple/test-incoming-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/unit/test-incoming-form.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/unit/test-incoming-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/simple/test-incoming-form.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/simple/test-incoming-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/unit/test-incoming-form.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/unit/test-incoming-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/standalone/test-issue-46.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/standalone/test-issue-46.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/integration/test-json.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/integration/test-json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/system/test-multi-video-upload.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/system/test-multi-video-upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/system/test-multi-video-upload.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/system/test-multi-video-upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/integration/test-multipart-parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/integration/test-multipart-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple/test-multipart-parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple/test-multipart-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/integration/test-multipart-parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/integration/test-multipart-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/simple/test-multipart-parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/simple/test-multipart-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/integration/test-octet-stream.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/integration/test-octet-stream.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple/test-querystring-parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple/test-querystring-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/simple/test-querystring-parser.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/test/legacy/simple/test-querystring-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/test/test.basic.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/test/test.basic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/test.html" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/test.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/test.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/test.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/test.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/node_modules/mime/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/lib/test.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/lib/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/cookiejar/tests/test.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/cookiejar/tests/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/mime/test.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/mime/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/test/test.large.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/test/test.large.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/test.xml" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/examples/test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/parsers/text.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/parsers/text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/timeout.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/timeout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/trailing-attribute-no-value.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/trailing-attribute-no-value.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/trailing-non-whitespace.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/trailing-non-whitespace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/lib/trie.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/lib/trie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/example/upload.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/example/upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/example/upload.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/example/upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/urlencoded.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/urlencoded.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/parsers/urlencoded.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/parsers/urlencoded.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/lib/util.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/node_modules/formidable/lib/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/send/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/utils.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/supertest/node_modules/superagent/lib/node/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autocomplete/examples/vegetables.js" afterPath="$PROJECT_DIR$/node_modules/autocomplete/examples/vegetables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/vhost.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/vhost.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/web_server.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect-redis/node_modules/redis/examples/web_server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/workarounds.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/workarounds.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-issue-41.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-issue-41.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-rebinding.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-rebinding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-unbound-element.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-unbound-element.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-xml-default-ns.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-xml-default-ns.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-xml-default-prefix-attribute.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-xml-default-prefix-attribute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-xml-default-prefix.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-xml-default-prefix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-xml-default-redefine.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/stylus/node_modules/sax/test/xmlns-xml-default-redefine.js" />
     </list>
     <ignored path="served.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/app.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381183333788" ignored="false" />
     <file path="/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381388887982" ignored="false" />
-    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381387861770" ignored="false" />
+    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381396609745" ignored="false" />
     <file path="/Mac OS X copy.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381178748366" ignored="false" />
-    <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381395229925" ignored="false" />
+    <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381397629785" ignored="false" />
     <file path="/contact.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381182088404" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,15 +423,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="19" selection-start="5956" selection-end="5956" vertical-scroll-proportion="0.6002004">
-              <folding>
-                <element signature="tag#article#0;tag#section#0" expanded="false" />
-                <element signature="tag#section#0;tag#section#0" expanded="false" />
-                <element signature="tag#ul#0;tag#article#1;tag#section#0;tag#section#0" expanded="false" />
-                <element signature="tag#header#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
-                <element signature="tag#ul#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
-                <element signature="tag#ul#0;tag#section#1;tag#article#1;tag#section#0" expanded="false" />
-              </folding>
+            <state line="95" column="129" selection-start="4339" selection-end="4339" vertical-scroll-proportion="-2.3857715">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,7 +432,7 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="12" selection-start="1249" selection-end="1301" vertical-scroll-proportion="-18.6">
+            <state line="34" column="12" selection-start="1249" selection-end="1301" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -265,7 +541,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,6 +576,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,8 +593,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -340,17 +616,7 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -381,7 +647,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -397,6 +673,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -418,13 +701,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -466,6 +742,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993513" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -479,14 +756,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.057291668" sideWeight="0.6702356" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.057291668" sideWeight="0.67006487" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TimeTrackerPlugin" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -582,14 +858,7 @@
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#article#0;tag#section#0" expanded="false" />
-            <element signature="tag#section#0;tag#section#0" expanded="false" />
-            <element signature="tag#ul#0;tag#article#1;tag#section#0;tag#section#0" expanded="false" />
-            <element signature="tag#header#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
-            <element signature="tag#ul#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
-            <element signature="tag#ul#0;tag#section#1;tag#article#1;tag#section#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -658,22 +927,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="12" selection-start="1249" selection-end="1301" vertical-scroll-proportion="-18.6">
+        <state line="34" column="12" selection-start="1249" selection-end="1301" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="19" selection-start="5956" selection-end="5956" vertical-scroll-proportion="0.6002004">
-          <folding>
-            <element signature="tag#article#0;tag#section#0" expanded="false" />
-            <element signature="tag#section#0;tag#section#0" expanded="false" />
-            <element signature="tag#ul#0;tag#article#1;tag#section#0;tag#section#0" expanded="false" />
-            <element signature="tag#header#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
-            <element signature="tag#ul#0;tag#section#0;tag#article#1;tag#section#0" expanded="false" />
-            <element signature="tag#ul#0;tag#section#1;tag#article#1;tag#section#0" expanded="false" />
-          </folding>
+        <state line="95" column="129" selection-start="4339" selection-end="4339" vertical-scroll-proportion="-2.3857715">
+          <folding />
         </state>
       </provider>
     </entry>
