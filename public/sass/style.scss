@@ -1,9 +1,9 @@
+$blue : #79DAFF;
 
 @font-face{
 	font-family: Avenir;
 	src: url("/sass/fonts/avenir_next.ttf");
 }
-$blue : #79DAFF;
 a{
 	text-decoration: none;
 }
@@ -180,22 +180,67 @@ footer{
 }
 
 
-.cf {
-	overflow: hidden;
-	&:before, &:after{
-		content: "";
-		display: table;
-	}
-	&:after {
-		clear: both;
-		}
+  #recommendation{
+    blockquote{}
+    p{}
   }
-  .hide{
-  	position: absolute;
-  	height: 0;
-  	top: 0;
-  	width: 0;
-  	left: 0;
-  	opacity: 0.0;
+#resume{}
+#education{}
+#experience{}
+#skills{}
+.major_section{
+  .section_header{}
+}
+.position{
+  header{
+    h1{}
+  }
+  ul{
+    li{}
+  }
+}
+/*
 
+<aside id="recommendation">
+    <blockquote>
+    <p>
+<section id="resume">
+    <article id="education" class="major_section">
+        <header class="section_header">
+        <section class="position">
+            <header>
+            <ul>
+    <section id="experience" class="major_section">
+        <header class="section_header">
+        <section class="position">
+            <header>
+                <h1>
+            <ul>
+                <li>
+    <article id="skills" class="major_section">
+        <header class="section_header">
+            <h1>
+            <section>
+                <header>
+                    <h1>
+                <ul>*/
+
+.cf {
+  overflow: hidden;
+  &:before, &:after{
+    content: "";
+    display: table;
   }
+  &:after {
+    clear: both;
+  }
+}
+.hide{
+  position: absolute;
+  height: 0;
+  top: 0;
+  width: 0;
+  left: 0;
+  opacity: 0.0;
+
+}

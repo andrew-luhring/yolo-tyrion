@@ -1,50 +1,34 @@
 @font-face {
   font-family: Avenir;
-  src: url("/sass/fonts/avenir_next.ttf");
-}
+  src: url("/sass/fonts/avenir_next.ttf"); }
 
-/* line 7, ../sass/style.scss */
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-/* line 10, ../sass/style.scss */
 li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
-/* line 13, ../sass/style.scss */
 ul, h1, h2, h3, h4, h5, h6, ul, li, p {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
-  -webkit-padding-start: 0;
-}
+  -webkit-padding-start: 0; }
 
-/* line 18, ../sass/style.scss */
 html {
-  font-size: 62.5%;
-}
+  font-size: 62.5%; }
 
-/* line 20, ../sass/style.scss */
 header a, footer a, nav a {
   transition: all 1s;
-  color: white;
-}
-/* line 23, ../sass/style.scss */
+  color: white; }
 header a:hover, footer a:hover, nav a:hover {
   transition: all 1s;
   color: #0F5485;
-  background: #eee;
-}
+  background: #eee; }
 
-/* line 30, ../sass/style.scss */
 .top_nav {
   width: 100%;
   position: relative;
   height: 8rem;
-  position: absolute;
-}
-/* line 35, ../sass/style.scss */
+  position: absolute; }
 .top_nav ul {
   display: flex;
   flex-direction: row;
@@ -53,9 +37,7 @@ header a:hover, footer a:hover, nav a:hover {
   height: 100%;
   max-width: 96rem;
   min-width: 40rem;
-  margin: auto;
-}
-/* line 45, ../sass/style.scss */
+  margin: auto; }
 .top_nav li {
   display: table;
   text-align: center;
@@ -63,160 +45,104 @@ header a:hover, footer a:hover, nav a:hover {
   background: #79DAFF;
   width: 7rem;
   height: 7rem;
-  padding: 0.5rem;
-}
-/* line 53, ../sass/style.scss */
+  padding: 0.5rem; }
 .top_nav li a {
   display: table-cell;
   vertical-align: middle;
   border: 1px solid white;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
-/* line 61, ../sass/style.scss */
 body {
   font: normal normal 100 1.6rem "Avenir";
-  background: #f5f5f5;
-}
+  background: #f5f5f5; }
 
-/* line 65, ../sass/style.scss */
 body, header, footer, .main {
-  margin: auto;
-}
+  margin: auto; }
 
-/* line 68, ../sass/style.scss */
 .main, header h1 {
   margin: auto;
   max-width: 96rem;
   min-width: 40rem;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 74, ../sass/style.scss */
 header {
   background: #79daff;
   height: 8rem;
-  display: flex;
-}
-/* line 78, ../sass/style.scss */
+  display: flex; }
 header h1 {
-  padding-left: 4rem;
-}
+  padding-left: 4rem; }
 
-/* line 82, ../sass/style.scss */
 h1 {
   font-size: 4.4rem;
-  color: white;
-}
+  color: white; }
 
-/* line 86, ../sass/style.scss */
 table {
   background: white;
   border-collapse: collapse;
-  font: normal normal 100 2rem "Avenir" sans-serif;
-}
+  font: normal normal 100 2rem "Avenir" sans-serif; }
 
-/* line 91, ../sass/style.scss */
 table, thead, tbody, tfoot {
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 94, ../sass/style.scss */
 thead {
-  font-size: 2.3rem;
-}
+  font-size: 2.3rem; }
 
-/* line 97, ../sass/style.scss */
 tbody {
-  border-top: 20px;
-}
+  border-top: 20px; }
 
-/* line 100, ../sass/style.scss */
 tr {
   width: 100%;
   border-spacing: 0;
-  height: 60px;
-}
+  height: 60px; }
 
-/* line 105, ../sass/style.scss */
 th {
-  padding-left: 2rem;
-}
+  padding-left: 2rem; }
 
-/* line 108, ../sass/style.scss */
 td {
-  padding: 1rem 0 0 2rem;
-}
+  padding: 1rem 0 0 2rem; }
 
-/* line 111, ../sass/style.scss */
 .hider {
   background: transparent;
   padding: 5px;
   border-left: none;
-  border-right: none;
-}
+  border-right: none; }
 
-/* line 118, ../sass/style.scss */
 .price, .description {
   padding-right: 60px;
-  text-align: left;
-}
+  text-align: left; }
 
-/* line 122, ../sass/style.scss */
 .price {
-  white-space: nowrap;
-}
+  white-space: nowrap; }
 
-/* line 125, ../sass/style.scss */
 .description {
-  text-transform: lowercase;
-}
+  text-transform: lowercase; }
 
-/* line 128, ../sass/style.scss */
 sup {
-  font-size: 1.2rem;
-}
+  font-size: 1.2rem; }
 
-/* line 131, ../sass/style.scss */
 tfoot {
-  font: normal normal 300 1.4rem "Avenir", sans-serif;
-}
-/* line 132, ../sass/style.scss */
+  font: normal normal 300 1.4rem "Avenir", sans-serif; }
 tfoot sup {
-  font-size: 0.8rem;
-}
-/* line 135, ../sass/style.scss */
+  font-size: 0.8rem; }
 tfoot tr:first-of-type td:first-of-type {
-  padding-top: 30px;
-}
-/* line 139, ../sass/style.scss */
+  padding-top: 30px; }
 tfoot tr {
-  height: 30px;
-}
-/* line 142, ../sass/style.scss */
+  height: 30px; }
 tfoot td {
-  padding: 0.5rem 0 0 2rem;
-}
+  padding: 0.5rem 0 0 2rem; }
 
-/* line 149, ../sass/style.scss */
 footer {
   width: 100%;
-  background: #79daff;
-}
-/* line 152, ../sass/style.scss */
+  background: #79daff; }
 footer > div {
   max-width: 96rem;
   min-width: 40rem;
-  margin: auto;
-}
-/* line 157, ../sass/style.scss */
+  margin: auto; }
 footer p {
   display: table;
   float: right;
   color: white;
-  padding: 0.5rem;
-}
-/* line 162, ../sass/style.scss */
+  padding: 0.5rem; }
 footer p a {
   border: 1px solid white;
   border-radius: 50%;
@@ -225,40 +151,52 @@ footer p a {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  color: white;
-}
+  color: white; }
 
-/* line 174, ../sass/style.scss */
 .stripe {
-  height: 6rem;
-}
+  height: 6rem; }
 
-/* line 177, ../sass/style.scss */
 .animating {
   -webkit-backface-visibility: hidden;
-  -webkit-transition: translate3d(0, 0, 0);
-}
+  -webkit-transition: translate3d(0, 0, 0); }
 
-/* line 183, ../sass/style.scss */
+/*
+
+<aside id="recommendation">
+    <blockquote>
+    <p>
+<section id="resume">
+    <article id="education" class="major_section">
+        <header class="section_header">
+        <section class="position">
+            <header>
+            <ul>
+    <section id="experience" class="major_section">
+        <header class="section_header">
+        <section class="position">
+            <header>
+                <h1>
+            <ul>
+                <li>
+    <article id="skills" class="major_section">
+        <header class="section_header">
+            <h1>
+            <section>
+                <header>
+                    <h1>
+                <ul>*/
 .cf {
-  overflow: hidden;
-}
-/* line 185, ../sass/style.scss */
+  overflow: hidden; }
 .cf:before, .cf:after {
   content: "";
-  display: table;
-}
-/* line 189, ../sass/style.scss */
+  display: table; }
 .cf:after {
-  clear: both;
-}
+  clear: both; }
 
-/* line 193, ../sass/style.scss */
 .hide {
   position: absolute;
   height: 0;
   top: 0;
   width: 0;
   left: 0;
-  opacity: 0.0;
-}
+  opacity: 0.0; }
