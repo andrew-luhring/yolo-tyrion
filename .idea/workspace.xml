@@ -4,7 +4,6 @@
     <list default="true" id="57325d0f-94a3-4907-af18-e6df1cb75852" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/style.css" afterPath="$PROJECT_DIR$/public/styles/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sass/style.scss" afterPath="$PROJECT_DIR$/public/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="served.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +13,7 @@
     <file path="/Mac OS X copy.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381178748366" ignored="false" />
     <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381409846198" ignored="false" />
     <file path="/contact.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381437601779" ignored="false" />
-    <file path="/style.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381453648344" ignored="false" />
+    <file path="/style.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381453955734" ignored="false" />
     <file path="/serve.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381404736078" ignored="false" />
     <file path="/script.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381409216506" ignored="false" />
     <file path="/index.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381451128236" ignored="false" />
@@ -101,7 +100,7 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="66" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.37171718">
+            <state line="53" column="22" selection-start="907" selection-end="907" vertical-scroll-proportion="0.5222222">
               <folding>
                 <element signature="e#51#118#0" expanded="false" />
                 <element signature="e#120#147#0" expanded="false" />
@@ -110,11 +109,9 @@
                 <element signature="e#384#469#0" expanded="false" />
                 <element signature="e#521#641#0" expanded="false" />
                 <element signature="e#570#638#0" expanded="false" />
-                <element signature="e#664#761#0" expanded="false" />
                 <element signature="e#785#859#0" expanded="false" />
-                <element signature="e#868#1316#0" expanded="false" />
-                <element signature="e#1321#1388#0" expanded="false" />
-                <element signature="e#1416#1434#0" expanded="false" />
+                <element signature="e#1323#1390#0" expanded="false" />
+                <element signature="e#1418#1436#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -699,7 +696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="66" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.37171718">
+        <state line="53" column="22" selection-start="907" selection-end="907" vertical-scroll-proportion="0.5222222">
           <folding>
             <element signature="e#51#118#0" expanded="false" />
             <element signature="e#120#147#0" expanded="false" />
@@ -708,11 +705,9 @@
             <element signature="e#384#469#0" expanded="false" />
             <element signature="e#521#641#0" expanded="false" />
             <element signature="e#570#638#0" expanded="false" />
-            <element signature="e#664#761#0" expanded="false" />
             <element signature="e#785#859#0" expanded="false" />
-            <element signature="e#868#1316#0" expanded="false" />
-            <element signature="e#1321#1388#0" expanded="false" />
-            <element signature="e#1416#1434#0" expanded="false" />
+            <element signature="e#1323#1390#0" expanded="false" />
+            <element signature="e#1418#1436#0" expanded="false" />
           </folding>
         </state>
       </provider>

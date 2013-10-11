@@ -51,7 +51,7 @@ header, footer, nav {
 }
 .top_nav{
 		width: 100%;
-      min-width: 705px;
+        min-width: 750px;
 		position: relative;
 		height: 8rem;
 		position:absolute;
@@ -85,8 +85,10 @@ body, header, footer, .main{
 	margin: auto;
 }
 .main, header h1{
-
 	width: 100%;
+}
+#page_header h1, #recommendation{
+  padding-left: 4rem;
 }
 .main aside, .major_section .section_header h1 , #page_header h1,  .position, .skills_list{
   max-width: 96rem;
