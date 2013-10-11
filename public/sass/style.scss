@@ -85,11 +85,19 @@ body, header, footer, .main{
 	margin: auto;
 }
 .main, header h1{
-	margin: auto;
-	max-width: 96rem;
-	min-width: 40rem;
+
 	width: 100%;
 }
+.main aside, .major_section .section_header h1 , #page_header h1,  .position, .skills_list{
+  max-width: 96rem;
+  min-width: 40rem;
+  margin: auto;
+}
+.main{
+  max-width: none;
+  width: 100%;
+}
+
 .main{
   margin: 3rem auto;
 }
@@ -166,7 +174,7 @@ footer{
   display: inline-block;
 }
 .position , .skills_list{
-  margin-left: 4rem;
+  padding-left: 4rem;
   > header {
   background: none;
     h1 {
