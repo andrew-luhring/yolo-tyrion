@@ -4,34 +4,45 @@
  */
 
 var express = require('express')
-  , routes = require('./routes')
-  , user = require('./routes/user')
-  , http = require('http')
-  , path = require('path')
-  , swig = require('swig')
+    , fs = require('fs')
+    , user = require('./routes/user')
+    , http = require('http')
+    , path = require('path')
+    , swig = require('swig')
+    , app = express()
     , angular = require('angular');
 
-var app = express();
-var swig  = require('swig');
-swig.renderFile('views/layout.html', {
-});
-// all environments
-app.engine('html', swig.renderFile);
-app.set('port', process.env.PORT || 5000);
-app.set('view engine', 'html');
-app.set('views', __dirname + '/views');
-app.use(express.logger('dev'));
-app.use(express.bodyParser());
-app.use(express.methodOverride());
-app.use(app.router);
-app.use(express.static(path.join(__dirname, 'public')));
-//app.get('/', function(req, res){
-	//	res.render('index.html');
-	//    });
+function notMe(){
+    app.use(express.logger('dev'));
+    app.use(express.bodyParser());
+    app.use(express.methodOverride());
+    app.use(app.router);
+    app.use(express.errorHandler());
+}
 
-app.get('/', routes.index);
-app.get('/users', user.list);
+swig.renderFile('views/layout.html', { });
+
+app.configure('development', function(){
+    app.set('port', process.env.PORT || 5000);
+    app.set('views', __dirname + '/views');
+    app.set('view engine', 'html');
+    app.engine('html', swig.renderFile);
+    app.use(express.static(path.join(__dirname, 'public')));
+   notMe();
+});
+
+
+//Dynamically include routes
+fs.readdirSync('./controllers').forEach(function(file){
+   if(file.substr(-3) === '.js'){
+       route = require('./controllers/' + file);
+       route.controller(app);
+   }
+});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
+
+module.exports.app = app;
+routes = require('./routes')
