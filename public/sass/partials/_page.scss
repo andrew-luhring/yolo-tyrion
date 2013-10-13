@@ -6,7 +6,12 @@ $light-green: #75dec8;
 $orange: #f05341;
 $black: #111;
 $white: #f5f5f5;
+body{
+  width:  100%;
+  border:  1px solid black;
+  margin: 1px;
 
+}
 #site-head{
   a{
     display:block;
