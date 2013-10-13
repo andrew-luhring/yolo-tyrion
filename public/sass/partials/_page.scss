@@ -17,6 +17,7 @@ $white: #f5f5f5;
   @include display(flex);
   @include flex-flow(column);
   @include flex(1);
+  width: 100%;
   text-align: center;
   background: $dark-purple;
 }
