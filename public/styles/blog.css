@@ -103,6 +103,12 @@ body {
   top: 0px;
 }
 
+@media (max-width: 400px) {
+  #site-head-content .logo h1 {
+    font-size: 12rem;
+    color: blue;
+  }
+}
 .logo_o {
   position: relative;
 }

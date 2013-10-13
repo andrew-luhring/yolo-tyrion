@@ -46,7 +46,12 @@ body{
       }
     }
   }
-
+@media (max-width: 400px) {
+  #site-head-content .logo h1{
+   font-size:  12rem;
+    color:  blue;
+  }
+}
 #page-head{
 }
 .logo_o{
