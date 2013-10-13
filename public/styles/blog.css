@@ -101,12 +101,17 @@ body {
   letter-spacing: -9px;
   word-spacing: 0px;
   top: 0px;
+  -webkit-transition: all, 1s;
+  -moz-transition: all, 1s;
+  transition: all, 1s;
 }
 
 @media (max-width: 400px) {
   #site-head-content .logo h1 {
-    font-size: 12rem;
-    color: blue;
+    font-size: 10rem;
+    -webkit-transition: all, 1s;
+    -moz-transition: all, 1s;
+    transition: all, 1s;
   }
 }
 .logo_o {

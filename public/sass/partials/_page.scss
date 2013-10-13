@@ -43,13 +43,14 @@ body{
       letter-spacing: -9px;
       word-spacing: 0px;
       top: 0px;
+      @include transition(all, 1s);
       }
     }
   }
 @media (max-width: 400px) {
   #site-head-content .logo h1{
-   font-size:  12rem;
-    color:  blue;
+   font-size:  10rem;
+   @include transition(all, 1s);
   }
 }
 #page-head{
