@@ -28,6 +28,7 @@ body{
   background: $dark-purple;
   border:  4px solid $orange;
 }
+
 #site-head-content{
   @include box-align(stretch);
   @include justify-content(flex-end);
