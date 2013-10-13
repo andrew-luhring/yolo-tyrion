@@ -7,6 +7,7 @@ var indexController = require('../controllers/index');
 
 app.get('/', indexController.index);
 app.get('/contact', indexController.contact);
+app.get('/blog', indexController.blog);
 
 
 /*

@@ -1,0 +1,35 @@
+.post{
+  background: $light-blue;
+  display: flex;
+  flex-flow: column;
+  margin: 20rem auto;
+  position: relative;
+  width: 100%;
+}
+
+.post-header{
+  @include display(flex);
+  @include flex-flow(column);
+  @include align-content(center);
+  @include justify-content(center);
+  text-align: center;
+  background: $dark-purple;
+  padding:  2rem;
+}
+.post-title{
+  color: $cream;
+}
+.post-excerpt{
+  max-width:  66%;
+  margin:  auto;
+  @include display(flex);
+  @include flex-flow(row);
+  @include justify-content(center);
+  @include align-content(center);
+}
+.post-meta{
+  display: none;
+}
+.post-footer{
+
+}

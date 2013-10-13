@@ -7,6 +7,9 @@ module.exports.controller = function(app){
     app.get('/contact', function(req, res){
        res.render('../views/contact');
     });
+    app.get('/blog', function(req, res){
+        res.render('../views/blog');
+    });
 }
 
 exports.index = function(req, res){
@@ -14,4 +17,7 @@ exports.index = function(req, res){
 }
 exports.contact = function(req, res){
     res.render('contact');
+}
+exports.blog= function(req, res){
+    res.render('blog');
 }
