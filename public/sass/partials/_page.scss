@@ -10,6 +10,7 @@ body{
   width:  100%;
   border:  1px solid black;
   margin: 1px;
+  overflow: hidden;
 
 }
 #site-head{
@@ -25,6 +26,7 @@ body{
   width: 100%;
   text-align: center;
   background: $dark-purple;
+  border:  4px solid $orange;
 }
 #site-head-content{
   @include box-align(stretch);
