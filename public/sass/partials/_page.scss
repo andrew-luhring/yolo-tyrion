@@ -48,6 +48,13 @@ body{
    @include transition(all, 1s);
   }
 }
+@media (max-height: 250px) {
+  #site-head-content .logo h1{
+   font-size:  10rem;
+   @include transition(all, 1s);
+  }
+}
+
 #page-head{
 }
 .logo_o{

@@ -110,6 +110,14 @@ body {
     transition: all, 1s;
   }
 }
+@media (max-height: 250px) {
+  #site-head-content .logo h1 {
+    font-size: 10rem;
+    -webkit-transition: all, 1s;
+    -moz-transition: all, 1s;
+    transition: all, 1s;
+  }
+}
 .logo_o {
   position: relative;
 }

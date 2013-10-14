@@ -27,6 +27,9 @@ jQuery(document).ready(function ($) {
     $('#site-head').addClass("animating").css({
         "height": win.winHeight
     }).removeClass("animating");
+    $('a').click(function(e){
+        e.preventDefault();
+    })
 });
 
 function generateRandomDelay() {
