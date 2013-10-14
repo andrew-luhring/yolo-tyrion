@@ -25,7 +25,7 @@ jQuery(document).ready(function ($) {
     var win = getWindowDimensions();
     fullWindowResize('.post');
     $('#site-head').addClass("animating").css({
-        "height": win.winHeight
+        "min-height": win.winHeight
     }).removeClass("animating");
     $('a').click(function(e){
         e.preventDefault();
