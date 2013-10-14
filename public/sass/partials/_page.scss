@@ -23,7 +23,9 @@ body{
   text-align: center;
   background: $dark-purple;
 }
-
+#site-head{
+  min-height: 125px;
+}
 #site-head-content{
   @include box-align(stretch);
   @include justify-content(flex-end);
@@ -51,6 +53,12 @@ body{
 @media (max-height: 250px) {
   #site-head-content .logo h1{
    font-size:  10rem;
+   @include transition(all, 1s);
+  }
+}
+@media (max-height: 150px) {
+  #site-head-content .logo h1{
+   font-size:  8rem;
    @include transition(all, 1s);
   }
 }
