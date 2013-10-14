@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57325d0f-94a3-4907-af18-e6df1cb75852" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.html" afterPath="$PROJECT_DIR$/views/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/served.time" afterPath="$PROJECT_DIR$/.idea/served.time" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="served.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/app.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381450661901" ignored="false" />
     <file path="/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381615328432" ignored="false" />
-    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381706169462" ignored="false" />
+    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770559871" ignored="false" />
     <file path="/Mac OS X copy.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381178748366" ignored="false" />
     <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381409846198" ignored="false" />
     <file path="/contact.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381437601779" ignored="false" />
@@ -25,6 +25,14 @@
     <file path="/_base.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381641040101" ignored="false" />
     <file path="/_post.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381645859212" ignored="false" />
     <file path="/_page.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381713996293" ignored="false" />
+    <file path="/a.gsp" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770240347" ignored="false" />
+    <file path="/a.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770242513" ignored="false" />
+    <file path="/post.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770335901" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/default.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381772545598" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770791949" ignored="false" />
+    <file path="/default.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381772541493" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/index.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381772376091" ignored="false" />
+    <file path="/index.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381772376091" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +105,7 @@
       <file leaf-file-name="blog.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="764" selection-end="764" vertical-scroll-proportion="-26.04">
+            <state line="27" column="13" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,7 +123,7 @@
       <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="17" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.73590505">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,7 +132,7 @@
       <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="13" selection-start="1311" selection-end="1311" vertical-scroll-proportion="-19.375">
+            <state line="25" column="13" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -276,7 +284,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -287,76 +295,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -648,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/partials/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_final.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
@@ -671,7 +603,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="764" selection-end="764" vertical-scroll-proportion="-26.04">
+        <state line="27" column="13" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -699,14 +631,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="1311" selection-end="1311" vertical-scroll-proportion="-19.375">
+        <state line="25" column="13" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.73590505">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
