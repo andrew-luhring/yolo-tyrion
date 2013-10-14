@@ -81,6 +81,17 @@ body {
   min-height: 125px;
 }
 
+.no-flexbox.flexboxlegacy #site-head {
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+}
+
 #site-head-content {
   -webkit-box-align: stretch;
   -moz-box-align: stretch;

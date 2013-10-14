@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sass/partials/_page.scss" afterPath="$PROJECT_DIR$/public/sass/partials/_page.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/blog.css" afterPath="$PROJECT_DIR$/public/styles/blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/served.time" afterPath="$PROJECT_DIR$/.idea/served.time" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="served.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +26,7 @@
     <file path="/blog.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381711319898" ignored="false" />
     <file path="/_base.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381641040101" ignored="false" />
     <file path="/_post.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381645859212" ignored="false" />
-    <file path="/_page.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381712314484" ignored="false" />
+    <file path="/_page.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381713026702" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +153,7 @@
       <file leaf-file-name="_page.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="20" selection-start="422" selection-end="422" vertical-scroll-proportion="0.088487156">
+            <state line="29" column="23" selection-start="486" selection-end="486" vertical-scroll-proportion="0.5899144">
               <folding />
             </state>
           </provider>
@@ -707,7 +708,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="422" selection-end="422" vertical-scroll-proportion="0.088487156">
+        <state line="29" column="23" selection-start="486" selection-end="486" vertical-scroll-proportion="0.5899144">
           <folding />
         </state>
       </provider>
