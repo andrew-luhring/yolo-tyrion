@@ -91,12 +91,6 @@ body {
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
 }
-.no-flexbox.flexboxlegacy #site-head > div {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -ms-box-flex: 1;
-  box-flex: 1;
-}
 
 #site-head-content {
   -webkit-box-align: stretch;
