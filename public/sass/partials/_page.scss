@@ -35,6 +35,12 @@ body{
   -moz-box-pack: center;
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
+  >div{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-box-flex: 1;
+    box-flex: 1;
+  }
 }
 #site-head-content{
   @include box-align(stretch);
@@ -62,7 +68,7 @@ body{
 }
 @media (max-height: 250px) {
   #site-head-content .logo h1{
-   font-size:  10rem;
+   font-size:  9rem;
    @include transition(all, 1s);
   }
 }
