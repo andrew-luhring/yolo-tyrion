@@ -1,11 +1,9 @@
-
-
-function getWindowDimensions(){
+function getWindowDimensions() {
     var win = {};
-    var winWidth = window.innerWidth /10,
-        winHeight = window.innerHeight /10;
-        win.winWidth = winWidth + "rem";
-        win.winHeight= winHeight + "rem";
+    var winWidth = window.innerWidth / 10,
+        winHeight = window.innerHeight / 10;
+    win.winWidth = winWidth + "rem";
+    win.winHeight = winHeight + "rem";
     return win;
 }
 function fullWindowResize(obj) {
@@ -20,8 +18,8 @@ function fullWindowResize(obj) {
             "top": win.winHeight * i
         }, 1500);
     }
-
 };
+
 
 jQuery(document).ready(function ($) {
     var win = getWindowDimensions();
@@ -31,7 +29,7 @@ jQuery(document).ready(function ($) {
     }).removeClass("animating");
 });
 
-function generateRandomDelay(){
+function generateRandomDelay() {
     var time = {},
         rand = Math.random(),
         rand_b = Math.random(),
@@ -41,10 +39,10 @@ function generateRandomDelay(){
     time.finalNum = rand * rand_b * 1500;
     return time;
 }
-function swagFooterRoll(){
-        var width = $("footer > div").width(),
+function swagFooterRoll() {
+    var width = $("footer > div").width(),
         num = generateRandomDelay();
-        distance = width - 80;
+    distance = width - 80;
     $("footer p").delay(num.finalNum).addClass("animating").css({
         "float": "none",
         "position": "relative",
@@ -57,11 +55,30 @@ function swagFooterRoll(){
         }).removeClass("animating");
 }
 jQuery(document).ready(function () {
+    var didScroll,
+        didResize;
 
     $("body,html").bind("scroll mousedown DOMMouseScroll mousewheel keyup", function (e) {
         if (e.which > 0 || e.type === "mousedown" || e.type === "mousewheel") {
             $("html,body").stop(true, false);
         }
     });
-
+    $(window).scroll(function () {
+        didScroll = true;
+    }).resize(function(){
+        didResize = true;
+    });
+    setInterval(function () {
+        if (didScroll) {
+            didScroll = false;
+            console.log("chillin");
+            var pos = $(window).scrollTop();
+            console.log(pos);
+        }
+        if (didResize){
+            didResize = false;
+            console.log("sall cool b");
+            fullWindowResize('.post, #site-head');
+        }
+    }, 550);
 });
