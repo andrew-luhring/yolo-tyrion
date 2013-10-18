@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US" charset="UTF-8">
+<head>
+    <base href="./" />
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>B is for Bounce</title>
+    <meta name="description" content="Pretty much the best electronic music blog of all time!" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:900,200|Open+Sans:400,600|Quicksand' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/styles/blog.css"/>
+    <script src="js/jquery.js" ></script>
+    {% block headExtra %} {% endblock %}
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-44828089-1', 'yolo-tyrion.herokuapp.com');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body class="home-template">
+<header id="site-head">
+    <div id="site-head-content" class="inner">
+        <a class="logo" href="/"><h1>B<span class="logo_o">o</span>unce</h1></a>
+    </div>
+    <div id="page_head">
+        <h2>home</h2>
+    </div>
+</header>
+<main class="content" role="main">
+    <article class="post">
+        <header class="post-header">
+            <span class="post-meta">{% block post_meta %} <time>20:00</time>{% endblock%}</span>
+            <h2 class="post-title"><a class="post-title title-link" href="#">{% block post_title %}Title goes here {% endblock %}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            {% block post_excerpt %}
+            <p>In just two days time, we'll be letting Ghost out into the wild. Monday the 14th of October is the day the repository becomes public and everyone gets access to sign up to Ghost.org. Today, we're announcing the package which makes up that release: Ghost 0.3.2 -&hellip;</p>
+            {% endblock %}
+        </section>
+    </article>
+    <article class="post">
+        <header class="post-header">
+            <span class="post-meta"><time></time></span>
+            <h2 class="post-title"><a class="post-title title-link" href="#">{% block post_title %}Title goes here {% endblock %}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>Just one short week after the first release of Ghost, today I'm pleased to announce Ghost 0.3.1, which is a maintenance release. We always knew that after some rigorous testing by thousands of people, we would inevitably find some issues in the first release. Today, we're releasing fixes&hellip;</p>
+        </section>
+        <footer class="post-footer">
+            <a href="#" class="share">Share this.</a>
+        </footer>
+    </article>
+    <article class="post">
+        <header class="post-header">
+            <span class="post-meta"><time></time></span>
+            <h2 class="post-title"><a class="post-title title-link" href="#">{% block post_title %}Title goes here {% endblock %}</a></h2>
+
+        </header>
+        <section class="post-excerpt">
+            <p>In just two days time, we'll be letting Ghost out into the wild. Monday the 14th of October is the day the repository becomes public and everyone gets access to sign up to Ghost.org. Today, we're announcing the package which makes up that release: Ghost 0.3.2 -&hellip;</p>
+        </section>
+    </article>
+
+    <article class="post">
+        <header class="post-header">
+            <span class="post-meta"><time></time></span>
+            <h2 class="post-title"><a class="post-title title-link" href="#">{% block post_title %}Title goes here {% endblock %}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>Just one short week after the first release of Ghost, today I'm pleased to announce Ghost 0.3.1, which is a maintenance release. We always knew that after some rigorous testing by thousands of people, we would inevitably find some issues in the first release. Today, we're releasing fixes&hellip;</p>
+        </section>
+        <footer class="post-footer">
+            <a href="#" class="share">Share this.</a>
+        </footer>
+    </article>
+
+
+
+    <nav class="pagination" role="pagination">
+        <span class="page-number">Page 1 of 1</span>
+    </nav>
+
+</main>
+
+<footer class="cf site-footer">
+    {% block footer %}
+    <div>
+        <p class="button">
+            <a href="http://www.androo.pro">&#35;swag</a>
+        </p>
+    </div>
+    {% endblock %}
+</footer>
+{% block scripts %}
+<script src="js/jqTransit.js"></script>
+<script src="js/blog.js"></script>
+{% endblock %}
+</body>
+</html>
