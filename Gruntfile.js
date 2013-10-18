@@ -437,7 +437,7 @@ var path           = require('path'),
 
         grunt.registerTask('build', [
             'shell:bourbon',
-            'sass:admin',
+            'sass:dist',
             'handlebars',
             'changelog',
             'clean:build'

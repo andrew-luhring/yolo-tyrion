@@ -9,8 +9,10 @@ var express = require('express')
     , http = require('http')
     , path = require('path')
     , swig = require('swig')
+    , hbs = require('hbs')
     , app = express()
-    , angular = require('angular');
+    , angular = require('angular')
+    , backbone = require('backbone');
 
 function notMe(){
     app.use(express.logger('dev'));
