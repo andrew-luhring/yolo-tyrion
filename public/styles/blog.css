@@ -3,7 +3,6 @@
   src: url("monofur.ttf");
   src: url("../../monof55.woff");
 }
-
 html {
   font-size: 62.5%;
 }
@@ -263,3 +262,5 @@ body {
   -o-transition-property: all;
   transition-property: all;
 }
+
+/*# sourceMappingURL=blog.css.map */

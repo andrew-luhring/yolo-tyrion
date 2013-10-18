@@ -1,0 +1,100 @@
+{
+    "work": [
+        {
+            "category": "code",
+            "type": "iframe",
+            "ref": [
+                {
+                    "id": "boxyButtons",
+                    "uri": "http://jsfiddle.net/Luhring/jVsfx/"
+                },
+                {
+                    "id": "jCuteMenu",
+                    "uri": "http://jsfiddle.net/Luhring/SBPWw/"
+                },
+                {
+                    "id": "intro",
+                    "uri": "http://jsfiddle.net/Luhring/qSKsJ/"
+                }
+            ]
+        },
+        {
+            "category": "websites",
+            "type": "iframe",
+            "ref": [
+                {
+                    "id": "bounceTemp",
+                    "uri": "http://www.bisforbounce.com/TemporaryLandingIndex.html"
+                },
+                {
+                    "id": "plasticSurgery",
+                    "uri": "http://www.plasticsurgeryresource.com/wordpress/"
+                },
+                {
+                    "id": "corpTax",
+                    "uri": "http://bisforbounce.com/portfolio/portfolio/corptax/"
+                },
+                {
+                    "id": "milylil",
+                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/milyli/"
+                },
+                {
+                    "id": "quinn",
+                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/quinn/"
+                },
+                {
+                    "id": "bobbys",
+                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/bobbys/"
+                },
+                {
+                    "id": "danaco",
+                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/danaco/"
+                }
+            ]
+        },
+        {
+            "category": "experiments",
+            "type": "iframe",
+            "ref": [
+                {
+                    "id": "byTheHand",
+                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/bythehand/"
+                }
+            ]
+        },
+        {
+            "category": "designs",
+            "type": "img",
+            "ref": [
+                {
+                    "id": "bounceLines",
+                    "uri": "portfolio/bounceLinesbcropped.png"
+                },
+                {
+                    "id": "acSlater",
+                    "uri": "portfolio/ACslater.png"
+                },
+                {
+                    "id": "deadmau5",
+                    "uri": "portfolio/deadmau5.gif"
+                },
+                {
+                    "id": "otter",
+                    "uri": "portfolio/otterLineWork.gif"
+                },
+                {
+                    "id": "twitter",
+                    "uri": "portfolio/twitter.png"
+                },
+                {
+                    "id": "soundcloud",
+                    "uri": "portfolio/soundcloud.png"
+                },
+                {
+                    "id": "pdf",
+                    "uri": "portfolio/pdficonc.png"
+                }
+            ]
+        }
+    ]
+}

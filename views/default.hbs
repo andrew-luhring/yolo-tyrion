@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{! Document Settings }}
+    <base href="/">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="/assets/js/lib/modernizr.js"></script>
+    {{! Styles'n'Scripts }}
+    {{ghost_head}}
+    <link rel="stylesheet" type="text/css" href="/assets/css/blog.css" />
+    <script type="text/javascript" src="/assets/js/lib/modernizr.js"></script>
+
+    <link href="http://fonts.googleapis.com/css?family=Raleway:900,200|Open+Sans:400,600|Quicksand" rel="stylesheet" type="text/css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-44828089-1', 'yolo-tyrion.herokuapp.com');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body class="{{body_class}}">
+
+    {{! Everything else gets inserted here }}
+    {{> site-head}}
+    {{> worktypes}}
+    {{{body}}}
+
+    <footer class="cf site-footer">
+        <div>
+            <p class="button">
+                <a href="http://www.androo.pro">&#35;swag</a>
+            </p>
+        </div>
+        <section class="copyright">All content copyright <a href="/">{{@blog.title}}</a> &copy; 2013 &bull; All rights reserved.</section>
+        <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a></section>
+    </footer>
+    {{ghost_foot}}
+    <script type="text/javascript" src="/assets/js/lib/jqTransit.js"></script>
+    <script type="text/javascript" src="/assets/js/blog.js"></script>
+
+</body>
+</html>

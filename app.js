@@ -4,13 +4,18 @@
  */
 
 var express = require('express')
+    , when = require('when')
+    , _ = require('underscore')
+    , semver = require('semver')
     , fs = require('fs')
-    , user = require('./routes/user')
-    , http = require('http')
     , path = require('path')
-    , swig = require('swig')
+    , hbs = require('express-hbs')
+    , http = require('http')
     , app = express()
-    , angular = require('angular');
+    , angular = require('angular')
+    , category = require('./public/js/websites.json')
+    , loading = when.defer()
+    , server = express();
 
 function notMe(){
     app.use(express.logger('dev'));
@@ -20,17 +25,41 @@ function notMe(){
     app.use(express.errorHandler());
 }
 
-swig.renderFile('views/layout.html', { });
-
-app.configure('development', function(){
+    app.use(express.static(__dirname, 'public'));
     app.set('port', process.env.PORT || 5000);
-    app.set('views', __dirname + '/views');
-    app.set('view engine', 'html');
-    app.engine('html', swig.renderFile);
-    app.use(express.static(path.join(__dirname, 'public')));
-   notMe();
-});
+    app.engine('hbs', hbs.express3({
+        partialsDir: __dirname + '/views/partials',
+        defaultLayout: __dirname + '/views/default.hbs',
+        layoutsDir: __dirname + '/views/',
+        contentHelperName: 'content',
+        extname: '.hbs'
 
+    }));
+hbs.express3({
+    partialsDir: "{String} [Required] Path to partials templates",
+
+    extname: "{String} Extension for templates, defaults to `.hbs`",
+    handlebars: "{Module} Use external handlebars instead of express-hbs dependency",
+    layoutsDir: "{String} Path to layout templates",
+    templateOptions: "{Object} options to pass to template()"
+});
+    app.set('view engine', 'hbs');
+    app.set('views', __dirname + '/views');
+
+notMe();
+
+
+
+// Register sync helper
+hbs.registerHelper('link', function (text, options) {
+    var attrs = [];
+    for (var prop in options.hash) {
+        attrs.push(prop + '="' + options.hash[prop] + '"');
+    }
+    return new hbs.SafeString(
+        "<a " + attrs.join(" ") + ">" + text + "</a>"
+    );
+});
 
 //Dynamically include routes
 fs.readdirSync('./controllers').forEach(function(file){
