@@ -8,12 +8,57 @@
     </list>
     <ignored path="served.iws" />
     <ignored path=".idea/workspace.xml" />
+<<<<<<< Updated upstream
     <file path="/app.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381368181185" ignored="false" />
     <file path="/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381183773084" ignored="false" />
     <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381173405671" ignored="false" />
     <file path="/Mac OS X copy.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381178748366" ignored="false" />
     <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381181990307" ignored="false" />
     <file path="/contact.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381182088404" ignored="false" />
+=======
+    <file path="/app.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382337919199" ignored="false" />
+    <file path="/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381615328432" ignored="false" />
+    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382337221188" ignored="false" />
+    <file path="/Mac OS X copy.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381178748366" ignored="false" />
+    <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381409846198" ignored="false" />
+    <file path="/contact.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381437601779" ignored="false" />
+    <file path="/style.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381453955734" ignored="false" />
+    <file path="/serve.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382141629350" ignored="false" />
+    <file path="/script.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381409216506" ignored="false" />
+    <file path="/index.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381614180593" ignored="false" />
+    <file path="/default.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381449474919" ignored="false" />
+    <file path="/model.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382144407533" ignored="false" />
+    <file path="/blog.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381644314051" ignored="false" />
+    <file path="/blog.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381617730444" ignored="false" />
+    <file path="/blog.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381714743049" ignored="false" />
+    <file path="/_base.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382298505235" ignored="false" />
+    <file path="/_post.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382314362795" ignored="false" />
+    <file path="/_page.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382313519392" ignored="false" />
+    <file path="/a.gsp" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770240347" ignored="false" />
+    <file path="/a.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770242513" ignored="false" />
+    <file path="/post.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770335901" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/default.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382292037175" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770791949" ignored="false" />
+    <file path="/default.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382292036316" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/index.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382297696481" ignored="false" />
+    <file path="/index.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382142395725" ignored="false" />
+    <file path="/websites.json" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382137925450" ignored="false" />
+    <file path="/router.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382145833536" ignored="false" />
+    <file path="/controller.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382146299468" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/Gruntfile.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382287845462" ignored="false" />
+    <file path="/Gruntfile.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382287845462" ignored="false" />
+    <file path="/_nav.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382311774888" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/assets/sass/partials/_nav.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382311777257" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/partials/site-head.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382288253042" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/assets/css/blog.css" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382288292367" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/assets/sass/style.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382288699917" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/assets/sass/partials/_base.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382313817061" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/assets/sass/partials/_page.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382314067559" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/partials/worktypes.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382294197259" ignored="false" />
+    <file path="/worktypes.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382294196431" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/content/themes/swag/assets/sass/partials/_post.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382314363664" ignored="false" />
+    <file path="$PROJECT_DIR$/../ghost/.idea/workspace.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382337237254" ignored="false" />
+>>>>>>> Stashed changes
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +122,17 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state line="21" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.6194101">
+=======
+            <state line="13" column="4" selection-start="368" selection-end="604" vertical-scroll-proportion="0.21108949">
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,6 +155,12 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+=======
+      <file leaf-file-name="vendor.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/vendor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10322" column="16" selection-start="519475" selection-end="519480" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -113,7 +169,11 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+            <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -142,16 +202,27 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state line="8" column="16" selection-start="205" selection-end="205" vertical-scroll-proportion="-6.2">
+=======
+            <state line="27" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="55" selection-start="760" selection-end="760" vertical-scroll-proportion="-11.625">
+=======
+      <file leaf-file-name="controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="25" selection-start="295" selection-end="305" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -179,12 +250,28 @@
         <option value="$PROJECT_DIR$/views/contact.html" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/layout.html" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/views/index.html" />
+=======
+        <option value="$PROJECT_DIR$/node_modules/grunt-express-server/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/node_modules/grunt-express-server/tasks/express.js" />
+        <option value="$PROJECT_DIR$/views/partials/worktypes.hbs" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/serve.js" />
+        <option value="$PROJECT_DIR$/public/js/websites.json" />
+        <option value="$PROJECT_DIR$/routes/serve.js" />
+        <option value="$PROJECT_DIR$/models/model.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/controllers/controller.js" />
+        <option value="$PROJECT_DIR$/views/default.hbs" />
+        <option value="$PROJECT_DIR$/routes/router.js" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
     <option name="y" value="22" />
     <option name="width" value="960" />
     <option name="height" value="1174" />
@@ -260,7 +347,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,6 +396,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,6 +411,10 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< Updated upstream
+=======
+    <property name="FullScreen" value="false" />
+>>>>>>> Stashed changes
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -410,7 +501,11 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
+<<<<<<< Updated upstream
         <option name="engineId" />
+=======
+        <option name="engineId" value="embedded" />
+>>>>>>> Stashed changes
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -469,7 +564,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="0" y="22" width="960" height="1174" extended-state="0" />
+=======
+    <frame x="960" y="22" width="960" height="1174" extended-state="6" />
+>>>>>>> Stashed changes
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -487,9 +586,15 @@
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10625" sideWeight="0.6702356" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3804696" sideWeight="0.67099166" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> Stashed changes
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TimeTrackerPlugin" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -562,7 +667,182 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/routes/index.js">
+=======
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="24" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/ghost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6456" column="75" selection-start="363043" selection-end="363048" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="36" selection-end="43" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="323" selection-end="561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="38" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/worktypes.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="28" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_final.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="1929" selection-end="2184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="28" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_final.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NAH-latimes/js/adss821.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="4433" selection-end="4667" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_final.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="1929" selection-end="2184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="2" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
           <folding />
@@ -583,6 +863,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -602,34 +883,94 @@
     <entry file="file://$PROJECT_DIR$/node_modules/express/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="17" selection-start="2712" selection-end="2712" vertical-scroll-proportion="0.5202369">
+=======
+    <entry file="file://$PROJECT_DIR$/public/js/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="156" selection-end="482" vertical-scroll-proportion="-0.28125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/websites.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="6" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.21558705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10322" column="16" selection-start="519475" selection-end="519480" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/served.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/models/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="55" selection-start="760" selection-end="760" vertical-scroll-proportion="-11.625">
+=======
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="16" selection-start="205" selection-end="205" vertical-scroll-proportion="-6.2">
+=======
+    <entry file="file://$PROJECT_DIR$/views/default.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="84" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.18421052">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/ghost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6473" column="40" selection-start="363840" selection-end="363840" vertical-scroll-proportion="0.54975367">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.6194101">
+=======
+    <entry file="file://$PROJECT_DIR$/controllers/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="295" selection-end="305" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.6194101">
+        <state line="13" column="4" selection-start="368" selection-end="604" vertical-scroll-proportion="0.21108949">
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>

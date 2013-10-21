@@ -1,45 +1,51 @@
 var express = require('express')
+    , fs = require('fs')
+    //, router = require('./routes/router')
     , http = require('http')
     , path = require('path')
     , swig = require('swig')
-    , angular = require('angular'),
-    app = express(),
-    template = swig.compileFile('views/layout.html'),
-    layout = 'views/layout.html';
-function swigRenderFile(file){
-    return swig.renderFile(file);
-}
+    , hbs = require('hbs')
+    , xhbs = require('express-hbs')
+    , app = express()
+    , angular = require('angular')
+    , Backbone = require('backbone')
+    , AppRouter;
+
+//    AppRouter = Backbone.Router.extend({
+//       routes:{
+//           "": "list",
+//           "menu-items/new" : "itemForm",
+//           "menu-items/new" : "itemDetails"
+//       },
+//        list: function(){
+//
+//        }
+//    });
 
 
-app.set('port', process.env.PORT || 5000);
-app.engine('html', swig.renderFile);
-app.set('view engine', 'html');
+
+
+app.set('view engine', 'hbs');
+    app.set('port', process.env.PORT || 5000);
+    app.use(express.static(path.join(__dirname, 'public')));
+    app.use(express.logger('dev'));
+    app.use(express.bodyParser());
+    app.use(express.methodOverride());
+    app.use(app.router);
+    app.use(express.errorHandler());
 app.set('views', __dirname + '/views');
-app.set('styles', '/public/styles');
-    var v = swig.compileFile(layout),
-    views = app.get('views'),
-    styles = app.get('styles');
+app.engine('xhbs', xhbs.express3({
+    partialsDir: __dirname + '/views/partials',
+    defaultLayout: __dirname + '/views/default.hbs',
+    contentHelperName: 'content'
+}));
+//Dynamically include routes
 
-app.get('*', function(req, res){
-    var reqUrl = swigRenderFile(views + req.url);
-    console.log(reqUrl);
-    //res.send(reqUrl);
-});
-app.get('styles/*', function(req, res){
-    var reqUrl = styles + req.url;
-    //res.send(reqUrl);
-    console.log(reqUrl + " styles");
-});
-//app.use(express.static(path.join(__dirname, 'public')));
+module.exports.app = app;
+//routes = require('./routes')
 
-/*app.get('/', function(req, res){
-//    console.log(req);
-//console.log(request);
-
-});*/
-
-http.createServer(app).listen(app.get('port'), function () {
-    console.log('Express server listening on port ' + app.get('port'));
+http.createServer(app).listen(app.get('port'), function(){
+  console.log('Express server listening on port ' + app.get('port'));
 });
 
 
