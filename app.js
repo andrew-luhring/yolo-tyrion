@@ -1,40 +1,41 @@
 var express = require('express')
     , fs = require('fs')
-    , router = require('./routes/router')
+    //, router = require('./routes/router')
     , http = require('http')
     , path = require('path')
-    , swig = require('swig')
-    , hbs = require('hbs')
-    , xhbs = require('express-hbs')
-    , app = express()
+    , hbs = require('express-hbs')
     , angular = require('angular')
-    , Backbone = require('backbone');
+    , Backbone = require('backbone')
+    , app = express();
+/*
+    , AppRouter = Backbone.Router.extend({
+        routes: {
+            "worktypes/:category": "worktype"
+        },
+        worktype: function (category) {
+        }
+    })
+    , app = new AppRouter();
+*/
+    //.use(app.router);
+    //.set('views', __dirname + '/views');
 
-app.set('views', __dirname + '/views');
-app.engine('xhbs', xhbs.express3({
-    partialsDir: __dirname + '/views/partials',
-    defaultLayout: __dirname + '/views/default.hbs',
-    contentHelperName: 'content'
-}));
+    app.set('view engine', 'hbs').set('port', process.env.PORT || 5000);
+    app.use(express.static('public')).use(express.bodyParser());
+    app.engine('hbs', hbs.express3({
+        partialsDir: __dirname + '/views/partials',
+        defaultLayout: __dirname + '/views/default.hbs',
+        contentHelperName: 'content',
 
-app.set('view engine', 'hbs');
-    app.set('port', process.env.PORT || 5000);
-    app.use(express.static(path.join(__dirname, 'public')));
-    app.use(express.logger('dev'));
-    app.use(express.bodyParser());
-    app.use(express.methodOverride());
-    app.use(app.router);
-    app.use(express.errorHandler());
-app.set('views', __dirname + '/views');
-app.engine('xhbs', xhbs.express3({
-    partialsDir: __dirname + '/views/partials',
-    defaultLayout: __dirname + '/views/default.hbs',
-    contentHelperName: 'content'
-}));
+    }));
+    app.set('cache', false);
 //Dynamically include routes
+app.get('/', function (req, res) {
+    res.render('index');
+});
 
 module.exports.app = app;
-routes = require('./routes')
+//routes = require('./routes')
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

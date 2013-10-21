@@ -11,10 +11,9 @@
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="text/javascript" src="/assets/js/lib/modernizr.js"></script>
+    <script type="text/javascript" src="/js/lib/modernizr.js"></script>
     {{! Styles'n'Scripts }}
-    <link rel="stylesheet" type="text/css" href="/assets/css/blog.css" />
-    <script type="text/javascript" src="/assets/js/lib/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="/styles/blog.css" />
 
     <link href="http://fonts.googleapis.com/css?family=Raleway:900,200|Open+Sans:400,600|Quicksand" rel="stylesheet" type="text/css">
     <script>
@@ -30,9 +29,7 @@
 
     {{! Everything else gets inserted here }}
     {{> site-head}}
-    {{> worktypes}}
-
-
+    {{{body}}}
     <footer class="cf site-footer">
         <div>
             <p class="button">
@@ -40,8 +37,9 @@
             </p>
         </div>
     </footer>
-    <script type="text/javascript" src="/assets/js/lib/jqTransit.js"></script>
-    <script type="text/javascript" src="/assets/js/blog.js"></script>
+    <script type="text/javascript" src="/js/lib/jquery.js"></script>
+    <script type="text/javascript" src="/js/lib/jqTransit.js"></script>
+    <script type="text/javascript" src="/js/blog.js"></script>
 
 </body>
 </html>

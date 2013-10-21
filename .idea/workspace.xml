@@ -2,41 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57325d0f-94a3-4907-af18-e6df1cb75852" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/old/blog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/websites.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/layout.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/angular.js" afterPath="$PROJECT_DIR$/public/js/lib/angular.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/index.html" afterPath="$PROJECT_DIR$/public/js/old/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jqTransit.js" afterPath="$PROJECT_DIR$/public/js/lib/jqTransit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.js" afterPath="$PROJECT_DIR$/public/js/lib/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/level3.js" afterPath="$PROJECT_DIR$/public/js/old/level3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/modernizr.js" afterPath="$PROJECT_DIR$/public/js/lib/modernizr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/resize_image.js" afterPath="$PROJECT_DIR$/public/js/old/resize_image.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/script.js" afterPath="$PROJECT_DIR$/public/js/old/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/server.js" afterPath="$PROJECT_DIR$/public/js/old/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.hbsa" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/blog.js" afterPath="$PROJECT_DIR$/public/js/blog.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/default.hbs" afterPath="$PROJECT_DIR$/views/default.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-express-server/tasks/express.js" afterPath="$PROJECT_DIR$/node_modules/grunt-express-server/tasks/express.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model.js" afterPath="$PROJECT_DIR$/models/model.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/served.time" afterPath="$PROJECT_DIR$/.idea/served.time" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="served.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/app.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382144359877" ignored="false" />
+    <file path="/app.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382343014708" ignored="false" />
     <file path="/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381615328432" ignored="false" />
-    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382135846881" ignored="false" />
+    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382338869348" ignored="false" />
     <file path="/Mac OS X copy.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381178748366" ignored="false" />
     <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381409846198" ignored="false" />
     <file path="/contact.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381437601779" ignored="false" />
@@ -57,9 +33,9 @@
     <file path="/post.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770335901" ignored="false" />
     <file path="$PROJECT_DIR$/../ghost/content/themes/swag/default.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382292037175" ignored="false" />
     <file path="$PROJECT_DIR$/../ghost/content/themes/swag/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381770791949" ignored="false" />
-    <file path="/default.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382292036316" ignored="false" />
+    <file path="/default.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382343346305" ignored="false" />
     <file path="$PROJECT_DIR$/../ghost/content/themes/swag/index.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382297696481" ignored="false" />
-    <file path="/index.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382142395725" ignored="false" />
+    <file path="/index.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382340982983" ignored="false" />
     <file path="/websites.json" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382137925450" ignored="false" />
     <file path="/router.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382145833536" ignored="false" />
     <file path="/controller.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382146299468" ignored="false" />
@@ -138,30 +114,26 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="24" selection-start="834" selection-end="834" vertical-scroll-proportion="-8.68">
+            <state line="30" column="28" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ghost.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/ghost.js">
+      <file leaf-file-name="index.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6456" column="75" selection-start="363043" selection-end="363048" vertical-scroll-proportion="-13.16">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="3" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.325">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vendor.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/vendor.js">
+      <file leaf-file-name="default.hbs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/default.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10322" column="16" selection-start="519475" selection-end="519480" vertical-scroll-proportion="-13.16">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="39" column="54" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.6502564">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,7 +141,7 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="-37.56">
+            <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -193,10 +165,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controller.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="323" selection-end="561" vertical-scroll-proportion="0.18615985">
+            <state line="55" column="0" selection-start="1294" selection-end="1451" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Ex_Files_UaR_Backbone/ExerciseFiles/02/01/final/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -237,22 +218,22 @@
         <option value="$PROJECT_DIR$/node_modules/grunt-express-server/Gruntfile.js" />
         <option value="$PROJECT_DIR$/node_modules/grunt-express-server/tasks/express.js" />
         <option value="$PROJECT_DIR$/views/partials/worktypes.hbs" />
-        <option value="$PROJECT_DIR$/views/default.hbs" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/serve.js" />
         <option value="$PROJECT_DIR$/public/js/websites.json" />
         <option value="$PROJECT_DIR$/routes/serve.js" />
         <option value="$PROJECT_DIR$/routes/router.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/model.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/controllers/controller.js" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/default.hbs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
+    <option name="width" value="960" />
     <option name="height" value="1174" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -317,7 +298,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -328,58 +309,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="served" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -394,11 +324,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -424,17 +354,7 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -465,7 +385,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -481,6 +411,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -502,13 +439,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -544,7 +474,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1174" extended-state="7" />
+    <frame x="0" y="22" width="960" height="1174" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -637,6 +567,55 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="24" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/ghost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6456" column="75" selection-start="363043" selection-end="363048" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10322" column="16" selection-start="519475" selection-end="519480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="36" selection-end="43" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="323" selection-end="561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="38" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -644,16 +623,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/worktypes.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="24" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_post.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/default.hbs">
@@ -665,37 +640,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="28" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="28" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_final.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="13" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/style.scss">
@@ -707,30 +672,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_post.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="28" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="28" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_final.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../NAH-latimes/js/adss821.js">
@@ -740,9 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_final.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/style.scss">
@@ -754,30 +709,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_post.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="28" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="28" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/grunt-express-server/package.json">
@@ -809,28 +756,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/worktypes.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/default.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="6" selection-start="1462" selection-end="1462" vertical-scroll-proportion="-25.575">
-          <folding />
-        </state>
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="156" selection-end="482" vertical-scroll-proportion="-0.28125">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="156" selection-end="482" vertical-scroll-proportion="-0.28125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/websites.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="6" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.21558705">
+        <state line="59" column="6" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.21558705" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Ex_Files_UaR_Backbone/ExerciseFiles/01/03/final/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Ex_Files_UaR_Backbone/ExerciseFiles/01/03/start/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="185" selection-end="249" vertical-scroll-proportion="0.24124514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10322" column="16" selection-start="519475" selection-end="519480" vertical-scroll-proportion="0.030541873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/ghost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6456" column="75" selection-start="363043" selection-end="363048" vertical-scroll-proportion="0.030541873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -842,48 +818,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="834" selection-end="834" vertical-scroll-proportion="-8.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/vendor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10322" column="16" selection-start="519475" selection-end="519480" vertical-scroll-proportion="-13.16">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/ghost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6456" column="75" selection-start="363043" selection-end="363048" vertical-scroll-proportion="-13.16">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="-37.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="323" selection-end="561" vertical-scroll-proportion="0.18615985">
+        <state line="55" column="0" selection-start="1294" selection-end="1451" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Ex_Files_UaR_Backbone/ExerciseFiles/02/01/final/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="28" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="54" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.6502564">
           <folding />
         </state>
       </provider>
