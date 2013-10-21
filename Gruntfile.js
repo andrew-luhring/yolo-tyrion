@@ -445,7 +445,7 @@ var path           = require('path'),
 
         grunt.registerTask('release', [
             'shell:bourbon',
-            'sass:admin',
+            'sass:dist',
             'handlebars',
             'changelog',
             'clean:build',
@@ -463,7 +463,7 @@ var path           = require('path'),
         grunt.registerTask('init', ['shell:bourbon', 'default']);
 
         // Run tests and lint code
-        grunt.registerTask('validate', ['jslint', 'test-unit', 'test-functional']);
+        grunt.registerTask('validate', ['jslint']);
 
         // When you just say 'grunt'
         grunt.registerTask('default', ['sass:dist', 'handlebars']);

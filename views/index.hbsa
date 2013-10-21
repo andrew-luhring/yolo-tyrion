@@ -2,20 +2,19 @@
 
 
 <main class="content" role="main">
-    {{#foreach posts}}
+
         <article id="post_{{id}}" class="{{post_class}} post">
             <header class="post-header">
                 <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{#if tags}}on {{tags}}{{/if}}</span>
                 <h2 class="post-title"><a class="post-title title-link" href="{{url}}">{{{title}}}</a></h2>
             </header>
             <section class="post-full">
-                {{content}}
+                {{{worktypes}}}
             </section>
         </article>
 
-    {{/foreach}}
 
     {{!! After all the posts, we have the previous/next pagination links }}
-    {{pagination}}
+
 
 </main>
