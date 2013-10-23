@@ -1,0 +1,259 @@
+@font-face {
+  font-family: Avenir;
+  src: url("/sass/fonts/avenir_next.ttf");
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul, h1, h2, h3, h4, h5, h6, ul, li, p, hr, blockquote {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+hr {
+  display: inline;
+  border: none;
+  outline: none;
+  height: 1px;
+  opacity: 0.0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header a, footer a, nav a {
+  transition: all 1s;
+  color: white;
+}
+header a:hover, footer a:hover, nav a:hover {
+  transition: all 1s;
+  color: #0F5485;
+  background: #eee;
+}
+
+.flexbox .top_nav ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.no-flexbox .top_nav ul {
+  display: block;
+  float: right;
+}
+.no-flexbox .top_nav ul li {
+  display: inline-table;
+}
+
+.top_nav {
+  width: 100%;
+  min-width: 750px;
+  position: relative;
+  height: 8rem;
+  position: absolute;
+}
+.top_nav ul {
+  height: 100%;
+  max-width: 96rem;
+  min-width: 40rem;
+  margin: auto;
+}
+.top_nav li {
+  display: table;
+  text-align: center;
+  transition: all 0.5s;
+  background: #79daff;
+  width: 7rem;
+  height: 7rem;
+  padding: 0.5rem;
+}
+.top_nav li a {
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+body {
+  font: normal normal 100 1.6rem "Avenir";
+  background: #f5f5f5;
+}
+
+body, header, footer, .main {
+  margin: auto;
+}
+
+.main, header h1 {
+  width: 100%;
+}
+
+#page_header h1, #recommendation {
+  padding-left: 4rem;
+}
+
+.main aside, .major_section .section_header h1, #page_header h1, .position, .skills_list {
+  max-width: 96rem;
+  min-width: 40rem;
+  margin: auto;
+}
+
+.main {
+  max-width: none;
+  width: 100%;
+}
+
+.main {
+  margin: 3rem auto;
+}
+
+header {
+  background: #79daff;
+  display: flex;
+}
+
+h1 {
+  font-size: 4.4rem;
+  color: white;
+}
+
+footer {
+  width: 100%;
+}
+footer > div {
+  max-width: 96rem;
+  min-width: 40rem;
+  margin: auto;
+}
+footer p {
+  display: table;
+  float: right;
+  color: white;
+  padding: 0.5rem;
+}
+footer p a {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+}
+
+#page_header {
+  height: 8rem;
+}
+
+.top_nav li, #page_header, footer {
+  background: #06baff;
+}
+
+.major_section .section_header {
+  margin: 2rem auto;
+}
+.major_section .section_header h1 {
+  padding-left: 4rem;
+  font-size: 3rem;
+}
+.major_section .position > header {
+  margin: 2rem auto 0.5rem;
+}
+
+.skills_list ul {
+  display: flex;
+  flex-direction: row;
+}
+.skills_list ul div {
+  flex: 1;
+}
+
+#education .position li {
+  display: inline-block;
+}
+
+.position, .skills_list {
+  padding-left: 4rem;
+}
+.position > header, .skills_list > header {
+  background: none;
+}
+.position > header h1, .skills_list > header h1 {
+  font-size: 2rem;
+  color: #555;
+}
+
+#experience li:before {
+  content: "\2014";
+}
+
+.major_section {
+  font: normal normal 300 1.6rem "Raleway", sans-serif;
+  overflow: hidden;
+}
+.major_section .section_header {
+  height: 6.5rem;
+}
+.major_section .section_header  h1 {
+  font-size: 3rem !important;
+}
+
+.animating {
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: translate3d(0, 0, 0);
+}
+
+.cf {
+  overflow: hidden;
+}
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
+.hide {
+  position: absolute;
+  height: 0;
+  top: 0;
+  width: 0;
+  left: 0;
+  opacity: 0.0;
+}
+
+.collapsed {
+  position: relative;
+  top: 100rem;
+}
+
+.major_section.collapsed {
+  top: 0;
+  height: 8rem;
+}
+
+.collapsed {
+  transition-property: all;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -ms-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+}

@@ -2,7 +2,7 @@
 <html>
 <head>
     {{! Document Settings }}
-    <base href="/">
+    <base href="./">
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="text/javascript" src="/js/lib/modernizr.js"></script>
     {{! Styles'n'Scripts }}
-    <link rel="stylesheet" type="text/css" href="/styles/blog.css" />
+    <link rel="stylesheet" type="text/css" href="/css/blog.css" />
 
     <link href="http://fonts.googleapis.com/css?family=Raleway:900,200|Open+Sans:400,600|Quicksand" rel="stylesheet" type="text/css">
     <script>
@@ -29,8 +29,9 @@
 
     {{! Everything else gets inserted here }}
     {{> site-head}}
-    {{{body}}}
-    <footer class="cf site-footer">
+    {{> index}}
+
+<footer class="cf site-footer">
         <div>
             <p class="button">
                 <a href="http://www.androo.pro">&#35;swag</a>

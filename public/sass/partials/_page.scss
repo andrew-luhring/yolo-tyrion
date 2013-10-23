@@ -1,23 +1,16 @@
-$light-blue: #9FEDEA;
-$purple: #859ed8;
-$dark-purple: #1D2C41;
-$cream: #FFFBCF;
-$light-green: #75dec8;
-$orange: #f05341;
-$black: #111;
-$white: #f5f5f5;
+//idea1: bouncy 'o' that falls from the top of the screen to it's normal position in o and bouces a few times; on hover it bounces more.
+//idea2: on worktypes hover, it rotates 45degrees while the words stay horizontal, and then a div unhides and pushes it down so it's making a down arrow.
+//idea2 variant: happens on click instead but the arrow's line height follows you down the page.
+
+
 body{
   width:  100%;
-}
-#site-head{
-  a{
-    display:block;
-  }
+  background: $black;
 }
 #site-head,
 #site-head >div{
   @include display(flex);
-  @include flex-flow(column);
+  @include flex-direction(column);
   @include flex(1);
   width: 100%;
   text-align: center;
@@ -26,15 +19,27 @@ body{
 #site-head{
   min-height: 125px;
 }
-.no-flexbox.flexboxlegacy #site-head{
-  display: -webkit-box;
-  display: -moz-box;
-  -webkit-box-align: center;
-  -moz-box-align: center;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
+.no-js{
+  #site-head{
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    background: #1D2C41;
+    >div{
+        height: 50%;
+        position: relative;
+        @include display(flex);
+        @include align-content(center);
+        @include justify-content(flex-start);
+      &:first-of-type{
+        justify-content: flex-end;
+        }
+    }
+  }
 }
 #site-head-content{
   @include box-align(stretch);
@@ -42,13 +47,16 @@ body{
   .logo {
     position:  relative;
     h1{
-      color: $cream;
+        color: $white;
+      &:hover{
+      }
       font-size:  15rem;
       font-family: "monofur";
       text-transform: lowercase;
       font-weight: 500;
       letter-spacing: -9px;
       word-spacing: 0px;
+      margin:  0;
       top: 0px;
       @include transition(all, 1s);
       }

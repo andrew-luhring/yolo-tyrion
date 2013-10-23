@@ -1,7 +1,7 @@
 @font-face {
   font-family: "monofur";
-  src: url('monofur.ttf');
-  src: url('../../monof55.woff');
+  src: url('../fonts/monof55.woff');
+  src: url('../fonts/monofur.ttf');
 }
 @import "../bourbon/bourbon";
 @import "../bourbon/flex-box";
@@ -13,8 +13,8 @@ $light-green: #75dec8;
 $orange: #f05341;
 $black: #111;
 $white: #f5f5f5;
-//font-family:'Raleway', sans-serif;
-//font-family:'Open Sans', sans-serif;
+$blue: #79DAFF;
+$intense_blue: #06BAFF;
 
 html{
   font-size:  62.5%;
@@ -33,18 +33,48 @@ a{
   color: $orange;
   &:hover{
     transition: all 1s;
-    background: $light-green;
+    //background: $light-green;
   }
 }
-li{
+ul, li{
   list-style-type: none;
 }
-ul, h1, h2, h3, h4, h5 , h6, ul, li, p, hr, blockquote{
+ul, h1, h2, h3, h4, h5 , h6, ul, li, p, hr, blockquote, menu, dir {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
-  -webkit-padding-start:0;
   -webkit-margin-start: 0;
   -webkit-margin-end: 0;
+  -webkit-padding-start:0;
+  -webkit-padding-end:0;
+  -webkit-padding-before:0;
+  -webkit-padding-after:0;
+
+  -moz-margin-before: 0;
+  -moz-margin-after: 0;
+  -moz-margin-start: 0;
+  -moz-margin-end: 0;
+  -moz-padding-start: 0;
+  -moz-padding-end: 0;
+  -moz-padding-before: 0;
+  -moz-padding-after: 0;
+
+  -ms-margin-before: 0;
+  -ms-margin-after: 0;
+  -ms-margin-start: 0;
+  -ms-margin-end: 0;
+  -ms-padding-start: 0;
+  -ms-padding-end: 0;
+  -ms-padding-before: 0;
+  -ms-padding-after: 0;
+
+  -o-margin-before: 0;
+  -o-margin-after: 0;
+  -o-margin-start: 0;
+  -o-margin-end: 0;
+  -o-padding-start: 0;
+  -o-padding-end: 0;
+  -o-padding-before: 0;
+  -o-padding-after: 0;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -59,3 +89,5 @@ h1{
 h2{
   font-size:  2.8rem;
 }
+
+

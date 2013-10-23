@@ -1,0 +1,19 @@
+{{!< default}}
+
+
+<main class="content" role="main">
+    {{#each  category}}
+        <article id="post_{{!id}}" class="{{!post_class}} post">
+            <header class="post-header">
+                <span class="post-meta"><time datetime="{{!date format='YYYY-MM-DD'}}">{{!date format="DD MMM YYYY"}}</time></span>
+                <h2 class="post-title"><a class="post-title title-link" href="{{!url}}">{{!{title}}}</a></h2>
+            </header>
+            <section class="post-full">
+            </section>
+        </article>
+    {{/each}}
+
+{{!! After all the posts, we have the previous/next pagination links }}
+
+
+</main>

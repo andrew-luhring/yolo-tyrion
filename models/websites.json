@@ -1,6 +1,7 @@
 {
-    "work": {
-        "code" : {
+    "work": [
+            {
+            "id": "code",
             "type": "iframe",
             "ref": [
                 {
@@ -17,7 +18,8 @@
                 }
             ]
         },
-        "websites" : {
+        {
+            "id"    : "websites",
             "type": "iframe",
             "ref": [
                 {
@@ -50,7 +52,8 @@
                 }
             ]
         },
-        "experiments" : {
+        {
+            "id" : "experiments",
             "type": "iframe",
             "ref": [
                 {
@@ -59,7 +62,8 @@
                 }
             ]
         },
-        "designs": {
+        {
+            "id" : "designs",
             "type": "img",
             "ref": [
                 {
@@ -92,5 +96,5 @@
                 }
             ]
         }
-    }
+    ]
 }

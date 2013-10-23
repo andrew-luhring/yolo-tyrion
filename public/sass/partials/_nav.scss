@@ -1,0 +1,87 @@
+.life, .workTypes, #main_nav > ul {
+  display: flex;
+  height: 100%;
+  flex-direction:row;
+  flex: 1;
+  align-content: center;
+  justify-content: center;
+}
+#main_nav > ul{
+  display: inline-flex;
+}
+
+#main_nav{
+  margin:  0 auto;
+  width: 50%;
+  height: 5rem;
+  min-width: 55rem;
+  &.updated {
+    position:  fixed;
+    right:  0px;
+    top: 0px;
+  }
+  >ul{
+    width:  100%;
+    height: 100%;
+    position: relative;
+    noscript {
+      position: absolute;
+      top: 150%;
+      width: 100%;
+      color: $white;
+      right: 0;
+    }
+    &.updated{
+      flex-direction:column;
+    }
+  }
+}
+.life{
+  width: 50%;
+}
+
+.workTypes{
+  margin: 0 0.5rem;
+    &:not(:target):not(:hover) a{
+      @include transition(all 1s);
+    }
+  a {
+    margin: auto;
+    padding: 1.6rem;
+    width: 100%;
+    box-sizing: border-box;
+
+  }
+}
+
+.theme-1{
+  background: $purple !important;
+  color: $dark-purple !important;
+  &.variant-1{
+    color: $light-blue !important;
+  }
+}
+.theme-2{
+  background: $orange !important;
+  color: $dark-purple !important;
+  &.variant-1{
+    color: $white !important;
+  }
+  &.variant-2{
+    color: $light-blue !important;
+  }
+}
+.theme-3{
+  & .logo{
+    background: $dark-purple !important;
+  }
+  background: $intense_blue !important;
+  color:  $white !important;
+}
+
+
+
+
+//nav > ul > li:not(:target):not(:hover) > ul {
+//  visibility: collapse;
+//}

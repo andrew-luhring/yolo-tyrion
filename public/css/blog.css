@@ -264,51 +264,33 @@ body {
   padding: 1.6rem;
   width: 100%;
   box-sizing: border-box;
-  background: #06baff;
-  background: #79daff;
-  background: #9fedea;
-  background: #75dec8;
-  background: #f05341;
-  background: #859ed8;
-  background: #fffbcf;
-  background: whitesmoke;
-  color: #06baff;
-  color: #79daff;
-  color: #9fedea;
-  color: #859ed8;
-  color: #1d2c41;
-  color: #fffbcf;
-  color: #75dec8;
-  color: #f05341;
-  color: whitesmoke;
-  color: #111111;
 }
 
 .theme-1 {
-  background: #859ed8;
-  color: #1d2c41;
+  background: #859ed8 !important;
+  color: #1d2c41 !important;
 }
 .theme-1.variant-a {
-  color: #9fedea;
+  color: #9fedea !important;
 }
 
 .theme-2 {
-  background: #f05341;
-  color: #1d2c41;
+  background: #f05341 !important;
+  color: #1d2c41 !important;
 }
 .theme-2.variant-a {
-  color: whitesmoke;
+  color: whitesmoke !important;
 }
 .theme-2.variant-b {
-  color: #9fedea;
+  color: #9fedea !important;
 }
 
 .theme-3 {
-  background: #06baff;
-  color: whitesmoke;
+  background: #06baff !important;
+  color: whitesmoke !important;
 }
-.theme-3.logo {
-  background: #1d2c41;
+.theme-3 .logo {
+  background: #1d2c41 !important;
 }
 
 .post {
@@ -415,5 +397,3 @@ body {
   -o-transition-property: all;
   transition-property: all;
 }
-
-/*# sourceMappingURL=blog.css.map */

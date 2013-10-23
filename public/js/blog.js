@@ -106,6 +106,28 @@ jQuery(document).ready(function () {
         current = win;
     //Backbone.history.start();
 
+    function getRandomNumber(){
+        var rand = (Math.random() * 10);
+        rand = Math.round(rand / 3);
+        return rand;
+    }
+    function getRandomTheme() {
+        var rand = getRandomNumber();
+        if(rand !== 0){
+            var themeSelector = "theme-" + rand;
+            return themeSelector;
+        } else{
+            return false;
+        }
+    };
+
+    var setRandomTheme = (function(){
+     var theme = getRandomTheme();
+        if(theme !== false){
+            $(".workTypes a, .workTypes").addClass(theme);
+        }
+    })();
+
 
     fullWindowResize("#site-head, .post", win, 1000);
     swagFooterRoll();
@@ -150,7 +172,10 @@ jQuery(document).ready(function () {
 
 
 
-$.getJSON("/assets/js/websites.JSON", function (data) {
+
+
+
+$.getJSON("/js/websites.JSON", function (data) {
     obj = data;
     for (var i in data.work) {
         workTypes.push(data.work[i]);

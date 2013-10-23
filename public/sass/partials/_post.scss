@@ -1,7 +1,7 @@
 .post{
-  background: $light-blue;
-  display: flex;
-  flex-flow: column;
+  background: $purple;
+  @include display(flex);
+  @include flex-direction(column);
   margin: 20rem auto;
   position: relative;
   width: 100%;
@@ -9,21 +9,26 @@
 
 .post-header{
   @include display(flex);
-  @include flex-flow(column);
+  @include flex-direction(column);
   @include align-content(center);
   @include justify-content(center);
   text-align: center;
-  background: $dark-purple;
+  background: $purple;
   padding:  2rem;
 }
+//websites because w is too far out
+#post_2 .post-title:first-letter{
+  letter-spacing: -6px;
+}
 .post-title{
-  color: $cream;
+  color: $white;
+  font-size: 7rem;
 }
 .post-excerpt{
   max-width:  66%;
   margin:  auto;
   @include display(flex);
-  @include flex-flow(row);
+  @include flex-direction(row);
   @include justify-content(center);
   @include align-content(center);
 }

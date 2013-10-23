@@ -1,20 +1,21 @@
-
-
-    var express = require('express')
+        var express = require('express')
         , hbs = require('express-hbs')
         , app = express()
         , path = require('path')
         , Backbone = require('backbone')
-        , Server = require('../app')
-        , viewsD = __dirname + '/../views/'
+        , model = require('./models/model')
+        , Server = require('./app')
+        , viewsD = __dirname + '/views/'
         , partialsD = viewsD + 'partials/'
         , defaultF = viewsD + 'default.hbs'
         , portN = 5000
+        , publicD =  path.join(__dirname, 'public');
 
-        //, model = require('../models/model');
-console.log(typeof Server);
+    for(var i in model){
+        console.log(model[i]);
+    }
     //whatever happens, this file needs to call Server.
-    app.use(express.static(path.join(__dirname, 'public')))
+    app.use(express.static(publicD))
           .use(express.bodyParser())
           .use(express.logger('dev'))
           .use(express.methodOverride());
@@ -30,8 +31,6 @@ console.log(typeof Server);
     //Dynamically include routes
     app.get('/', function (req, res) {
         res.render(defaultF);
-
-        //console.log(app.settings);
     });
     Server(app);
 
@@ -62,3 +61,4 @@ console.log(typeof Server);
 
  var app = new AppRouter();
  */
+
