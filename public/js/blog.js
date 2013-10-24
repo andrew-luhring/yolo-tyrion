@@ -104,7 +104,6 @@ jQuery(document).ready(function () {
         didResize,
         win = getWindowDimensions(),
         current = win;
-    //Backbone.history.start();
 
     function getRandomNumber(){
         var rand = (Math.random() * 10);
@@ -139,7 +138,19 @@ jQuery(document).ready(function () {
     });
     $('a').click(function (e) {
         e.preventDefault();
-    })
+    });
+    function scrollToThing(thing){
+        var selector = thing
+            , sT = $(selector).offset().top
+            , $viewport = $("html, body");
+        $viewport.animate({
+            scrollTop: sT
+        }, 2000);
+    }
+    $("#main_nav .workTypes a").click(function(){
+        var post = $(this).attr('href');
+        scrollToThing(post);
+    });
     $(window).scroll(function () {
             didScroll = true;
     }).resize(function () {
