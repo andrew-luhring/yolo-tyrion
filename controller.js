@@ -3,7 +3,7 @@
         , app = express()
         , path = require('path')
         , Backbone = require('backbone')
-        , model = require('./models/model')
+        , model = require('./models/model').work
         , Server = require('./app')
         , viewsD = __dirname + '/views/'
         , partialsD = viewsD + 'partials/'
@@ -11,9 +11,10 @@
         , portN = 5000
         , publicD =  path.join(__dirname, 'public');
 
-    for(var i in model){
-        console.log(model[i]);
-    }
+
+        var workView = {
+            category : model
+        }
     //whatever happens, this file needs to call Server.
     app.use(express.static(publicD))
           .use(express.bodyParser())
@@ -30,7 +31,7 @@
     }));
     //Dynamically include routes
     app.get('/', function (req, res) {
-        res.render(defaultF);
+        res.render(defaultF, workView);
     });
     Server(app);
 

@@ -23,8 +23,7 @@ var Model= function(){
     return arr;
 };
 var work = new Model;
-
 exports.work = work;
-
+//console.log("bh" + work.length);
 
 

@@ -1,98 +1,112 @@
 {
     "work": [
             {
-            "id": "code",
-            "type": "iframe",
-            "ref": [
+               "id": "code",
+                "ref": [
                 {
                     "id": "boxyButtons",
-                    "uri": "http://jsfiddle.net/Luhring/jVsfx/"
+                     "uri": "http://jsfiddle.net/Luhring/jVsfx/"
+                    , "type": "iframe"
                 },
                 {
                     "id": "jCuteMenu",
-                    "uri": "http://jsfiddle.net/Luhring/SBPWw/"
+                    "uri": "http://jsfiddle.net/Luhring/SBPWw/",
+                    "type": "iframe"
                 },
                 {
                     "id": "intro",
-                    "uri": "http://jsfiddle.net/Luhring/qSKsJ/"
+                    "uri": "http://jsfiddle.net/Luhring/qSKsJ/",
+                    "type": "iframe"
                 }
             ]
         },
         {
             "id"    : "websites",
-            "type": "iframe",
             "ref": [
                 {
                     "id": "bounceTemp",
-                    "uri": "http://www.bisforbounce.com/TemporaryLandingIndex.html"
+                    "uri": "http://www.bisforbounce.com/TemporaryLandingIndex.html",
+                    "type": "iframe"
                 },
                 {
                     "id": "plasticSurgery",
-                    "uri": "http://www.plasticsurgeryresource.com/wordpress/"
+                    "uri": "http://www.plasticsurgeryresource.com/wordpress/",
+                    "type": "iframe"
                 },
                 {
                     "id": "corpTax",
-                    "uri": "http://bisforbounce.com/portfolio/portfolio/corptax/"
+                    "uri": "http://bisforbounce.com/portfolio/portfolio/corptax/",
+                    "type": "iframe"
                 },
                 {
                     "id": "milylil",
-                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/milyli/"
+                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/milyli/",
+                    "type": "iframe"
                 },
                 {
                     "id": "quinn",
-                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/quinn/"
+                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/quinn/",
+                    "type": "iframe"
                 },
                 {
                     "id": "bobbys",
-                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/bobbys/"
+                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/bobbys/",
+                    "type": "iframe"
                 },
                 {
                     "id": "danaco",
-                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/danaco/"
+                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/danaco/",
+                    "type": "iframe"
                 }
             ]
         },
         {
             "id" : "experiments",
-            "type": "iframe",
             "ref": [
                 {
                     "id": "byTheHand",
-                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/bythehand/"
+                    "uri": "http://www.bisforbounce.com/portfolio/portfolio/bythehand/",
+                    "type": "iframe"
                 }
             ]
         },
         {
             "id" : "designs",
-            "type": "img",
             "ref": [
                 {
                     "id": "bounceLines",
-                    "uri": "portfolio/bounceLinesbcropped.png"
+                    "uri": "portfolio/bounceLinesbcropped.png",
+                    "type": "img"
                 },
                 {
                     "id": "acSlater",
-                    "uri": "portfolio/ACslater.png"
+                    "uri": "portfolio/ACslater.png",
+                    "type": "img"
                 },
                 {
                     "id": "deadmau5",
-                    "uri": "portfolio/deadmau5.gif"
+                    "uri": "portfolio/deadmau5.gif",
+                    "type": "img"
                 },
                 {
                     "id": "otter",
-                    "uri": "portfolio/otterLineWork.gif"
+                    "uri": "portfolio/otterLineWork.gif",
+                    "type": "img"
                 },
                 {
                     "id": "twitter",
-                    "uri": "portfolio/twitter.png"
+                    "uri": "portfolio/twitter.png",
+                    "type": "img"
                 },
                 {
                     "id": "soundcloud",
-                    "uri": "portfolio/soundcloud.png"
+                    "uri": "portfolio/soundcloud.png",
+                    "type": "img"
                 },
                 {
                     "id": "pdf",
-                    "uri": "portfolio/pdficonc.png"
+                    "uri": "portfolio/pdficonc.png",
+                    "type": "img"
                 }
             ]
         }
