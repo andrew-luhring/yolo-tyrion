@@ -128,7 +128,7 @@ jQuery(document).ready(function () {
     })();
 
 
-    fullWindowResize("#site-head, .post", win, 1000);
+    fullWindowResize("#site-head, .post", win, 100);
     swagFooterRoll();
 
     $("body,html").bind("scroll mousedown DOMMouseScroll mousewheel keyup", function (e) {
@@ -136,6 +136,8 @@ jQuery(document).ready(function () {
             $("html,body").stop(true, false);
         }
     });
+
+
     $('a').click(function (e) {
         e.preventDefault();
     });

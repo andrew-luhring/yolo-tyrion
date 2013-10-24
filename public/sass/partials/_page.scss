@@ -49,6 +49,8 @@ body{
     h1{
         color: $white;
       &:hover{
+        background: $light-green;
+        color: $cream;
       }
       font-size:  15rem;
       font-family: "monofur";

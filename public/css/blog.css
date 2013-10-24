@@ -155,6 +155,10 @@ body {
   -moz-transition: all, 1s;
   transition: all, 1s;
 }
+#site-head-content .logo h1:hover {
+  background: #75dec8;
+  color: #fffbcf;
+}
 
 @media (max-width: 400px) {
   #site-head-content .logo h1 {
@@ -260,37 +264,44 @@ body {
   transition: all 1s;
 }
 .workTypes a {
+  background: whitesmoke;
   margin: auto;
   padding: 1.6rem;
   width: 100%;
   box-sizing: border-box;
 }
-
-.theme-1 {
-  background: #859ed8 !important;
-  color: #1d2c41 !important;
-}
-.theme-1.variant-a {
-  color: #9fedea !important;
+.workTypes a:hover {
+  background: #75dec8;
 }
 
-.theme-2 {
-  background: #f05341 !important;
-  color: #1d2c41 !important;
+.theme-1, .theme-1 a {
+  background: #859ed8;
+  color: #1d2c41;
 }
-.theme-2.variant-a {
-  color: whitesmoke !important;
-}
-.theme-2.variant-b {
-  color: #9fedea !important;
+.theme-1.variant-1, .theme-1 a.variant-1 {
+  color: #9fedea;
 }
 
-.theme-3 {
-  background: #06baff !important;
-  color: whitesmoke !important;
+.theme-2, .theme-2 a {
+  background: #f05341;
+  color: #1d2c41;
 }
-.theme-3 .logo {
-  background: #1d2c41 !important;
+.theme-2.variant-1, .theme-2 a.variant-1 {
+  color: whitesmoke;
+}
+.theme-2.variant-2, .theme-2 a.variant-2 {
+  color: #9fedea;
+}
+
+.theme-3, .theme-3 a {
+  background: #06baff;
+  color: whitesmoke;
+}
+.theme-3 .logo, .theme-3 a .logo {
+  background: #1d2c41;
+}
+.theme-3:hover, .theme-3 a:hover {
+  color: #1d2c41;
 }
 
 .post {
