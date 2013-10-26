@@ -235,7 +235,6 @@ jQuery(document).ready(function () {
             //collect inserted items into array
             var arr = $.makeArray($(".post"));
             var parr = [];
-            var pkid = [];
             $.each(arr, function(index){
                var obj = $(this); //obj = $(arr).eq(index);
                 obj.pid = obj.attr("id");
@@ -245,6 +244,7 @@ jQuery(document).ready(function () {
                     //TODO the children property should only return the children of the object that it descends from, right now it includes ALL of the children from all the objects.
                     //fix that
                     var kids =$.makeArray(obj.find(".surround-inserted"));
+                    var pkid = [];
                     $.each(kids, function(index){
                         var kid = $(this);
                         kid.top = kid.offset().top;
