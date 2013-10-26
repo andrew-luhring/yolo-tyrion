@@ -19,7 +19,10 @@
     app.use(express.static(publicD))
           .use(express.bodyParser())
           .use(express.logger('dev'))
-          .use(express.methodOverride());
+          .use(express.methodOverride())
+          .use(require('browserify')({
+            require: [ 'jquery-browserify', 'jquery-mousewheel' ]
+        }));
     app.set('view engine', 'hbs')
            .set('port', process.env.PORT || portN)
            .set('cache', false)
