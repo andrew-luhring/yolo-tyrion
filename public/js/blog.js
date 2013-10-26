@@ -40,8 +40,7 @@ function getWindowDimensions(){
     };
     return win;
 }
-
-
+    //
 function calcDifferential(top, difference, obj){
     var differential = difference - top;
     //console.log("calcDifferential = " + differential);
@@ -49,7 +48,7 @@ function calcDifferential(top, difference, obj){
         top: differential
     });
 };
-
+    //
 function fullWindowResize(objToResize, currentWindowObj, animateTime) {
     if (currentWindowObj instanceof jQuery) {
         var current = currentWindowObj.get();
@@ -60,7 +59,7 @@ function fullWindowResize(objToResize, currentWindowObj, animateTime) {
     sections = $.makeArray(sec),
     currentHeight = current.height,
     currentTop = current.top;
-    console.log(" sections " + sections.length + " \n and current " + current.width + " \n" + current.height);
+    //console.log(" sections " + sections.length + " \n and current " + current.width + " \n" + current.height);
     for (var i = 0; i < sections.length; i++) {
         var offsetTop = current.heightRem * i;
         $(sections).eq(i).addClass("animating").animate({
@@ -75,8 +74,7 @@ function fullWindowResize(objToResize, currentWindowObj, animateTime) {
         }).removeClass("animating");
     }
 }
-
-
+    //
 function generateRandomDelay() {
     var time = {},
         rand = Math.random(),
@@ -87,6 +85,7 @@ function generateRandomDelay() {
     time.finalNum = rand * rand_b * 1500;
     return time;
 }
+    //
 function swagFooterRoll() {
     var width = $("footer > div").width(),
         num = generateRandomDelay();
@@ -102,137 +101,177 @@ function swagFooterRoll() {
             duration: 2000
         }).removeClass("animating");
 }
-jQuery(document).ready(function () {
-    var didScroll,
-        didResize,
-        win = getWindowDimensions(),
-        current = win;
-
-    function getRandomNumber(){
-        var rand = (Math.random() * 10);
-        rand = Math.round(rand / 3);
-        return rand;
+    //
+function getRandomNumber() {
+    var rand = (Math.random() * 10);
+    rand = Math.round(rand / 3);
+    return rand;
+}
+    //
+function getRandomTheme() {
+    var rand = getRandomNumber();
+    if (rand !== 0) {
+        var themeSelector = "theme-" + rand;
+        return themeSelector;
+    } else {
+        return false;
     }
-    function getRandomTheme() {
-        var rand = getRandomNumber();
-        if(rand !== 0){
-            var themeSelector = "theme-" + rand;
-            return themeSelector;
-        } else{
-            return false;
-        }
-    };
-
-    var setRandomTheme = (function(){
-     var theme = getRandomTheme();
-        if(theme !== false){
+};
+    //
+function setRandomTheme() {
+        var theme = getRandomTheme();
+        if (theme !== false) {
             $(".workTypes a, .workTypes").addClass(theme);
         }
-    })();
-    fullWindowResize("#site-head, .post", win, 100);
-    swagFooterRoll();
+    };
+    //
+function scrollToThing(thing) {
+    var selector = thing
+        , sT = $(selector).offset().top
+        , $viewport = $("html, body");
+    $viewport.animate({
+        scrollTop: sT
+    }, 2000);
+}
 
-    $("body,html").on("scroll mousedown DOMMouseScroll mousewheel keyup", function (e) {
-        if (e.which > 0 || e.type === "mousedown" || e.type === "mousewheel") {
-            $("html,body").stop(true, false);
-        }
-    });
-    $('a').click(function (e) {
-        e.preventDefault();
-    });
-    function scrollToThing(thing){
-        var selector = thing
-            , sT = $(selector).offset().top
-            , $viewport = $("html, body");
-        $viewport.animate({
-            scrollTop: sT
-        }, 2000);
-    }
-    function convertToType($objToResize, callback){
+function convertToType($objToResize, callback) {
         var $obj = $.makeArray($objToResize),
             arr = [];
 
-        $.each($obj, function(index){
+        $.each($obj, function (index) {
             var link = {
-                node : $(this).get(),
-                kind : $(this).attr("data-class"),
-                uri : $(this).attr("href")
-                };
+                node: $(this).get(),
+                kind: $(this).attr("data-class"),
+                uri: $(this).attr("href")
+            };
             arr.push(link);
         });
-        $.each($obj, function(index){
+        $.each($obj, function (index) {
             var elem = arr[index].kind
                 , uri = arr[index].uri
                 , string = "<div class='surround-inserted'><" + elem + " src ='" + uri + "' class='inserted' >" + "</" + elem + "></div>";
             $(this).replaceWith(string);
         });
-        if( callback){
+        if (callback) {
             if ($(".inserted").length >= 1) {
                 return $(".inserted");
-            } else{
+            } else {
                 return false;
             }
         }
     }
-    function resizeTheThings(thing){
+
+function resizeTheThings(thing) {
         var selector = thing
-            , $post= $(selector).parent(".post")
+            , $post = $(selector).parent(".post")
             , currentWindowHeight = getWindowDimensions()
             , $objToResize = $post.children(".post-full").children("a");
         var $newObjs = convertToType($objToResize, true);
-        if($newObjs){
-                fullWindowResize($(".surround-inserted"), currentWindowHeight, 100);
-                fullWindowResize($newObjs, currentWindowHeight, 1000);
-        } else{
+        if ($newObjs) {
+            fullWindowResize($(".surround-inserted"), currentWindowHeight, 100);
+            fullWindowResize($newObjs, currentWindowHeight, 1000);
+        } else {
             alert($newObjs)
         }
 
     }
-    $("#main_nav .workTypes a").click(function(){
+    //
+function moveNav(removeDefault) {
+        if (removeDefault) {
+            $("#main_nav.default_nav").switchClass("default_nav", "responsive_nav");
+        } else {
+            $("#main_nav.responsive_nav").switchClass("responsive_nav", "default_nav");
+        }
+    }
+    //
+    function checkNav(current) {
+    current.top = $(window).scrollTop(),
+        current.height = $(window).height();
+    if (current.top > current.height && $("#main_nav").hasClass("default_nav")) {
+        //if further from top than height and default still exists
+        moveNav(true);
+    } else if (current.top < current.height && $("#main_nav").hasClass("default_nav") === false) {
+        //if less than top and not default still exists.
+        moveNav(false);
+    } else {
+        console.log("cool " + current.top);
+    }
+}
+
+jQuery(document).ready(function () {
+    var didScroll,
+        didResize,
+        win = getWindowDimensions(),
+        current = win;
+    setRandomTheme();
+    fullWindowResize("#site-head, .post", win, 100);
+    swagFooterRoll();
+    $("body,html").on("scroll mousedown DOMMouseScroll mousewheel keyup", function (e) {
+        if (e.which > 0 || e.type === "mousedown" || e.type === "mousewheel") {
+            $("html,body").stop(true, false);
+        }
+    });
+    //
+    $('a').click(function (e) {
+        e.preventDefault();
+    });
+    //
+    $("#main_nav .workTypes a").click(function () {
         var post = $(this).attr('href');
         scrollToThing(post);
         resizeTheThings(post);
     });
+    //
     $(document).mousewheel(function (event, delta, deltaX, deltaY) {
-        if(deltaY >=30 || deltaY <= -30){
-            console.log(deltaY);
+        if (deltaY >= 30 || deltaY <= -30) {
+            //console.log(deltaY);
             didScroll = true;
         }
-    });
+        if (delta >= 55 || deltaY <= -55){
+            //console.log(current.top);
+            // needs to compare the top value of current agains the top values of all the inserted items-- only if the ones in the current category exist.
+            //collect posts into array
+            //
+            //collect inserted items into array
+            var arr = $.makeArray($(".post"));
+            var parr = [];
+            var pkid = [];
+            $.each(arr, function(index){
+               var obj = $(this); //obj = $(arr).eq(index);
+                obj.pid = obj.attr("id");
+                obj.height = obj.height();
+                obj.top = obj.offset().top;
+                if(obj.find(".surround-inserted")){
+                    //TODO the children property should only return the children of the object that it descends from, right now it includes ALL of the children from all the objects.
+                    //fix that
+                    var kids =$.makeArray(obj.find(".surround-inserted"));
+                    $.each(kids, function(index){
+                        var kid = $(this);
+                        kid.top = kid.offset().top;
+                        kid.href= kid.attr("href");
+                        pkid.push(kid);
+                    });
+                    obj.children = pkid;
+                }   else {
+                    obj.children = [];
+                }
+                parr.push(obj);
+            });
+            console.log(parr[0]);
 
+
+        }
+    });
+    //
     $(window).resize(function () {
-            didResize = true;
+        didResize = true;
     });
-
-    function moveNav( removeDefault ){
-        if( removeDefault ){
-            $("#main_nav.default_nav").switchClass("default_nav", "responsive_nav");
-
-        } else {
-            $("#main_nav.responsive_nav").switchClass("responsive_nav", "default_nav");
-        }
-
-    }
-
-    function checkNav() {
-        current.top = $(window).scrollTop(),
-            current.height = $(window).height();
-        if (current.top > current.height && $("#main_nav").hasClass("default_nav")) {
-            //if further from top than height and default still exists
-            moveNav(true);
-        } else if (current.top < current.height && $("#main_nav").hasClass("default_nav") === false) {
-            //if less than top and not default still exists.
-            moveNav(false);
-        } else {
-            console.log("cool " + current.top);
-        }
-    }
+   //
     setInterval(function () {
         if (didScroll) {
             didScroll = false,
-            checkNav();
+            checkNav(current);
         }}, 1000)
-
     setInterval(function () {
         if (didResize) {
             didResize = false;
