@@ -18,9 +18,6 @@
 //var app = new AppRouter();
 
 
-
-
-
 (function ($) {
 var obj = {},
     workTypes = [],
@@ -196,9 +193,14 @@ jQuery(document).ready(function () {
         scrollToThing(post);
         resizeTheThings(post);
     });
-    $(window).scroll(function () {
+    $(document).mousewheel(function (event, delta, deltaX, deltaY) {
+        if(deltaY >=30 || deltaY <= -30){
+            console.log(deltaY);
             didScroll = true;
-    }).resize(function () {
+        }
+    });
+
+    $(window).resize(function () {
             didResize = true;
     });
 
@@ -211,23 +213,24 @@ jQuery(document).ready(function () {
         }
 
     }
+
+    function checkNav() {
+        current.top = $(window).scrollTop(),
+            current.height = $(window).height();
+        if (current.top > current.height && $("#main_nav").hasClass("default_nav")) {
+            //if further from top than height and default still exists
+            moveNav(true);
+        } else if (current.top < current.height && $("#main_nav").hasClass("default_nav") === false) {
+            //if less than top and not default still exists.
+            moveNav(false);
+        } else {
+            console.log("cool " + current.top);
+        }
+    }
     setInterval(function () {
         if (didScroll) {
             didScroll = false,
-            current.top = $(window).scrollTop(),
-            current.height = $(window).height();
-            if ( current.top > current.height && $("#main_nav").hasClass("default_nav")){
-                //if further from top than height and default still exists
-                moveNav(true);
-            } else if ( current.top < current.height && $("#main_nav").hasClass("default_nav") === false ){
-                //if less than top and not default still exists.
-                moveNav(false);
-            } else{
-                console.log("cool " + current.top);
-            }
-
-
-
+            checkNav();
         }}, 1000)
 
     setInterval(function () {
