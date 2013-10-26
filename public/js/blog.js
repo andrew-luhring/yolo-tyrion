@@ -28,7 +28,7 @@ var obj = {},
     pos,
     initialWinDim = (function() {
         var initialWinDim = getWindowDimensions();
-                    console.log("1.) height " + initialWinDim.height + " top " + initialWinDim.top);
+                    //console.log("1.) height " + initialWinDim.height + " top " + initialWinDim.top);
         return initialWinDim;
     })();
 
@@ -47,28 +47,34 @@ function getWindowDimensions(){
 
 function calcDifferential(top, difference, obj){
     var differential = difference - top;
-    console.log("calcDifferential = " + differential);
+    //console.log("calcDifferential = " + differential);
     $(obj).animate({
         top: differential
     });
 };
 
-function fullWindowResize(obj, currentWindowObj, animateTime) {
-    var current = currentWindowObj,
-    sec = $(obj),
+function fullWindowResize(objToResize, currentWindowObj, animateTime) {
+    if (currentWindowObj instanceof jQuery) {
+        var current = currentWindowObj.get();
+    } else{
+        var current = currentWindowObj;
+    }
+    var sec = $(objToResize),
     sections = $.makeArray(sec),
     currentHeight = current.height,
     currentTop = current.top;
+    console.log(" sections " + sections.length + " \n and current " + current.width + " \n" + current.height);
     for (var i = 0; i < sections.length; i++) {
         var offsetTop = current.heightRem * i;
         $(sections).eq(i).addClass("animating").animate({
             "min-height": current.heightRem,
+            "width": "100%",
             "top": offsetTop
         }, animateTime, function(){
-            var difference = initialWinDim.height - currentHeight;
-            console.log("2rs); difference = initial - current");
-            console.log(difference + " = " + initialWinDim.height + " - " + currentHeight);
-            calcDifferential(currentTop, difference, 'html, body');
+            //var difference = initialWinDim.height - currentHeight;
+            //console.log("2rs); difference = initial - current");
+            //console.log(difference + " = " + initialWinDim.height + " - " + currentHeight);
+            //calcDifferential(currentTop, difference, 'html, body');
         }).removeClass("animating");
     }
 }
@@ -126,18 +132,14 @@ jQuery(document).ready(function () {
             $(".workTypes a, .workTypes").addClass(theme);
         }
     })();
-
-
     fullWindowResize("#site-head, .post", win, 100);
     swagFooterRoll();
 
-    $("body,html").bind("scroll mousedown DOMMouseScroll mousewheel keyup", function (e) {
+    $("body,html").on("scroll mousedown DOMMouseScroll mousewheel keyup", function (e) {
         if (e.which > 0 || e.type === "mousedown" || e.type === "mousewheel") {
             $("html,body").stop(true, false);
         }
     });
-
-
     $('a').click(function (e) {
         e.preventDefault();
     });
@@ -149,54 +151,94 @@ jQuery(document).ready(function () {
             scrollTop: sT
         }, 2000);
     }
+    function convertToType($objToResize, callback){
+        var $obj = $.makeArray($objToResize),
+            arr = [];
+
+        $.each($obj, function(index){
+            var link = {
+                node : $(this).get(),
+                kind : $(this).attr("data-class"),
+                uri : $(this).attr("href")
+                };
+            arr.push(link);
+        });
+        $.each($obj, function(index){
+            var elem = arr[index].kind
+                , uri = arr[index].uri
+                , string = "<div class='surround-inserted'><" + elem + " src ='" + uri + "' class='inserted' >" + "</" + elem + "></div>";
+            $(this).replaceWith(string);
+        });
+        if( callback){
+            if ($(".inserted").length >= 1) {
+                return $(".inserted");
+            } else{
+                return false;
+            }
+        }
+    }
+    function resizeTheThings(thing){
+        var selector = thing
+            , $post= $(selector).parent(".post")
+            , currentWindowHeight = getWindowDimensions()
+            , $objToResize = $post.children(".post-full").children("a");
+        var $newObjs = convertToType($objToResize, true);
+        if($newObjs){
+                fullWindowResize($(".surround-inserted"), currentWindowHeight, 100);
+                fullWindowResize($newObjs, currentWindowHeight, 1000);
+        } else{
+            alert($newObjs)
+        }
+
+    }
     $("#main_nav .workTypes a").click(function(){
         var post = $(this).attr('href');
         scrollToThing(post);
+        resizeTheThings(post);
     });
     $(window).scroll(function () {
             didScroll = true;
     }).resize(function () {
             didResize = true;
     });
+
+    function moveNav( removeDefault ){
+        if( removeDefault ){
+            $("#main_nav.default_nav").switchClass("default_nav", "responsive_nav");
+
+        } else {
+            $("#main_nav.responsive_nav").switchClass("responsive_nav", "default_nav");
+        }
+
+    }
     setInterval(function () {
         if (didScroll) {
             didScroll = false,
             current.top = $(window).scrollTop(),
-            current.height = $(window).height(),
-            current.heightRem = (current.height / 10) + "rem";
-            console.log("       scrolled     ");
-            console.log("1s); current.height: " + current.height + " current.top: " + current.top );
-            console.log("1s); initial.height: " + initialWinDim.height + " initial.top: " + initialWinDim.top)
-        }
+            current.height = $(window).height();
+            if ( current.top > current.height && $("#main_nav").hasClass("default_nav")){
+                //if further from top than height and default still exists
+                moveNav(true);
+            } else if ( current.top < current.height && $("#main_nav").hasClass("default_nav") === false ){
+                //if less than top and not default still exists.
+                moveNav(false);
+            } else{
+                console.log("cool " + current.top);
+            }
+
+
+
+        }}, 1000)
+
+    setInterval(function () {
         if (didResize) {
             didResize = false;
             current.top = $(window).scrollTop(),
             current.height = $(window).height(),
             current.heightRem = (current.height/10) + "rem";
-            console.log("\n       resized     ");
-            console.log("1r.); current.height: " + current.height + " current.top: " + current.top);
-            console.log("1r.); initial.height: " + initialWinDim.height + " initial.top: " + initialWinDim.top);
             fullWindowResize('.post, #site-head', current, 1500);
-
         }
     }, 700);
 });
-
-
-
-
-
-
-
-$.getJSON("/js/websites.JSON", function (data) {
-    obj = data;
-    for (var i in data.work) {
-        workTypes.push(data.work[i]);
-        for (var j in data.work[i].ref) {
-            $("#post_2").append("<p>" + data.work[i].ref[j].uri + "</p>");
-        }
-    }
-});
-
 
 }(jQuery));

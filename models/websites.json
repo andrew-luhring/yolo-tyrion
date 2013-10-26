@@ -5,17 +5,17 @@
                 "ref": [
                 {
                     "id": "boxyButtons",
-                     "uri": "http://jsfiddle.net/Luhring/jVsfx/"
+                     "uri": "http://jsfiddle.net/Luhring/jVsfx/embedded/result/"
                     , "type": "iframe"
                 },
                 {
                     "id": "jCuteMenu",
-                    "uri": "http://jsfiddle.net/Luhring/SBPWw/",
+                    "uri": "http://jsfiddle.net/Luhring/SBPWw/embedded/result/",
                     "type": "iframe"
                 },
                 {
                     "id": "intro",
-                    "uri": "http://jsfiddle.net/Luhring/qSKsJ/",
+                    "uri": "http://jsfiddle.net/Luhring/qSKsJ/embedded/result/",
                     "type": "iframe"
                 }
             ]

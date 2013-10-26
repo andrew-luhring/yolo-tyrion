@@ -92,3 +92,48 @@
 //nav > ul > li:not(:target):not(:hover) > ul {
 //  visibility: collapse;
 //}
+#main_nav.responsive_nav {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 5;
+  height: auto;
+  max-width: 10%;
+  min-width: 0;
+  height: 100%;
+}
+
+#main_nav.responsive_nav ul {
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.responsive_nav{
+  .workTypes{
+    margin: 1.2rem 0;
+    flex-direction: column;
+    vertical-align: middle;
+    a{
+      margin: auto;
+      display: flex;
+      align-content: flex-end;
+      justify-content: space-around;
+      width: 100%;
+      flex-direction: column;
+      flex: 1;
+    }
+  }
+}
+
+@media all and (max-width: 960px){
+  .workTypes{
+    a{
+      font-size: 1rem;
+    }
+  }
+}
+
+.responsive_nav .workTypes a {
+  //height: 100%;
+  padding: 0;
+}

@@ -32,9 +32,37 @@
   @include justify-content(center);
   @include align-content(center);
 }
+
+.post-full {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  width: 90%;
+  position: relative;
+  left: 10%;
+}
+
 .post-meta{
   display: none;
 }
 .post-footer{
 
+}
+
+.iframe{
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+img.inserted {
+  max-width: 100%;
+  height: auto !important;
+  flex: none !important;
+  min-height: 0px !important;
+  margin: auto;
+  width: auto !important;
+}
+.surround-inserted{
+  display: flex;
 }
