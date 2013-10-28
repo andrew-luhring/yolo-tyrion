@@ -1,3 +1,21 @@
+function scrollDirection(direction) {
+    switch (direction) {
+        case "up":
+            console.log("up")
+            return "up";
+            break;
+        case "down":
+            console.log("down");
+            return "down";
+            break;
+        default:
+            console.log("none");
+            return "none";
+            break;
+    }
+}
+
+
 function animateScrollTo(current, counter, direction) {
     var arr = $.makeArray($(".post"));
     var parr = [];
@@ -59,5 +77,3 @@ function animateScrollTo(current, counter, direction) {
     }
     direction = "none";
 }
-//
-
