@@ -1,6 +1,3 @@
-
-
-
 function animateScrollTo(current, counter, direction) {
     var arr = $.makeArray($(".post"));
     var parr = [];
