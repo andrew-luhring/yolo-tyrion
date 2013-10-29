@@ -212,16 +212,53 @@ body {
 }
 
 .life, .workTypes, #main_nav > ul {
-  display: flex;
   height: 100%;
-  flex-direction: row;
-  flex: 1;
-  align-content: center;
-  justify-content: center;
 }
 
-#main_nav > ul {
-  display: inline-flex;
+.flexbox .life, .flexbox .workTypes, .flexbox #main_nav > ul {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+  -webkit-align-content: center;
+  -moz-align-content: center;
+  align-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+}
+.flexbox #main_nav > ul {
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: flex;
+}
+
+.no-flexbox.flexboxlegacy .life, .no-flexbox.flexboxlegacy .workTypes, .no-flexbox.flexboxlegacy #main_nav > ul, .noflexbox.flexboxlegacy .life, .noflexbox.flexboxlegacy .workTypes, .noflexbox.flexboxlegacy #main_nav > ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+}
+.no-flexbox.flexboxlegacy #main_nav > ul, .noflexbox.flexboxlegacy #main_nav > ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
 }
 
 #main_nav {
@@ -247,8 +284,17 @@ body {
   color: whitesmoke;
   right: 0;
 }
-#main_nav > ul.updated {
+
+.flexbox > ul.updated {
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
   flex-direction: column;
+}
+
+.noflexbox.flexboxlegacy > ul.updated, .no-flexbox.flexboxlegacy > ul.updated {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
 }
 
 .life {
@@ -268,6 +314,9 @@ body {
   margin: auto;
   padding: 1.6rem;
   width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .workTypes a:hover {
@@ -315,24 +364,77 @@ body {
   height: 100%;
 }
 
-#main_nav.responsive_nav ul {
+.flexbox #main_nav.responsive_nav ul {
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
   flex-direction: column;
+  -webkit-align-content: space-between;
+  -moz-align-content: space-between;
   align-content: space-between;
 }
 
-.responsive_nav .workTypes {
+.noflexbox.flexboxlegacy #main_nav.responsive_nav ul, .no-flexbox.flexboxlegacy #main_nav.responsive_nav ul {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  box-pack: justify;
+}
+
+.flexbox .responsive_nav .workTypes {
   margin: 1.2rem 0;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
   flex-direction: column;
   vertical-align: middle;
 }
-.responsive_nav .workTypes a {
+.flexbox .responsive_nav .workTypes a {
+  margin: auto;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-align-content: flex-end;
+  -moz-align-content: flex-end;
+  align-content: flex-end;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+}
+
+.noflexbox.flexboxlegacy .responsive_nav .workTypes, .no-flexbox.flexboxlegacy .responsive_nav .workTypes {
+  margin: 1.2rem 0;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  vertical-align: middle;
+}
+.noflexbox.flexboxlegacy .responsive_nav .workTypes a, .no-flexbox.flexboxlegacy .responsive_nav .workTypes a {
   margin: auto;
   display: flex;
-  align-content: flex-end;
-  justify-content: space-around;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  box-align: end;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  box-pack: justify;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
   width: 100%;
-  flex-direction: column;
-  flex: 1;
 }
 
 @media all and (max-width: 960px) {

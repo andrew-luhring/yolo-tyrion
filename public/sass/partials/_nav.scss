@@ -1,15 +1,32 @@
 .life, .workTypes, #main_nav > ul {
-  display: flex;
   height: 100%;
-  flex-direction:row;
-  flex: 1;
-  align-content: center;
-  justify-content: center;
+
 }
-#main_nav > ul{
-  display: inline-flex;
+.flexbox {
+  .life, .workTypes, #main_nav > ul{
+  @include display(flex);
+  @include flex-direction(row);
+  @include flex(1);
+  @include align-content(center);
+  @include justify-content(center);
+  }
+  #main_nav > ul {
+    @include display(inline-flex);
+  }
 }
 
+.no-flexbox.flexboxlegacy, .noflexbox.flexboxlegacy{
+  .life, .workTypes, #main_nav > ul {
+    @include display-box;
+    @include box-orient(horizontal);
+    @include box-flex(1);
+    @include box-pack(center);
+    @include box-align(center);
+  }
+  #main_nav > ul {
+    @include display-box;
+  }
+}
 #main_nav{
   margin:  0 auto;
   width: 50%;
@@ -31,11 +48,27 @@
       color: $white;
       right: 0;
     }
-    &.updated{
-      flex-direction:column;
+
+  }
+}
+
+.flexbox{
+  >ul {
+    &.updated {
+      @include flex-direction(column);
     }
   }
 }
+
+
+.noflexbox.flexboxlegacy, .no-flexbox.flexboxlegacy{
+  >ul{
+    &.updated{
+      @include box-orient(vertical);
+    }
+  }
+}
+
 .life{
   width: 50%;
 }
@@ -44,7 +77,6 @@
   margin: 0 0.5rem;
     &:not(:target):not(:hover) a{
       @include transition(all 1s);
-
     }
   a {
     background: $white;
@@ -52,6 +84,8 @@
     padding: 1.6rem;
     width: 100%;
     box-sizing: border-box;
+    @include box-sizing(border-box);
+    
     &:hover {
       background: $light-green;
     }
@@ -103,28 +137,55 @@
   height: 100%;
 }
 
-#main_nav.responsive_nav ul {
-  flex-direction: column;
-  align-content: space-between;
+.flexbox #main_nav.responsive_nav ul {
+ @include flex-direction(column);
+  @include align-content(space-between);
 }
 
-.responsive_nav{
-  .workTypes{
-    margin: 1.2rem 0;
-    flex-direction: column;
-    vertical-align: middle;
-    a{
-      margin: auto;
-      display: flex;
-      align-content: flex-end;
-      justify-content: space-around;
-      width: 100%;
-      flex-direction: column;
-      flex: 1;
-    }
+.noflexbox.flexboxlegacy, .no-flexbox.flexboxlegacy{
+  #main_nav.responsive_nav ul {
+    @include box-orient(vertical);
+    @include box-pack(justify);
   }
 }
 
+.flexbox{
+  .responsive_nav{
+    .workTypes{
+      margin: 1.2rem 0;
+      @include flex-direction(column);
+      vertical-align: middle;
+      a{
+        margin: auto;
+        @include display(flex);
+        @include align-content(flex-end);
+        @include justify-content(space-around);
+        @include flex-direction(column);
+        width: 100%;
+        @include flex(1);
+      }
+    }
+  }
+}
+.noflexbox.flexboxlegacy, .no-flexbox.flexboxlegacy{
+  .responsive_nav{
+    .workTypes{
+      margin: 1.2rem 0;
+      @include box-orient(vertical);
+      vertical-align: middle;
+      a{
+        margin: auto;
+        display: flex;
+        @include display-box;
+        @include box-align(end);
+        @include box-pack(justify);
+        @include box-orient(vertical);
+        @include box-flex(1);
+        width: 100%;
+      }
+    }
+  }
+}
 @media all and (max-width: 960px){
   .workTypes{
     a{
