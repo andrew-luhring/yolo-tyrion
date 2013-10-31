@@ -1,6 +1,6 @@
 //TODO refactor/abstract all the things.
 // finish the scroll to next post function
-// delay the load of each object until after scroll
+//^ the directions work but it isn't pulling the top offsets of the posts i dont think.
 (function ($) {
     "use strict";
 var obj = {}
@@ -9,7 +9,6 @@ var obj = {}
     , pos
     , counter = 0
     , initialWinDim = getWindowDimensions();
-    //console.log("1.) height " + initialWinDim.height + " top " + initialWinDim.top);
 function getWindowDimensions(){
     var win = {
         widthRem: (window.innerWidth / 10) + "rem",
@@ -20,14 +19,6 @@ function getWindowDimensions(){
     };
     return win;
 }
-    //window
-function calcDifferential(top, difference, obj){
-    var differential = difference - top;
-    //console.log("calcDifferential = " + differential);
-    $(obj).animate({
-        top: differential
-    });
-};
     //window / post
 function fullWindowResize(objToResize, currentWindowObj, animateTime) {
     if (currentWindowObj instanceof jQuery) {
@@ -39,19 +30,13 @@ function fullWindowResize(objToResize, currentWindowObj, animateTime) {
     sections = $.makeArray(sec),
     currentHeight = current.height,
     currentTop = current.top;
-    //console.log(" sections " + sections.length + " \n and current " + current.width + " \n" + current.height);
     for (var i = 0; i < sections.length; i++) {
         var offsetTop = current.heightRem * i;
         $(sections).eq(i).addClass("animating").animate({
             "min-height": current.heightRem,
             "width": "100%",
             "top": offsetTop
-        }, animateTime, function(){
-            //var difference = initialWinDim.height - currentHeight;
-            //console.log("2rs); difference = initial - current");
-            //console.log(difference + " = " + initialWinDim.height + " - " + currentHeight);
-            //calcDifferential(currentTop, difference, 'html, body');
-        }).removeClass("animating");
+        }, animateTime).removeClass("animating");
     }
 }
     //window / post
@@ -105,22 +90,24 @@ function setRandomTheme() {
         }
     };
     //theme
-function scrollToThing(thing) {
-        if(typeof $(thing).attr("id") !== "undefined"){
+function scrollToThing(thing, callback) {
+        if ( typeof $(thing).attr("id") !== "undefined" ){
             var selector = $(thing)
                 , sT = selector.offset().top
                 , $viewport = $("html, body")
             $viewport.animate({
                 scrollTop: sT
-            }, 2000);
+            }, 2000, function(){
+                console.log($(thing).length);
+                resizeTheThings(thing, false)
+            });
         } else {
             console.log("can't scroll because undefined.");
             return false;
-        }/* else if (
-            var needId = "#" + thing;
-
-            )*/
-
+        }
+    if ( callback && typeof callback === "function"){
+        callback();
+    }
 }
     //window
 function convertToType($objToResize, callback) {
@@ -141,22 +128,28 @@ function convertToType($objToResize, callback) {
                 , string = "<div class='surround-inserted'><" + elem + " src ='" + uri + "' class='inserted' >" + "</" + elem + "></div>";
             $(this).replaceWith(string);
         });
-        if (callback) {
+
+        if (typeof callback === "boolean") {
             if ($(".inserted").length >= 1) {
                 return $(".inserted");
-            } else if (typeof callback === "function"){
-                callback();
             } else{
+                return false;
+            }
+        } else if ( typeof callback === "function" ){
+                callback();
+            } else {
             return false;
         }
-    }}
+    }
     //obj / post
 function resizeTheThings(thing, isOwnParent, callback) {
         var selector = thing
             , currentWindowHeight = getWindowDimensions()
-            if(typeof isOwnParent === "undefined" || typeof isOwnParent !== "boolean" || isOwnParent === true ){
+            if(typeof isOwnParent === "undefined" || isOwnParent === true ){
+                console.log("is own parent");
                 var $objToResize = $(selector);
             } else {
+                console.log("is NOT own parent");
                 var $post = $(selector).parent(".post")
                     , $objToResize = $post.children(".post-full").children("a");
             }
@@ -237,37 +230,24 @@ function animateScrollTo(current, counter, direction) {
                 , max = parr.length - 1
                 , min = 0
                 , diffCur = parr[i] ;
-
             if (prev <= 0) {
                 prev = min;
             } else{
                 prev =  i - 1;
             }
-
             if (next >= max) {
                 next = max;
             }
-            // console.log(diff + " " + next + " " + prev  + " length " + parr.length);
+
             var diffPrev = parr[prev]
                 , diffNext = parr[next]
                 , diffA = Math.abs(current.top - diffPrev.top)
                 , diffB = Math.abs(current.top - diffNext.top)
                 , diffC = diffCur.top;
-
-            if (diffA < diffB) {
-                if (counter < 1) {
-                    console.log(" diffA " + diffPrev.pid + " " + diffA + " \n current " + diffCur.pid );
-                    scrollDirection(direction);
-                    counter++;
-                }
-            } else if (diffA > diffB) {
-                if (counter < 1) {
-                   console.log(" diffB " + diffNext.pid + " " + diffB + " \n current " + diffCur.pid);
-                    scrollDirection(direction);
-                    counter++;
-                }
-            } else {
-                console.log("default " + diffCur.pid);
+            if (counter < 1) {
+                console.log(diffB + " " + diffA);
+                scrollDirection(direction);
+                counter++;
             }
         }
         console.log("^^^^^^^^");
@@ -298,16 +278,17 @@ jQuery(document).ready(function () {
     //
     $("#main_nav .workTypes a").click(function () {
         var post = $(this).attr('href');
-        resizeTheThings(post, false, function(){
-            setTimeout(scrollToThing(post), 5500);
+        scrollToThing(post, function(){
+//            resizeTheThings(post, false);
         });
     });
     //
     $(".post-full > a").click(function (e) {
         var self = $(this);
+        scrollToThing(self, function () {
+            convertToType(self, resizeTheThings(self, true));
+        });
 
-            console.log(self.offset().top)
-        convertToType(self, resizeTheThings(self, true, scrollToThing(this, true) ) );
     });
     $(document).mousewheel(function (event, delta, deltaX, deltaY) {
         if (deltaY >= 15 || deltaY <= -15) {
@@ -337,6 +318,7 @@ jQuery(document).ready(function () {
             animateScroll = false;
             counter = 0;
             animateScrollTo(current, counter, direction);
+            checkNav(current);
 
         } else if (didScroll) {
             didScroll = false,
