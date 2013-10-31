@@ -149,11 +149,12 @@ function convertToType($objToResize, callback) {
         if (callback) {
             if ($(".inserted").length >= 1) {
                 return $(".inserted");
-            } else {
-                return false;
-            }
+            } else if (typeof callback === "function"){
+                callback();
+            } else{
+            return false;
         }
-    }
+    }}
     //obj / post
 function resizeTheThings(thing, isOwnParent, callback) {
         var selector = thing
@@ -308,12 +309,10 @@ jQuery(document).ready(function () {
     });
     //
     $(".post-full > a").click(function (e) {
-        var sel = this,
-            self = $(sel);
+        var self = $(this);
 
-        resizeTheThings(self, true, function () {
-            setTimeout(scrollToThing(sel), 5500);
-        });
+            console.log(self.offset().top)
+        convertToType(self, scrollToThing(self, true));
     });
     $(document).mousewheel(function (event, delta, deltaX, deltaY) {
         if (deltaY >= 15 || deltaY <= -15) {
