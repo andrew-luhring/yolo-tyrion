@@ -107,25 +107,20 @@ function setRandomTheme() {
     //theme
 function scrollToThing(thing) {
         if(typeof $(thing).attr("id") !== "undefined"){
-            var selector = thing
-            console.log("scrollToThings true " + $(thing).offset().top);
-        } else if ( thing instanceof jQuery){
-            var selector = $(thing).attr("id");
-            console.log(thing);
-
-        }else{
-            console.log("scrollToThings false " + $(thing));
-            var selector = $(thing);
+            var selector = $(thing)
+                , sT = selector.offset().top
+                , $viewport = $("html, body")
+            $viewport.animate({
+                scrollTop: sT
+            }, 2000);
+        } else {
+            console.log("can't scroll because undefined.");
+            return false;
         }/* else if (
             var needId = "#" + thing;
 
             )*/
-        var sT = $(thing).offset().top
-        , $viewport = $("html, body")
-        console.log(selector);
-    $viewport.animate({
-        scrollTop: sT
-    }, 2000);
+
 }
     //window
 function convertToType($objToResize, callback) {
@@ -312,7 +307,7 @@ jQuery(document).ready(function () {
         var self = $(this);
 
             console.log(self.offset().top)
-        convertToType(self, scrollToThing(self, true));
+        convertToType(self, resizeTheThings(self, true, scrollToThing(this, true) ) );
     });
     $(document).mousewheel(function (event, delta, deltaX, deltaY) {
         if (deltaY >= 15 || deltaY <= -15) {
