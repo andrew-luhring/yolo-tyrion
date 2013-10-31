@@ -106,9 +106,23 @@ function setRandomTheme() {
     };
     //theme
 function scrollToThing(thing) {
-    var selector = thing
-        , sT = $(selector).offset().top
-        , $viewport = $("html, body");
+        if(typeof $(thing).attr("id") !== "undefined"){
+            var selector = thing
+            console.log("scrollToThings true " + $(thing).offset().top);
+        } else if ( thing instanceof jQuery){
+            var selector = $(thing).attr("id");
+            console.log(thing);
+
+        }else{
+            console.log("scrollToThings false " + $(thing));
+            var selector = $(thing);
+        }/* else if (
+            var needId = "#" + thing;
+
+            )*/
+        var sT = $(thing).offset().top
+        , $viewport = $("html, body")
+        console.log(selector);
     $viewport.animate({
         scrollTop: sT
     }, 2000);
@@ -141,11 +155,15 @@ function convertToType($objToResize, callback) {
         }
     }
     //obj / post
-function resizeTheThings(thing, callback) {
+function resizeTheThings(thing, isOwnParent, callback) {
         var selector = thing
-            , $post = $(selector).parent(".post")
             , currentWindowHeight = getWindowDimensions()
-            , $objToResize = $post.children(".post-full").children("a");
+            if(typeof isOwnParent === "undefined" || typeof isOwnParent !== "boolean" || isOwnParent === true ){
+                var $objToResize = $(selector);
+            } else {
+                var $post = $(selector).parent(".post")
+                    , $objToResize = $post.children(".post-full").children("a");
+            }
         var $newObjs = convertToType($objToResize, true);
         if ($newObjs) {
             fullWindowResize($(".surround-inserted"), currentWindowHeight, 100);
@@ -284,13 +302,19 @@ jQuery(document).ready(function () {
     //
     $("#main_nav .workTypes a").click(function () {
         var post = $(this).attr('href');
-        resizeTheThings(post, function(){
-            //alert("swag");
+        resizeTheThings(post, false, function(){
             setTimeout(scrollToThing(post), 5500);
-
         });
     });
     //
+    $(".post-full > a").click(function (e) {
+        var sel = this,
+            self = $(sel);
+
+        resizeTheThings(self, true, function () {
+            setTimeout(scrollToThing(sel), 5500);
+        });
+    });
     $(document).mousewheel(function (event, delta, deltaX, deltaY) {
         if (deltaY >= 15 || deltaY <= -15) {
             //console.log(deltaY);
