@@ -1,36 +1,15 @@
-//TODO style menu, have ajax request return and store categories until button click. button click insert and resize images.
-//console.log(Backbone.Router);
-//var AppRouter = Backbone.Router.extend({
-    //routes: {
-
-        //"worktypes/:category" : "worktype"
-    //},
-    //worktype: function(category){
-      //  var selector = "'#" + category + "'";
-
-
-
-      //  $(selector).css({
-      //     "border": "2px solid blue"
-        //});
-    //}
-//});
-//var app = new AppRouter();
-
-
+//TODO refactor/abstract all the things.
+// finish the scroll to next post function
+// delay the load of each object until after scroll
 (function ($) {
+    "use strict";
 var obj = {}
     , workTypes = []
     , ref = []
     , pos
     , counter = 0
-    , initialWinDim = (function() {
-        var initialWinDim = getWindowDimensions();
-                    //console.log("1.) height " + initialWinDim.height + " top " + initialWinDim.top);
-        return initialWinDim;
-    })();
-
-
+    , initialWinDim = getWindowDimensions();
+    //console.log("1.) height " + initialWinDim.height + " top " + initialWinDim.top);
 function getWindowDimensions(){
     var win = {
         widthRem: (window.innerWidth / 10) + "rem",
@@ -41,7 +20,7 @@ function getWindowDimensions(){
     };
     return win;
 }
-    //
+    //window
 function calcDifferential(top, difference, obj){
     var differential = difference - top;
     //console.log("calcDifferential = " + differential);
@@ -49,7 +28,7 @@ function calcDifferential(top, difference, obj){
         top: differential
     });
 };
-    //
+    //window / post
 function fullWindowResize(objToResize, currentWindowObj, animateTime) {
     if (currentWindowObj instanceof jQuery) {
         var current = currentWindowObj.get();
@@ -75,7 +54,7 @@ function fullWindowResize(objToResize, currentWindowObj, animateTime) {
         }).removeClass("animating");
     }
 }
-    //
+    //window / post
 function generateRandomDelay() {
     var time = {},
         rand = Math.random(),
@@ -86,11 +65,11 @@ function generateRandomDelay() {
     time.finalNum = rand * rand_b * 1500;
     return time;
 }
-    //
+    //footer
 function swagFooterRoll() {
-    var width = $("footer > div").width(),
-        num = generateRandomDelay();
-    distance = width - 80;
+    var width = $("footer > div").width()
+        , num = generateRandomDelay()
+        , distance = width - 80;
     $("footer p").delay(num.finalNum).addClass("animating").css({
         "float": "none",
         "position": "relative",
@@ -102,13 +81,13 @@ function swagFooterRoll() {
             duration: 2000
         }).removeClass("animating");
 }
-    //
+    //footer
 function getRandomNumber() {
     var rand = (Math.random() * 10);
     rand = Math.round(rand / 3);
     return rand;
 }
-    //
+    //theme
 function getRandomTheme() {
     var rand = getRandomNumber();
     if (rand !== 0) {
@@ -118,14 +97,14 @@ function getRandomTheme() {
         return false;
     }
 };
-    //
+    //theme
 function setRandomTheme() {
         var theme = getRandomTheme();
         if (theme !== false) {
             $(".workTypes a, .workTypes").addClass(theme);
         }
     };
-    //
+    //theme
 function scrollToThing(thing) {
     var selector = thing
         , sT = $(selector).offset().top
@@ -134,7 +113,7 @@ function scrollToThing(thing) {
         scrollTop: sT
     }, 2000);
 }
-
+    //window
 function convertToType($objToResize, callback) {
         var $obj = $.makeArray($objToResize),
             arr = [];
@@ -161,8 +140,8 @@ function convertToType($objToResize, callback) {
             }
         }
     }
-
-function resizeTheThings(thing) {
+    //obj / post
+function resizeTheThings(thing, callback) {
         var selector = thing
             , $post = $(selector).parent(".post")
             , currentWindowHeight = getWindowDimensions()
@@ -171,12 +150,12 @@ function resizeTheThings(thing) {
         if ($newObjs) {
             fullWindowResize($(".surround-inserted"), currentWindowHeight, 100);
             fullWindowResize($newObjs, currentWindowHeight, 1000);
-        } else {
-            alert($newObjs)
         }
-
+        if (callback && typeof(callback) === "function") {
+            callback();
+        }
     }
-    //
+    //obj / post
 function moveNav(removeDefault) {
         if (removeDefault) {
             $("#main_nav.default_nav").switchClass("default_nav", "responsive_nav");
@@ -184,7 +163,7 @@ function moveNav(removeDefault) {
             $("#main_nav.responsive_nav").switchClass("responsive_nav", "default_nav");
         }
     }
-    //
+    //nav
 function checkNav(current) {
     current.top = $(window).scrollTop(),
         current.height = $(window).height();
@@ -197,7 +176,7 @@ function checkNav(current) {
     } else {
     }
 }
-
+    //nav
 function scrollDirection(direction) {
     switch (direction) {
         case "up":
@@ -214,9 +193,8 @@ function scrollDirection(direction) {
             break;
     }
 }
-
-
-    function animateScrollTo(current, counter, direction) {
+    //window
+function animateScrollTo(current, counter, direction) {
         var arr = $.makeArray($(".post"));
         var parr = [];
         $.each(arr, function (index) {
@@ -281,7 +259,7 @@ function scrollDirection(direction) {
         console.log("^^^^^^^^");
         direction = "none";
     }
-    //
+    //post / window
 
 
 jQuery(document).ready(function () {
@@ -306,8 +284,11 @@ jQuery(document).ready(function () {
     //
     $("#main_nav .workTypes a").click(function () {
         var post = $(this).attr('href');
-        scrollToThing(post);
-        resizeTheThings(post);
+        resizeTheThings(post, function(){
+            //alert("swag");
+            setTimeout(scrollToThing(post), 5500);
+
+        });
     });
     //
     $(document).mousewheel(function (event, delta, deltaX, deltaY) {

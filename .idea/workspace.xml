@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57325d0f-94a3-4907-af18-e6df1cb75852" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/animateScrollToFucked.js" afterPath="$PROJECT_DIR$/public/js/animateScrollToFucked.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/blog.js" afterPath="$PROJECT_DIR$/public/js/blog.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/served.time" afterPath="$PROJECT_DIR$/.idea/served.time" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="served.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/app.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382478274038" ignored="false" />
     <file path="/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381615328432" ignored="false" />
-    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382935126693" ignored="false" />
+    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383106452016" ignored="false" />
     <file path="/Mac OS X copy.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381178748366" ignored="false" />
     <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381409846198" ignored="false" />
     <file path="/contact.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381437601779" ignored="false" />
@@ -26,7 +24,7 @@
     <file path="/model.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382564651776" ignored="false" />
     <file path="/blog.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381644314051" ignored="false" />
     <file path="/blog.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381617730444" ignored="false" />
-    <file path="/blog.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382987031251" ignored="false" />
+    <file path="/blog.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383233123482" ignored="false" />
     <file path="/_base.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382298505235" ignored="false" />
     <file path="/_post.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382736320505" ignored="false" />
     <file path="/_page.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382649447253" ignored="false" />
@@ -58,6 +56,11 @@
     <file path="$PROJECT_DIR$/../ghost/core/built/scripts/vendor.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382647954319" ignored="false" />
     <file path="$PROJECT_DIR$/../ghost/.idea/workspace.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382726274033" ignored="false" />
     <file path="$PROJECT_DIR$/../ghost/core/server.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382726274033" ignored="false" />
+    <file path="/filelist.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383175814531" ignored="false" />
+    <file path="/filelist.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383177387311" ignored="false" />
+    <file path="/bblah.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383189690889" ignored="false" />
+    <file path="/blah.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383227515706" ignored="false" />
+    <file path="/something.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383190082843" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,19 +131,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="29" selection-start="107" selection-end="107" vertical-scroll-proportion="-0.775">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="site-head.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/site-head.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="281" selection-end="281" vertical-scroll-proportion="-5.425">
+            <state line="7" column="23" selection-start="281" selection-end="281" vertical-scroll-proportion="-0.775">
               <folding />
             </state>
           </provider>
@@ -149,7 +143,7 @@
       <file leaf-file-name="index.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="66" selection-start="406" selection-end="414" vertical-scroll-proportion="-9.3">
+            <state line="12" column="66" selection-start="406" selection-end="414" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,7 +152,7 @@
       <file leaf-file-name="worktypes.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/worktypes.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="-4.65">
+            <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,7 +161,7 @@
       <file leaf-file-name="default.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/default.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="102" selection-start="1780" selection-end="1780" vertical-scroll-proportion="-15.075">
+            <state line="46" column="0" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,16 +170,7 @@
       <file leaf-file-name="_nav.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/partials/_nav.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="34" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_page.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+            <state line="93" column="3" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -194,21 +179,70 @@
       <file leaf-file-name="blog.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="266" column="90" selection-start="8145" selection-end="8145" vertical-scroll-proportion="0.59375">
+            <state line="343" column="0" selection-start="10598" selection-end="10598" vertical-scroll-proportion="0.81906617">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#6556#7243#0" expanded="false" />
-                <element signature="e#6754#7149#0" expanded="false" />
+                <element signature="e#409#659#0" expanded="false" />
+                <element signature="e#425#640#0" expanded="false" />
+                <element signature="e#720#876#0" expanded="false" />
+                <element signature="e#839#872#0" expanded="false" />
+                <element signature="e#1014#1067#0" expanded="false" />
+                <element signature="e#1072#1119#0" expanded="false" />
+                <element signature="e#1513#1627#0" expanded="false" />
+                <element signature="e#1652#1963#0" expanded="false" />
+                <element signature="e#1666#1722#0" expanded="false" />
+                <element signature="e#2050#2265#0" expanded="false" />
+                <element signature="e#2305#2746#0" expanded="false" />
+                <element signature="e#2484#2574#0" expanded="false" />
+                <element signature="e#2587#2717#0" expanded="false" />
+                <element signature="e#2787#2877#0" expanded="false" />
+                <element signature="e#2916#3091#0" expanded="false" />
+                <element signature="e#2972#3054#0" expanded="false" />
+                <element signature="e#3060#3089#0" expanded="false" />
+                <element signature="e#3131#3276#0" expanded="false" />
+                <element signature="e#3200#3270#0" expanded="false" />
+                <element signature="e#3320#3487#0" expanded="false" />
+                <element signature="e#3448#3477#0" expanded="false" />
+                <element signature="e#4936#4971#0" expanded="false" />
+                <element signature="e#5027#5263#0" expanded="false" />
+                <element signature="e#5056#5152#0" expanded="false" />
+                <element signature="e#5158#5257#0" expanded="false" />
+                <element signature="e#5301#5761#0" expanded="false" />
+                <element signature="e#5469#5566#0" expanded="false" />
+                <element signature="e#5658#5746#0" expanded="false" />
+                <element signature="e#5752#5759#0" expanded="false" />
+                <element signature="e#5808#6132#0" expanded="false" />
+                <element signature="e#5814#6130#0" expanded="false" />
+                <element signature="e#6200#8447#0" expanded="false" />
+                <element signature="e#6305#6992#0" expanded="false" />
+                <element signature="e#6503#6898#0" expanded="false" />
+                <element signature="e#6654#6845#0" expanded="false" />
+                <element signature="e#6904#6954#0" expanded="false" />
+                <element signature="e#7041#8380#0" expanded="false" />
+                <element signature="e#7235#7278#0" expanded="false" />
+                <element signature="e#7283#7329#0" expanded="false" />
+                <element signature="e#7360#7403#0" expanded="false" />
+                <element signature="e#7767#8019#0" expanded="false" />
+                <element signature="e#7802#8005#0" expanded="false" />
+                <element signature="e#8044#8294#0" expanded="false" />
+                <element signature="e#8079#8280#0" expanded="false" />
+                <element signature="e#8300#8370#0" expanded="false" />
+                <element signature="e#8845#8988#0" expanded="false" />
+                <element signature="e#8925#8982#0" expanded="false" />
+                <element signature="e#9028#9063#0" expanded="false" />
+                <element signature="e#9383#9780#0" expanded="false" />
+                <element signature="e#9428#9504#0" expanded="false" />
+                <element signature="e#9547#9774#0" expanded="false" />
+                <element signature="e#9641#9690#0" expanded="false" />
+                <element signature="e#9713#9764#0" expanded="false" />
+                <element signature="e#9824#9857#0" expanded="false" />
+                <element signature="e#9894#10239#0" expanded="false" />
+                <element signature="e#9954#10115#0" expanded="false" />
+                <element signature="e#10136#10214#0" expanded="false" />
+                <element signature="e#10220#10232#0" expanded="false" />
+                <element signature="e#10275#10573#0" expanded="false" />
+                <element signature="e#10300#10567#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animateScrollToFucked.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/animateScrollToFucked.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -267,6 +301,11 @@
         <option value="$PROJECT_DIR$/public/js/cuteanimation.js" />
         <option value="$PROJECT_DIR$/views/default.hbs" />
         <option value="$PROJECT_DIR$/public/js/animateScrollToFucked.js" />
+        <option value="$PROJECT_DIR$/public/js/filelist.js" />
+        <option value="$PROJECT_DIR$/public/js/filelist.html" />
+        <option value="$PROJECT_DIR$/public/js/bblah.js" />
+        <option value="$PROJECT_DIR$/public/js/something.txt" />
+        <option value="$PROJECT_DIR$/public/js/blah.html" />
         <option value="$PROJECT_DIR$/public/js/blog.js" />
       </list>
     </option>
@@ -276,7 +315,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="960" />
+    <option name="width" value="1920" />
     <option name="height" value="1174" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -370,11 +409,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -400,17 +439,7 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -441,7 +470,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -457,6 +496,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -478,13 +524,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -520,12 +559,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="960" height="1174" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900834" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
@@ -546,7 +586,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993513" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -609,38 +648,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#6556#7243#0" expanded="false" />
-            <element signature="e#6754#7149#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/blog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="1929" selection-end="2184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_post.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="22" column="6" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
@@ -652,9 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_final.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="42" column="1" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_base.scss">
@@ -711,9 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/vendor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10322" column="16" selection-start="519475" selection-end="519480" vertical-scroll-proportion="0.030541873">
-          <folding />
-        </state>
+        <state line="10322" column="16" selection-start="519475" selection-end="519480" vertical-scroll-proportion="0.030541873" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ghost/core/built/scripts/ghost.js">
@@ -723,9 +733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/blog.css">
@@ -735,16 +743,12 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Ex_Files_UaR_Backbone/ExerciseFiles/02/01/final/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_final.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="156" selection-end="158" vertical-scroll-proportion="0.4327019">
-          <folding />
-        </state>
+        <state line="14" column="4" selection-start="156" selection-end="158" vertical-scroll-proportion="0.4327019" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_header.scss">
@@ -774,9 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="320" selection-end="320" vertical-scroll-proportion="0.49520767">
-          <folding />
-        </state>
+        <state line="11" column="16" selection-start="320" selection-end="320" vertical-scroll-proportion="0.49520767" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Ex_Files_NodeJS_EssT/Exercise Files/chap04/04/flight/package.json">
@@ -806,30 +808,22 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Ex_Files_NodeJS_EssT/Exercise Files/chap10/01/start/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.025615763">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.025615763" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="47" selection-start="417" selection-end="417" vertical-scroll-proportion="0.27626458">
-          <folding />
-        </state>
+        <state line="13" column="47" selection-start="417" selection-end="417" vertical-scroll-proportion="0.27626458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="2" selection-start="774" selection-end="774" vertical-scroll-proportion="0.75875485">
-          <folding />
-        </state>
+        <state line="26" column="2" selection-start="774" selection-end="774" vertical-scroll-proportion="0.75875485" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.21108949">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.21108949" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_base.scss">
@@ -839,30 +833,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_post.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="12" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="41" column="12" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="863" selection-end="863" vertical-scroll-proportion="0.7237354">
-          <folding />
-        </state>
+        <state line="24" column="12" selection-start="863" selection-end="863" vertical-scroll-proportion="0.7237354" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/websites.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="78" selection-start="607" selection-end="607" vertical-scroll-proportion="0.53340083">
-          <folding />
-        </state>
+        <state line="17" column="78" selection-start="607" selection-end="607" vertical-scroll-proportion="0.53340083" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/node_modules/mocha/node_modules/jade/runtime.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="150" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="150" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -874,35 +860,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/site-head.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="281" selection-end="281" vertical-scroll-proportion="-5.425">
+        <state line="7" column="23" selection-start="281" selection-end="281" vertical-scroll-proportion="-0.775">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="406" selection-end="414" vertical-scroll-proportion="-9.3">
+        <state line="12" column="66" selection-start="406" selection-end="414" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/worktypes.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="-4.65">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/default.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="102" selection-start="1780" selection-end="1780" vertical-scroll-proportion="-15.075">
+        <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="34" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.0">
+        <state line="93" column="3" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -916,18 +902,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/animateScrollToFucked.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="18" column="55" selection-start="417" selection-end="417" vertical-scroll-proportion="0.54280156">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="266" column="90" selection-start="8145" selection-end="8145" vertical-scroll-proportion="0.59375">
+        <state line="343" column="0" selection-start="10598" selection-end="10598" vertical-scroll-proportion="0.81906617">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#6556#7243#0" expanded="false" />
-            <element signature="e#6754#7149#0" expanded="false" />
+            <element signature="e#409#659#0" expanded="false" />
+            <element signature="e#425#640#0" expanded="false" />
+            <element signature="e#720#876#0" expanded="false" />
+            <element signature="e#839#872#0" expanded="false" />
+            <element signature="e#1014#1067#0" expanded="false" />
+            <element signature="e#1072#1119#0" expanded="false" />
+            <element signature="e#1513#1627#0" expanded="false" />
+            <element signature="e#1652#1963#0" expanded="false" />
+            <element signature="e#1666#1722#0" expanded="false" />
+            <element signature="e#2050#2265#0" expanded="false" />
+            <element signature="e#2305#2746#0" expanded="false" />
+            <element signature="e#2484#2574#0" expanded="false" />
+            <element signature="e#2587#2717#0" expanded="false" />
+            <element signature="e#2787#2877#0" expanded="false" />
+            <element signature="e#2916#3091#0" expanded="false" />
+            <element signature="e#2972#3054#0" expanded="false" />
+            <element signature="e#3060#3089#0" expanded="false" />
+            <element signature="e#3131#3276#0" expanded="false" />
+            <element signature="e#3200#3270#0" expanded="false" />
+            <element signature="e#3320#3487#0" expanded="false" />
+            <element signature="e#3448#3477#0" expanded="false" />
+            <element signature="e#4936#4971#0" expanded="false" />
+            <element signature="e#5027#5263#0" expanded="false" />
+            <element signature="e#5056#5152#0" expanded="false" />
+            <element signature="e#5158#5257#0" expanded="false" />
+            <element signature="e#5301#5761#0" expanded="false" />
+            <element signature="e#5469#5566#0" expanded="false" />
+            <element signature="e#5658#5746#0" expanded="false" />
+            <element signature="e#5752#5759#0" expanded="false" />
+            <element signature="e#5808#6132#0" expanded="false" />
+            <element signature="e#5814#6130#0" expanded="false" />
+            <element signature="e#6200#8447#0" expanded="false" />
+            <element signature="e#6305#6992#0" expanded="false" />
+            <element signature="e#6503#6898#0" expanded="false" />
+            <element signature="e#6654#6845#0" expanded="false" />
+            <element signature="e#6904#6954#0" expanded="false" />
+            <element signature="e#7041#8380#0" expanded="false" />
+            <element signature="e#7235#7278#0" expanded="false" />
+            <element signature="e#7283#7329#0" expanded="false" />
+            <element signature="e#7360#7403#0" expanded="false" />
+            <element signature="e#7767#8019#0" expanded="false" />
+            <element signature="e#7802#8005#0" expanded="false" />
+            <element signature="e#8044#8294#0" expanded="false" />
+            <element signature="e#8079#8280#0" expanded="false" />
+            <element signature="e#8300#8370#0" expanded="false" />
+            <element signature="e#8845#8988#0" expanded="false" />
+            <element signature="e#8925#8982#0" expanded="false" />
+            <element signature="e#9028#9063#0" expanded="false" />
+            <element signature="e#9383#9780#0" expanded="false" />
+            <element signature="e#9428#9504#0" expanded="false" />
+            <element signature="e#9547#9774#0" expanded="false" />
+            <element signature="e#9641#9690#0" expanded="false" />
+            <element signature="e#9713#9764#0" expanded="false" />
+            <element signature="e#9824#9857#0" expanded="false" />
+            <element signature="e#9894#10239#0" expanded="false" />
+            <element signature="e#9954#10115#0" expanded="false" />
+            <element signature="e#10136#10214#0" expanded="false" />
+            <element signature="e#10220#10232#0" expanded="false" />
+            <element signature="e#10275#10573#0" expanded="false" />
+            <element signature="e#10300#10567#0" expanded="false" />
           </folding>
         </state>
       </provider>
