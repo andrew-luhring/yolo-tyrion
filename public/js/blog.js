@@ -1,6 +1,3 @@
-//TODO refactor/abstract all the things.
-// finish the scroll to next post function
-//^ the directions work but it isn't pulling the top offsets of the posts i dont think.
 "use strict";
 (function ($) {
 function getWindowDimensions(){

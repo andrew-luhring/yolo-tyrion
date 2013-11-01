@@ -1,10 +1,11 @@
-/*global desc, task, jake, fail, complete */
-(function(){
-    "use strict";
-    desc("Test + build");
-    task("default", ["lint"]);
 
-    desc("Lint all the things!");
+    /*global desc, task, jake, fail, complete */
+    (function () {
+        "use strict";
+        desc("Test + build");
+        task("default", ["lint"]);
+
+        desc("Lint all the things!");
     task("lint", [], function(){
         var lint = require("./build/lint/lint_runner.js")
               , list = new jake.FileList();
