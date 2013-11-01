@@ -1,14 +1,8 @@
 //TODO refactor/abstract all the things.
 // finish the scroll to next post function
 //^ the directions work but it isn't pulling the top offsets of the posts i dont think.
+"use strict";
 (function ($) {
-    "use strict";
-var obj = {}
-    , workTypes = []
-    , ref = []
-    , pos
-    , counter = 0
-    , initialWinDim = getWindowDimensions();
 function getWindowDimensions(){
     var win = {
         widthRem: (window.innerWidth / 10) + "rem",
@@ -19,12 +13,19 @@ function getWindowDimensions(){
     };
     return win;
 }
+var obj = {}
+    , workTypes = []
+    , ref = []
+    , pos
+    , counter = 0
+    , initialWinDim = getWindowDimensions();
     //window / post
 function fullWindowResize(objToResize, currentWindowObj, animateTime) {
+    var current;
     if (currentWindowObj instanceof jQuery) {
-        var current = currentWindowObj.get();
+        current = currentWindowObj.get();
     } else{
-        var current = currentWindowObj;
+        current = currentWindowObj;
     }
     var sec = $(objToResize),
     sections = $.makeArray(sec),
@@ -81,25 +82,25 @@ function getRandomTheme() {
     } else {
         return false;
     }
-};
+}
     //theme
 function setRandomTheme() {
         var theme = getRandomTheme();
         if (theme !== false) {
             $(".workTypes a, .workTypes").addClass(theme);
         }
-    };
+    }
     //theme
 function scrollToThing(thing, callback) {
         if ( typeof $(thing).attr("id") !== "undefined" ){
             var selector = $(thing)
                 , sT = selector.offset().top
-                , $viewport = $("html, body")
+                , $viewport = $("html, body");
             $viewport.animate({
                 scrollTop: sT
             }, 2000, function(){
                 console.log($(thing).length);
-                resizeTheThings(thing, false)
+                resizeTheThings(thing, false);
             });
         } else {
             console.log("can't scroll because undefined.");
@@ -145,13 +146,14 @@ function convertToType($objToResize, callback) {
 function resizeTheThings(thing, isOwnParent, callback) {
         var selector = thing
             , currentWindowHeight = getWindowDimensions()
+            , $objToResize;
             if(typeof isOwnParent === "undefined" || isOwnParent === true ){
                 console.log("is own parent");
-                var $objToResize = $(selector);
+                $objToResize = $(selector);
             } else {
                 console.log("is NOT own parent");
-                var $post = $(selector).parent(".post")
-                    , $objToResize = $post.children(".post-full").children("a");
+                var $post = $(selector).parent(".post");
+                $objToResize = $post.children(".post-full").children("a");
             }
         var $newObjs = convertToType($objToResize, true);
         if ($newObjs) {
@@ -172,8 +174,8 @@ function moveNav(removeDefault) {
     }
     //nav
 function checkNav(current) {
-    current.top = $(window).scrollTop(),
-        current.height = $(window).height();
+    current.top = $(window).scrollTop();
+    current.height = $(window).height();
     if (current.top > current.height && $("#main_nav").hasClass("default_nav")) {
         //if further from top than height and default still exists
         moveNav(true);
@@ -187,17 +189,14 @@ function checkNav(current) {
 function scrollDirection(direction) {
     switch (direction) {
         case "up":
-            console.log("up")
+            console.log("up");
             return "up";
-            break;
         case "down":
             console.log("down");
             return "down";
-            break;
         default:
              console.log("none");
             return "none";
-            break;
     }
 }
     //window
@@ -321,19 +320,16 @@ jQuery(document).ready(function () {
             checkNav(current);
 
         } else if (didScroll) {
-            didScroll = false,
-                checkNav(current);
-
-        } else {
-
+            didScroll = false;
+            checkNav(current);
         }
 
-    }, 1000)
+    }, 1000);
     setInterval(function () {
         if (didResize) {
             didResize = false;
-            current.top = $(window).scrollTop(),
-            current.height = $(window).height(),
+            current.top = $(window).scrollTop();
+            current.height = $(window).height();
             current.heightRem = (current.height/10) + "rem";
             fullWindowResize('.post, #site-head', current, 1500);
         }

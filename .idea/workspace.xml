@@ -5,6 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57325d0f-94a3-4907-af18-e6df1cb75852" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lint/lint_runner_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/animateScrollToFucked.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/old/blog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/old/level3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/old/resize_image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/old/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/old/server.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/blog.js" afterPath="$PROJECT_DIR$/public/js/blog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller.js" afterPath="$PROJECT_DIR$/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jakefile.js" afterPath="$PROJECT_DIR$/jakefile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model.js" afterPath="$PROJECT_DIR$/models/model.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/served.time" afterPath="$PROJECT_DIR$/.idea/served.time" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -21,10 +36,10 @@
     <file path="/script.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381409216506" ignored="false" />
     <file path="/index.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381614180593" ignored="false" />
     <file path="/default.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381449474919" ignored="false" />
-    <file path="/model.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382564651776" ignored="false" />
+    <file path="/model.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383264070234" ignored="false" />
     <file path="/blog.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381644314051" ignored="false" />
     <file path="/blog.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381617730444" ignored="false" />
-    <file path="/blog.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383253625121" ignored="false" />
+    <file path="/blog.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383264556214" ignored="false" />
     <file path="/_base.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382298505235" ignored="false" />
     <file path="/_post.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382736320505" ignored="false" />
     <file path="/_page.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382649447253" ignored="false" />
@@ -38,7 +53,7 @@
     <file path="/index.hbs" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382653862103" ignored="false" />
     <file path="/websites.json" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382568010019" ignored="false" />
     <file path="/router.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382145833536" ignored="false" />
-    <file path="/controller.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382755446611" ignored="false" />
+    <file path="/controller.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383263884434" ignored="false" />
     <file path="$PROJECT_DIR$/../ghost/Gruntfile.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382726274033" ignored="false" />
     <file path="/Gruntfile.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382287845462" ignored="false" />
     <file path="/_nav.scss" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383066905377" ignored="false" />
@@ -61,7 +76,7 @@
     <file path="/bblah.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383189690889" ignored="false" />
     <file path="/blah.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383227515706" ignored="false" />
     <file path="/something.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383190082843" ignored="false" />
-    <file path="/jakefile.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383259887893" ignored="false" />
+    <file path="/jakefile.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383263675919" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,183 +146,98 @@
     <favorites_list name="served" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="site-head.hbs" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/partials/site-head.hbs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="23" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.hbs" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/partials/index.hbs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="66" selection-start="406" selection-end="414" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="worktypes.hbs" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/partials/worktypes.hbs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="default.hbs" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/default.hbs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="46" column="0" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_nav.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/sass/partials/_nav.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="93" column="0" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blog.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/js/blog.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="42" selection-start="83" selection-end="83" vertical-scroll-proportion="-1.24">
-                  <folding>
-                    <element signature="e#358#608#0" expanded="false" />
-                    <element signature="e#374#589#0" expanded="false" />
-                    <element signature="e#745#798#0" expanded="false" />
-                    <element signature="e#803#850#0" expanded="false" />
-                    <element signature="e#1131#1245#0" expanded="false" />
-                    <element signature="e#1345#1560#0" expanded="false" />
-                    <element signature="e#1600#2041#0" expanded="false" />
-                    <element signature="e#1779#1869#0" expanded="false" />
-                    <element signature="e#1882#2012#0" expanded="false" />
-                    <element signature="e#2082#2172#0" expanded="false" />
-                    <element signature="e#2211#2386#0" expanded="false" />
-                    <element signature="e#2267#2349#0" expanded="false" />
-                    <element signature="e#2355#2384#0" expanded="false" />
-                    <element signature="e#2426#2571#0" expanded="false" />
-                    <element signature="e#2495#2565#0" expanded="false" />
-                    <element signature="e#5183#5419#0" expanded="false" />
-                    <element signature="e#5457#5917#0" expanded="false" />
-                    <element signature="e#5625#5722#0" expanded="false" />
-                    <element signature="e#5814#5902#0" expanded="false" />
-                    <element signature="e#5908#5915#0" expanded="false" />
-                    <element signature="e#6810#7001#0" expanded="false" />
-                    <element signature="e#7390#7433#0" expanded="false" />
-                    <element signature="e#7438#7484#0" expanded="false" />
-                    <element signature="e#7514#7557#0" expanded="false" />
-                    <element signature="e#8442#8585#0" expanded="false" />
-                    <element signature="e#8522#8579#0" expanded="false" />
-                    <element signature="e#8625#8660#0" expanded="false" />
-                    <element signature="e#9469#9520#0" expanded="false" />
-                    <element signature="e#9580#9613#0" expanded="false" />
-                    <element signature="e#10062#10360#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="jakefile.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/jakefile.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="28" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lint_runner.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build/lint/lint_runner.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lint_runner_test.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/build/lint/lint_runner_test.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="4" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-0.46215597">
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="blog.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/js/blog.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="148" column="45" selection-start="4524" selection-end="4524" vertical-scroll-proportion="0.40670392">
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                    <element signature="e#358#608#0" expanded="false" />
-                    <element signature="e#374#589#0" expanded="false" />
-                    <element signature="e#745#798#0" expanded="false" />
-                    <element signature="e#803#850#0" expanded="false" />
-                    <element signature="e#1345#1560#0" expanded="false" />
-                    <element signature="e#1600#2041#0" expanded="false" />
-                    <element signature="e#1779#1869#0" expanded="false" />
-                    <element signature="e#1882#2012#0" expanded="false" />
-                    <element signature="e#2082#2172#0" expanded="false" />
-                    <element signature="e#2211#2386#0" expanded="false" />
-                    <element signature="e#2267#2349#0" expanded="false" />
-                    <element signature="e#2355#2384#0" expanded="false" />
-                    <element signature="e#2426#2571#0" expanded="false" />
-                    <element signature="e#2495#2565#0" expanded="false" />
-                    <element signature="e#3271#4240#0" expanded="false" />
-                    <element signature="e#5183#5419#0" expanded="false" />
-                    <element signature="e#5457#5917#0" expanded="false" />
-                    <element signature="e#5625#5722#0" expanded="false" />
-                    <element signature="e#5814#5902#0" expanded="false" />
-                    <element signature="e#5908#5915#0" expanded="false" />
-                    <element signature="e#5964#6288#0" expanded="false" />
-                    <element signature="e#5970#6286#0" expanded="false" />
-                    <element signature="e#6356#8044#0" expanded="false" />
-                    <element signature="e#6461#7148#0" expanded="false" />
-                    <element signature="e#6659#7054#0" expanded="false" />
-                    <element signature="e#6810#7001#0" expanded="false" />
-                    <element signature="e#7060#7110#0" expanded="false" />
-                    <element signature="e#7390#7433#0" expanded="false" />
-                    <element signature="e#7438#7484#0" expanded="false" />
-                    <element signature="e#7514#7557#0" expanded="false" />
-                    <element signature="e#8442#8585#0" expanded="false" />
-                    <element signature="e#8522#8579#0" expanded="false" />
-                    <element signature="e#8625#8660#0" expanded="false" />
-                    <element signature="e#9184#9260#0" expanded="false" />
-                    <element signature="e#9469#9520#0" expanded="false" />
-                    <element signature="e#9650#10026#0" expanded="false" />
-                    <element signature="e#9710#9902#0" expanded="false" />
-                    <element signature="e#9923#10001#0" expanded="false" />
-                    <element signature="e#10007#10019#0" expanded="false" />
-                    <element signature="e#10087#10354#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="site-head.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/partials/site-head.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="23" selection-start="281" selection-end="281" vertical-scroll-proportion="-0.775">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/partials/index.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="66" selection-start="406" selection-end="414" vertical-scroll-proportion="-8.2">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="worktypes.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/partials/worktypes.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="-4.65">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/default.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="0" selection-start="1917" selection-end="1917" vertical-scroll-proportion="-13.825">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_nav.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/sass/partials/_nav.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="0" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/blog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="324" column="9" selection-start="9960" selection-end="9960" vertical-scroll-proportion="0.5367816">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#1136#1250#0" expanded="false" />
+                <element signature="e#1350#1565#0" expanded="false" />
+                <element signature="e#1605#2046#0" expanded="false" />
+                <element signature="e#1784#1874#0" expanded="false" />
+                <element signature="e#1887#2017#0" expanded="false" />
+                <element signature="e#2087#2177#0" expanded="false" />
+                <element signature="e#2272#2354#0" expanded="false" />
+                <element signature="e#2360#2389#0" expanded="false" />
+                <element signature="e#2499#2569#0" expanded="false" />
+                <element signature="e#5207#5443#0" expanded="false" />
+                <element signature="e#5645#5742#0" expanded="false" />
+                <element signature="e#5834#5922#0" expanded="false" />
+                <element signature="e#5928#5935#0" expanded="false" />
+                <element signature="e#6320#8008#0" expanded="false" />
+                <element signature="e#6774#6965#0" expanded="false" />
+                <element signature="e#7354#7397#0" expanded="false" />
+                <element signature="e#7402#7448#0" expanded="false" />
+                <element signature="e#7478#7521#0" expanded="false" />
+                <element signature="e#8406#8549#0" expanded="false" />
+                <element signature="e#8486#8543#0" expanded="false" />
+                <element signature="e#8589#8624#0" expanded="false" />
+                <element signature="e#9433#9484#0" expanded="false" />
+                <element signature="e#9544#9577#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jakefile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jakefile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="24" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -345,10 +275,8 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/views/partials/site-head.hbs" />
         <option value="$USER_HOME$/Downloads/Ex_Files_NodeJS_EssT/Exercise Files/chap04/04/app.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/controllers/controller.js" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/models/model.js" />
         <option value="$PROJECT_DIR$/views/partials/worktypes.hbs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/sass/partials/_page.scss" />
@@ -357,7 +285,6 @@
         <option value="$USER_HOME$/Downloads/jquery-ui-1.10.3.custom/js/jqueryui.js" />
         <option value="$PROJECT_DIR$/public/sass/partials/_nav.scss" />
         <option value="$PROJECT_DIR$/public/sass/partials/_post.scss" />
-        <option value="$PROJECT_DIR$/controller.js" />
         <option value="$PROJECT_DIR$/public/js/cuteanimation.js" />
         <option value="$PROJECT_DIR$/views/default.hbs" />
         <option value="$PROJECT_DIR$/public/js/animateScrollToFucked.js" />
@@ -366,9 +293,12 @@
         <option value="$PROJECT_DIR$/public/js/bblah.js" />
         <option value="$PROJECT_DIR$/public/js/something.txt" />
         <option value="$PROJECT_DIR$/public/js/blah.html" />
-        <option value="$PROJECT_DIR$/public/js/blog.js" />
-        <option value="$PROJECT_DIR$/jakefile.js" />
         <option value="$PROJECT_DIR$/build/lint/lint_runner_test.js" />
+        <option value="$PROJECT_DIR$/jakefile.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/controller.js" />
+        <option value="$PROJECT_DIR$/models/model.js" />
+        <option value="$PROJECT_DIR$/public/js/blog.js" />
       </list>
     </option>
   </component>
@@ -378,7 +308,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="22" />
-    <option name="width" value="1920" />
+    <option name="width" value="960" />
     <option name="height" value="1054" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -832,7 +762,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="22" width="1920" height="1054" extended-state="6" />
+    <frame x="1920" y="22" width="960" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -995,11 +925,6 @@
         <state line="6456" column="75" selection-start="363043" selection-end="363048" vertical-scroll-proportion="0.030541873" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="447" column="22" selection-start="16146" selection-end="16146" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="418" column="36" selection-start="7362" selection-end="7362" vertical-scroll-proportion="4.286965" />
@@ -1075,21 +1000,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.025615763" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="47" selection-start="417" selection-end="417" vertical-scroll-proportion="0.27626458" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="2" selection-start="774" selection-end="774" vertical-scroll-proportion="0.75875485" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.21108949" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="6" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" />
@@ -1098,11 +1008,6 @@
     <entry file="file://$PROJECT_DIR$/public/sass/partials/_post.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="12" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="863" selection-end="863" vertical-scroll-proportion="0.7237354" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/websites.json">
@@ -1122,23 +1027,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/bourbon/_flex-box.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="343" column="0" selection-start="10598" selection-end="10598" vertical-scroll-proportion="0.81906617" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/site-head.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+        <state line="7" column="23" selection-start="281" selection-end="281" vertical-scroll-proportion="-0.775">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="406" selection-end="414" vertical-scroll-proportion="0.0">
+        <state line="12" column="66" selection-start="406" selection-end="414" vertical-scroll-proportion="-8.2">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/worktypes.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="-4.65">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1917" selection-end="1917" vertical-scroll-proportion="-13.825">
           <folding />
         </state>
       </provider>
@@ -1150,38 +1072,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/default.hbs">
+    <entry file="file://$PROJECT_DIR$/models/model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.0">
+        <state line="20" column="12" selection-start="749" selection-end="749" vertical-scroll-proportion="0.700565">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/partials/_page.scss">
+    <entry file="file://$PROJECT_DIR$/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" />
+        <state line="25" column="12" selection-start="878" selection-end="878" vertical-scroll-proportion="0.280226">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/animateScrollToFucked.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="55" selection-start="417" selection-end="417" vertical-scroll-proportion="0.54280156" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/bourbon/_flex-box.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="343" column="0" selection-start="10598" selection-end="10598" vertical-scroll-proportion="0.81906617" />
+        <state line="4" column="64" selection-start="213" selection-end="213" vertical-scroll-proportion="0.13656388">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jakefile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/lint/lint_runner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="17" column="24" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1190,47 +1104,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="42" selection-start="83" selection-end="83" vertical-scroll-proportion="-1.24">
-          <folding>
-            <element signature="e#358#608#0" expanded="false" />
-            <element signature="e#374#589#0" expanded="false" />
-            <element signature="e#745#798#0" expanded="false" />
-            <element signature="e#803#850#0" expanded="false" />
-            <element signature="e#1131#1245#0" expanded="false" />
-            <element signature="e#1345#1560#0" expanded="false" />
-            <element signature="e#1600#2041#0" expanded="false" />
-            <element signature="e#1779#1869#0" expanded="false" />
-            <element signature="e#1882#2012#0" expanded="false" />
-            <element signature="e#2082#2172#0" expanded="false" />
-            <element signature="e#2211#2386#0" expanded="false" />
-            <element signature="e#2267#2349#0" expanded="false" />
-            <element signature="e#2355#2384#0" expanded="false" />
-            <element signature="e#2426#2571#0" expanded="false" />
-            <element signature="e#2495#2565#0" expanded="false" />
-            <element signature="e#5183#5419#0" expanded="false" />
-            <element signature="e#5457#5917#0" expanded="false" />
-            <element signature="e#5625#5722#0" expanded="false" />
-            <element signature="e#5814#5902#0" expanded="false" />
-            <element signature="e#5908#5915#0" expanded="false" />
-            <element signature="e#6810#7001#0" expanded="false" />
-            <element signature="e#7390#7433#0" expanded="false" />
-            <element signature="e#7438#7484#0" expanded="false" />
-            <element signature="e#7514#7557#0" expanded="false" />
-            <element signature="e#8442#8585#0" expanded="false" />
-            <element signature="e#8522#8579#0" expanded="false" />
-            <element signature="e#8625#8660#0" expanded="false" />
-            <element signature="e#9469#9520#0" expanded="false" />
-            <element signature="e#9580#9613#0" expanded="false" />
-            <element signature="e#10062#10360#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/lint/lint_runner_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="4" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-0.46215597">
+        <state line="324" column="9" selection-start="9960" selection-end="9960" vertical-scroll-proportion="0.5367816">
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1136#1250#0" expanded="false" />
+            <element signature="e#1350#1565#0" expanded="false" />
+            <element signature="e#1605#2046#0" expanded="false" />
+            <element signature="e#1784#1874#0" expanded="false" />
+            <element signature="e#1887#2017#0" expanded="false" />
+            <element signature="e#2087#2177#0" expanded="false" />
+            <element signature="e#2272#2354#0" expanded="false" />
+            <element signature="e#2360#2389#0" expanded="false" />
+            <element signature="e#2499#2569#0" expanded="false" />
+            <element signature="e#5207#5443#0" expanded="false" />
+            <element signature="e#5645#5742#0" expanded="false" />
+            <element signature="e#5834#5922#0" expanded="false" />
+            <element signature="e#5928#5935#0" expanded="false" />
+            <element signature="e#6320#8008#0" expanded="false" />
+            <element signature="e#6774#6965#0" expanded="false" />
+            <element signature="e#7354#7397#0" expanded="false" />
+            <element signature="e#7402#7448#0" expanded="false" />
+            <element signature="e#7478#7521#0" expanded="false" />
+            <element signature="e#8406#8549#0" expanded="false" />
+            <element signature="e#8486#8543#0" expanded="false" />
+            <element signature="e#8589#8624#0" expanded="false" />
+            <element signature="e#9433#9484#0" expanded="false" />
+            <element signature="e#9544#9577#0" expanded="false" />
           </folding>
         </state>
       </provider>

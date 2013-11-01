@@ -1,3 +1,4 @@
+"use strict";
         var express = require('express')
         , hbs = require('express-hbs')
         , app = express()
@@ -14,7 +15,7 @@
 
         var workView = {
             category : model
-        }
+        };
     //whatever happens, this file needs to call Server.
     app.use(express.static(publicD))
           .use(express.bodyParser())
@@ -36,7 +37,7 @@
     app.get('/', function (req, res) {
         res.render(defaultF, workView);
     });
-    Server(app);
+    new Server(app);
 
 
 

@@ -1,4 +1,4 @@
-
+"use strict";
 
 // Model == data, objects, Node, Express. // ruby == ActiveRecord
 // in this case my model will be powered by Backbone
@@ -9,7 +9,8 @@ var Model= function(){
         , model = {}
         , categories, id, type, ref, arr = [];
     for( var i in worktypes ){
-        categories = worktypes[i];
+        if (worktypes.hasOwnProperty(i)){
+            categories = worktypes[i];
             id = categories.id;
             type = categories.type;
             ref = categories.ref;
@@ -17,7 +18,8 @@ var Model= function(){
             model.id = id;
             model.type = type;
             model.ref = ref;
-        arr.push(model);
+            arr.push(model);
+        }
     }
 
     return arr;
