@@ -12,7 +12,10 @@
                 list.exclude("node_modules", "lib");
         var fileList = list.toArray();
         var options = nodeOptions();
-        lint.validateFileList(fileList, options, {});
+        var passedTests = lint.validateFileList(fileList, options, {});
+        if(!passedTests){
+            fail("Lint failed to pass all tests.");
+        }
     });
 
     desc("Integration== make it physically impossible to have broken build.");
@@ -22,7 +25,8 @@
         console.log("   a. Walk over to integration box");
         console.log("   b. 'get pull' ");
         console.log("   c. 'jake'");
-        console.log("3. 'git checkout integration' ");
+        console.log("   d. If jake fails, stop. Fix whatever, then try again.");
+        console.log("3. 'git checkout jake' ");
         console.log("4. 'git merge master --no-ff --log' ");
         console.log("5. 'git checkout master'");
     });

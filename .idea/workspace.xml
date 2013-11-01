@@ -7,13 +7,12 @@
     <list default="true" id="57325d0f-94a3-4907-af18-e6df1cb75852" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jakefile.js" afterPath="$PROJECT_DIR$/jakefile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/served.time" afterPath="$PROJECT_DIR$/.idea/served.time" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="served.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/app.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1382478274038" ignored="false" />
     <file path="/layout.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381615328432" ignored="false" />
-    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383269437526" ignored="false" />
+    <file path="/Dummy.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383271046169" ignored="false" />
     <file path="/Mac OS X copy.xml" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381178748366" ignored="false" />
     <file path="/index.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381409846198" ignored="false" />
     <file path="/contact.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1381437601779" ignored="false" />
@@ -62,7 +61,7 @@
     <file path="/bblah.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383189690889" ignored="false" />
     <file path="/blah.html" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383227515706" ignored="false" />
     <file path="/something.txt" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383190082843" ignored="false" />
-    <file path="/jakefile.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383270433294" ignored="false" />
+    <file path="/jakefile.js" changelist="57325d0f-94a3-4907-af18-e6df1cb75852" time="1383271220950" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,32 +181,7 @@
         <entry file="file://$PROJECT_DIR$/public/js/blog.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="314" column="51" selection-start="9668" selection-end="9668" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#1136#1250#0" expanded="false" />
-                <element signature="e#1350#1565#0" expanded="false" />
-                <element signature="e#1605#2046#0" expanded="false" />
-                <element signature="e#1784#1874#0" expanded="false" />
-                <element signature="e#1887#2017#0" expanded="false" />
-                <element signature="e#2087#2177#0" expanded="false" />
-                <element signature="e#2272#2354#0" expanded="false" />
-                <element signature="e#2360#2389#0" expanded="false" />
-                <element signature="e#2499#2569#0" expanded="false" />
-                <element signature="e#5207#5443#0" expanded="false" />
-                <element signature="e#5645#5742#0" expanded="false" />
-                <element signature="e#5834#5922#0" expanded="false" />
-                <element signature="e#5928#5935#0" expanded="false" />
-                <element signature="e#6320#8008#0" expanded="false" />
-                <element signature="e#6774#6965#0" expanded="false" />
-                <element signature="e#7354#7397#0" expanded="false" />
-                <element signature="e#7402#7448#0" expanded="false" />
-                <element signature="e#7478#7521#0" expanded="false" />
-                <element signature="e#8406#8549#0" expanded="false" />
-                <element signature="e#8486#8543#0" expanded="false" />
-                <element signature="e#8589#8624#0" expanded="false" />
-                <element signature="e#9433#9484#0" expanded="false" />
-                <element signature="e#9544#9577#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -215,7 +189,7 @@
       <file leaf-file-name="jakefile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jakefile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="48" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.8876652">
+            <state line="16" column="51" selection-start="622" selection-end="622" vertical-scroll-proportion="0.4537445">
               <folding />
             </state>
           </provider>
@@ -596,11 +570,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -626,17 +600,7 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -667,7 +631,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -683,6 +657,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -704,13 +685,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -863,32 +837,7 @@
     <entry file="file://$PROJECT_DIR$/public/js/blog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="324" column="9" selection-start="9960" selection-end="9960" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1136#1250#0" expanded="false" />
-            <element signature="e#1350#1565#0" expanded="false" />
-            <element signature="e#1605#2046#0" expanded="false" />
-            <element signature="e#1784#1874#0" expanded="false" />
-            <element signature="e#1887#2017#0" expanded="false" />
-            <element signature="e#2087#2177#0" expanded="false" />
-            <element signature="e#2272#2354#0" expanded="false" />
-            <element signature="e#2360#2389#0" expanded="false" />
-            <element signature="e#2499#2569#0" expanded="false" />
-            <element signature="e#5207#5443#0" expanded="false" />
-            <element signature="e#5645#5742#0" expanded="false" />
-            <element signature="e#5834#5922#0" expanded="false" />
-            <element signature="e#5928#5935#0" expanded="false" />
-            <element signature="e#6320#8008#0" expanded="false" />
-            <element signature="e#6774#6965#0" expanded="false" />
-            <element signature="e#7354#7397#0" expanded="false" />
-            <element signature="e#7402#7448#0" expanded="false" />
-            <element signature="e#7478#7521#0" expanded="false" />
-            <element signature="e#8406#8549#0" expanded="false" />
-            <element signature="e#8486#8543#0" expanded="false" />
-            <element signature="e#8589#8624#0" expanded="false" />
-            <element signature="e#9433#9484#0" expanded="false" />
-            <element signature="e#9544#9577#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,46 +1079,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="64" selection-start="213" selection-end="213" vertical-scroll-proportion="0.13656388">
-          <folding />
-        </state>
+        <state line="4" column="64" selection-start="213" selection-end="213" vertical-scroll-proportion="0.13656388" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/blog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="314" column="51" selection-start="9668" selection-end="9668" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1136#1250#0" expanded="false" />
-            <element signature="e#1350#1565#0" expanded="false" />
-            <element signature="e#1605#2046#0" expanded="false" />
-            <element signature="e#1784#1874#0" expanded="false" />
-            <element signature="e#1887#2017#0" expanded="false" />
-            <element signature="e#2087#2177#0" expanded="false" />
-            <element signature="e#2272#2354#0" expanded="false" />
-            <element signature="e#2360#2389#0" expanded="false" />
-            <element signature="e#2499#2569#0" expanded="false" />
-            <element signature="e#5207#5443#0" expanded="false" />
-            <element signature="e#5645#5742#0" expanded="false" />
-            <element signature="e#5834#5922#0" expanded="false" />
-            <element signature="e#5928#5935#0" expanded="false" />
-            <element signature="e#6320#8008#0" expanded="false" />
-            <element signature="e#6774#6965#0" expanded="false" />
-            <element signature="e#7354#7397#0" expanded="false" />
-            <element signature="e#7402#7448#0" expanded="false" />
-            <element signature="e#7478#7521#0" expanded="false" />
-            <element signature="e#8406#8549#0" expanded="false" />
-            <element signature="e#8486#8543#0" expanded="false" />
-            <element signature="e#8589#8624#0" expanded="false" />
-            <element signature="e#9433#9484#0" expanded="false" />
-            <element signature="e#9544#9577#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jakefile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="48" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.8876652">
+        <state line="16" column="51" selection-start="622" selection-end="622" vertical-scroll-proportion="0.4537445">
           <folding />
         </state>
       </provider>
