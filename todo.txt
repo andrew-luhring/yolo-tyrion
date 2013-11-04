@@ -1,0 +1,13 @@
+TODO
+>>>>Minimum Marketing Features:<<<<
+-animated scroll to next post function
+
+>>>>User Stories<<<<
+
+
+>>>>Engineering Tasks:<<<<
+
+-refactor/abstract all the things.
+*determine which testing framework to use.
+
+>>>>Ideas<<<<
