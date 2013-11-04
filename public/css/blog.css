@@ -535,49 +535,49 @@ img.inserted {
   display: flex;
 }
 
-#whittle {
+#whittl {
   color: whitesmoke;
 }
-#whittle > header h1 {
+#whittl > header h1 {
   color: #9fedea;
   text-align: center;
 }
-#whittle a.allow {
+#whittl a.allow {
   display: inline;
   padding: 0 2rem;
 }
-#whittle article {
+#whittl article {
   margin: 5rem auto 0;
   padding-bottom: 5rem;
   border-bottom: 1px solid #9fedea;
 }
-#whittle article header h1 {
+#whittl article header h1 {
   color: whitesmoke;
   font-size: 2rem;
   margin: 2rem auto;
 }
-#whittle article p, #whittle article > header, #whittle article summary, #whittle article ol {
+#whittl article p, #whittl article > header, #whittl article summary, #whittl article ol {
   max-width: 72rem;
   min-width: 48rem;
   margin: auto;
 }
-#whittle article ol li {
+#whittl article ol li {
   list-style-type: inherit;
   margin: 2rem auto;
 }
-#whittle article a {
+#whittl article a {
   margin: auto;
   display: inline-block;
   padding: 2rem;
 }
-#whittle article p {
+#whittl article p {
   margin: 2rem auto;
 }
-#whittle summary {
+#whittl summary {
   margin: auto;
   text-align: center;
 }
-#whittle .no-iframe .post-full {
+#whittl .no-iframe .post-full {
   display: -webkit-flex;
   display: -moz-flex;
   display: flex;
@@ -588,11 +588,11 @@ img.inserted {
   -moz-justify-content: space-around;
   justify-content: space-around;
 }
-#whittle .no-iframe .post-full section {
+#whittl .no-iframe .post-full section {
   max-width: 45%;
   margin: 0 2rem;
 }
-#whittle dt, #whittle dl, #whittle dd {
+#whittl dt, #whittl dl, #whittl dd {
   display: inline;
 }
 
