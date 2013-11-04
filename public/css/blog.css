@@ -29,7 +29,7 @@ ul, li {
   list-style-type: none;
 }
 
-ul, h1, h2, h3, h4, h5, h6, ul, li, p, hr, blockquote, menu, dir {
+ul, h1, h2, h3, h4, h5, h6, ul, li, ol, p, hr, blockquote, menu, dir, dl, dt, dd, defs, details, summary {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   -webkit-margin-start: 0;
@@ -533,6 +533,67 @@ img.inserted {
 
 .surround-inserted {
   display: flex;
+}
+
+#whittle {
+  color: whitesmoke;
+}
+#whittle > header h1 {
+  color: #9fedea;
+  text-align: center;
+}
+#whittle a.allow {
+  display: inline;
+  padding: 0 2rem;
+}
+#whittle article {
+  margin: 5rem auto 0;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid #9fedea;
+}
+#whittle article header h1 {
+  color: whitesmoke;
+  font-size: 2rem;
+  margin: 2rem auto;
+}
+#whittle article p, #whittle article > header, #whittle article summary, #whittle article ol {
+  max-width: 72rem;
+  min-width: 48rem;
+  margin: auto;
+}
+#whittle article ol li {
+  list-style-type: inherit;
+  margin: 2rem auto;
+}
+#whittle article a {
+  margin: auto;
+  display: inline-block;
+  padding: 2rem;
+}
+#whittle article p {
+  margin: 2rem auto;
+}
+#whittle summary {
+  margin: auto;
+  text-align: center;
+}
+#whittle .no-iframe .post-full {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  justify-content: space-around;
+}
+#whittle .no-iframe .post-full section {
+  max-width: 45%;
+  margin: 0 2rem;
+}
+#whittle dt, #whittle dl, #whittle dd {
+  display: inline;
 }
 
 .cf {

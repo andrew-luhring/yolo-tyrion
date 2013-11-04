@@ -268,7 +268,7 @@ jQuery(document).ready(function () {
         }
     });
     //
-    $('a').click(function (e) {
+    $('a').not(".allow").click(function (e) {
         e.preventDefault();
     });
     //
@@ -280,8 +280,10 @@ jQuery(document).ready(function () {
     });
     //
     $(".post-full > a").click(function (e) {
+
         var self = $(this);
         scrollToThing(self, function () {
+
             convertToType(self, resizeTheThings(self, true));
         });
 

@@ -66,3 +66,59 @@ img.inserted {
 .surround-inserted{
   display: flex;
 }
+
+#whittl{
+  color:  $white;
+  > header h1{
+    color: $light-blue;
+    text-align: center;
+  }
+  a.allow{
+    display: inline;
+    padding: 0 2rem;
+  }
+  article{
+    margin:  5rem auto 0;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid $light-blue;
+    header h1{
+      color: $white;
+        font-size: 2rem;
+        margin: 2rem auto;
+    }
+
+    p, > header, summary, ol{
+      max-width: 72rem;
+      min-width: 48rem;
+      margin:  auto;
+    }
+    ol li{
+      list-style-type: inherit;
+      margin: 2rem auto;
+    }
+      a{
+        margin: auto;
+        display: inline-block;
+        padding: 2rem;
+      }
+    p{
+      margin: 2rem auto;
+    }
+   }
+summary{
+  margin:  auto;
+  text-align:  center;
+}
+  .no-iframe .post-full{
+    @include display(flex);
+    @include flex-direction(row);
+    @include justify-content(space-around);
+    section{
+      max-width: 45%;
+      margin:  0 2rem;
+    }
+  }
+  dt,dl, dd{
+    display: inline;
+  }
+}
