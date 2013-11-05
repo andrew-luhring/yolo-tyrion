@@ -25,11 +25,11 @@ function validateExists(filename, options, globals, callback) {
     if(typeof callback === "function"){
         callback();
     }
-};
+}
 
 exports.sassCheck = function(){
 
-}
+};
 
 exports.sassList = function (fileList, options, globals) {
     var  code = []

@@ -14,7 +14,7 @@
 desc("Test + build");
     task("default", ["lint"]);
 
-desc("Jake filelist")
+desc("Jake filelist");
     task("jfl", [], function(){
        var list = new jake.FileList()
            , sassLint = require("./build/lint/sass_runner.js")
