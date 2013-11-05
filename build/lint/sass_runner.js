@@ -5,9 +5,10 @@ var sass = require("node-sass");
 var fs = require("fs");
 
 
-function validateExists(filename, options, globals, callback) {
-    var sourceCode,
-    pass;
+function validateExists(filename, options, globals/*, callback*/) {
+    var sourceCode
+        , pass
+        , file = {};
     try{
         sourceCode = fs.readFileSync(filename, "utf8");
         pass = true;
@@ -15,36 +16,47 @@ function validateExists(filename, options, globals, callback) {
         sourceCode = "\n \n" + ">>>>>>>>>>>ERROR<<<<<<<<<<<" + "\n" + err + "\n";
         pass = false;
     }
-    if (pass){
-        //console.log(sourceCode);
-        return sourceCode;
-    } else {
-        console.log(sourceCode);
-        return sourceCode;
-    }
-    if(typeof callback === "function"){
+    file.pass = pass;
+    file.code= sourceCode;
+    file.filename = filename;
+    /*if(typeof callback === "function"){
         callback();
-    }
+    }*/
+    return file;
 }
 
-exports.sassCheck = function(){
+exports.sassCheck = function(obj, opt){
+
+    sass.render({
+          file : obj.filename
+        , success: function(){
+            console.log(obj.filename);
+          }
+        , error : function(error){
+            console.log(error);
+            return error;
+        }
+        , includePaths : [opt.partials, opt.fonts, opt.bourbon, opt.sassDir]
+        , outputStyle: opt.style
+
+    });
 
 };
 
 exports.sassList = function (fileList, options, globals) {
     var  code = []
-        ,  pass = true;
+        ,  exist = true
+        ,  result;
     if(fileList.length > 0){
         fileList.forEach(function (filename) {
-            validateExists(filename, options, globals, exports.sassCheck());
-             //console.log()
-            console.log(filename);
+            result = validateExists(filename, options, globals);
+            exports.sassCheck(result, options);
         });
-        return pass;
+        return exist;
     } else {
         console.log("files do not exist");
-        pass = false;
-        return pass;
+        exist = false;
+        return exist;
     }
 
 };

@@ -19,11 +19,12 @@ desc("Jake filelist");
        var list = new jake.FileList()
            , sassLint = require("./build/lint/sass_runner.js")
            , fileList
-           , existence;
+           , existence
+           , options = styleOptions();
         list.include("**/*.scss");
         list.exclude("node_modules", "bourbon");
         fileList = list.toArray();
-        var out = sassLint.sassList(fileList, {}, {});
+        var out = sassLint.sassList(fileList, options, {});
         //console.log(out);
         //existence = sassLint.validateExists("public/sass/blog.scss", {}, {});
         //console.log(existence);
@@ -77,11 +78,13 @@ desc("Integration== make it physically impossible to have broken build.");
     function styleOptions() {
         var obj = {};
         obj.syntax = "scss";
-        obj.sassFiles = "./public/sass/*.scss";
         obj.sassDir = "./public/sass/";
+        obj.sassFiles = obj.sassDir + "*.scss";
+        obj.partials = obj.sassDir + "partials/";
+        obj.fonts = obj.sassDir + "fonts/";
         obj.cssDir = "./public/css/ ";
-        obj.bourbon = "./public/sass/bourbon/**";
-        obj.style = "-t expanded";
+        obj.bourbon = obj.sassDir + "bourbon/**";
+        obj.style = "expanded";
         obj.trace = "--trace" ;
         obj.check = "-c" + " " + obj.trace + " " + obj.sassFiles;
         obj.compile = "--update" + " " + obj.trace +  " " + obj.sassDir + ":" + obj.cssDir ;

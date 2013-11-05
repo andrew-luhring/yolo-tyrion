@@ -7,7 +7,8 @@ TODO
 
 >>>>Engineering Tasks:<<<<
 
+-fix jake's jfl function (node-sass is not understanding the fact that the partials are imported so they already have _base.scss and _flex-box.scss stuff in them which is causing it to output invalid errors"
 -refactor/abstract all the things.
-*determine which testing framework to use.
+
 
 >>>>Ideas<<<<
