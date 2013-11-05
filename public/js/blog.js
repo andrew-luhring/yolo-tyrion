@@ -322,7 +322,6 @@ jQuery(document).ready(function () {
             didScroll = false;
             checkNav(current);
         }
-
     }, 1000);
     setInterval(function () {
         if (didResize) {

@@ -7,6 +7,7 @@ var path           = require('path'),
     path           = require('path'),
     _              = require('underscore'),
     spawn          = require("child_process").spawn,
+    bourbon = require('node-bourbon').includePaths,
     buildDirectory = path.resolve(process.cwd(), '.build'),
     distDirectory  = path.resolve(process.cwd(), '.dist'),
     buildGlob = [
@@ -43,8 +44,12 @@ var path           = require('path'),
                     tasks: ['handlebars']
                 },
                 scss: {
-                    files: ['<%= paths.swagAssets %>/sass/**/*', '<%= paths.swagAssets %>/sass/*'],
+                    files: ['<%= paths.swagAssets %>/sass/*.scss'],
                     tasks: ['sass:dist']
+                },
+                jshint:{
+                    files: ['<%= paths.swagAssets %>/js/*.js' ],
+                    tasks: ['jshint:lint']
                 },
                 livereload: {
                     files: [
@@ -73,7 +78,7 @@ var path           = require('path'),
             // Start our server in development
             express: {
                 options: {
-                    script: 'app.js'
+                    script: 'controller.js'
                 },
 
                 dev: {
@@ -137,25 +142,27 @@ var path           = require('path'),
                     ]
                 }
             },
+            jshint: {
+                lint:{
+                    options: {
+                        bitwise: true, curly: true, eqeqeq: true, forin: true, latedef: true, newcap: true, noarg: true, nonew: false, undef: true, strict: true, unused: false, trailing: true, node: true, laxcomma: true, smarttabs: true, debug: true, sub: true, supernew: true, browser: true, devel: true, jquery: true
+                    },
+                    files: ['<%= paths.swagAssets %>/js/*.js' ]
+
+                }
+            },
             // Compile all the SASS!
             sass: {
                 dist: {
                     files: {
-                        'public/styles/blog.css': 'public/sass/blog.scss'
+                        'public/sass/blog.scss' :'public/css/blog.css'
                     },
                     options: {
+                        loadPath: bourbon,
                         style: 'expanded',
                         scss: 'true',
-                        sourcemap: 'true',
-                        quiet: 'true'
+                        sourcemap: 'true'
                     }
-                }
-            },
-
-
-            shell: {
-                bourbon: {
-                    command: 'bourbon install --path <%= paths.swagAssets %>/sass/modules/'
                 }
             },
 
@@ -438,7 +445,7 @@ var path           = require('path'),
         });
 
         grunt.registerTask('build', [
-            'shell:bourbon',
+
             'sass:dist',
             'handlebars',
             'changelog',
@@ -446,7 +453,7 @@ var path           = require('path'),
         ]);
 
         grunt.registerTask('release', [
-            'shell:bourbon',
+
             'sass:dist',
             'handlebars',
             'changelog',
@@ -462,7 +469,7 @@ var path           = require('path'),
 
         // Prepare the project for development
         // TODO: Git submodule init/update (https://github.com/jaubourg/grunt-update-submodules)?
-        grunt.registerTask('init', ['shell:bourbon', 'default']);
+        grunt.registerTask('init', ['default']);
 
         // Run tests and lint code
         grunt.registerTask('validate', ['jslint']);
