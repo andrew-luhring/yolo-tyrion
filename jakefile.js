@@ -2,7 +2,7 @@
 /*global desc, task, jake, fail, complete */
 (function () {
     "use strict";
-
+desc("get angry at everything");
     task("fuck", [], function(){
         var sass = require("node-sass");
         var opt = styleOptions();
@@ -11,7 +11,13 @@
             file: opt.sassFiles
         }));
     });
-desc("Test + build");
+
+des("run tests like a boss");
+	task("test", [], function(){
+	 	
+	});
+
+desc("lint stuff");
     task("default", ["lint"]);
 
 desc("Jake filelist");
