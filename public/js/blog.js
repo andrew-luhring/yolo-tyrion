@@ -90,14 +90,14 @@ function setRandomTheme() {
         }
     };
     //theme
-function scrollToThing(thing, callback) {
+function scrollToThing(thing, time, callback) {
         if ( typeof $(thing).attr("id") !== "undefined" ){
             var selector = $(thing)
                 , sT = selector.offset().top
                 , $viewport = $("html, body")
             $viewport.animate({
                 scrollTop: sT
-            }, 2000, function(){
+            }, time, function(){
                 console.log($(thing).length);
                 resizeTheThings(thing, false)
             });
@@ -184,16 +184,16 @@ function checkNav(current) {
     }
 }
     //nav
-function scrollDirection(direction) {
+function scrollDirection(direction, prev, next) {
     switch (direction) {
         case "up":
-            console.log("up")
-            return "up";
-            break;
+            prev = "#" + prev;
+            scrollToThing($(prev), 1000);
+		    break;
         case "down":
-            console.log("down");
-            return "down";
-            break;
+	        next = "#" + next;
+            scrollToThing($(next), 1000);
+		    break;
         default:
              console.log("none");
             return "none";
@@ -201,55 +201,37 @@ function scrollDirection(direction) {
     }
 }
     //window
+function ScrollableThing(thing){
+	var obj;
+	if(thing instanceof jQuery){
+		obj  = thing;
+	}else{
+		console.log(thing instanceof jQuery);
+		console.log(thing + " is not a jquery object");
+		return false;
+	}
+	thing.id = obj.attr('id');
+	thing.top = obj.offset().top;
+	thing.kids = function(){
+		if (obj.find(".surround-inserted")) {
+			obj.kids = $.makeArray(obj.find(".surround-inserted"));
+		} else{
+			console.log("no kids");
+		}
+	};
+}
+
+
 function animateScrollTo(current, counter, direction) {
         var arr = $.makeArray($(".post"));
         var parr = [];
         $.each(arr, function (index) {
-            var obj = $(this);
-            obj.pid = obj.attr("id");
-            obj.height = obj.height();
-            obj.top = obj.offset().top;
-            if (obj.find(".surround-inserted")) {
-                var kids = $.makeArray(obj.find(".surround-inserted"));
-                var pkid = [];
-                $.each(kids, function (index) {
-                    var kid = $(this);
-                    kid.top = kid.offset().top;
-                    kid.href = kid.attr("href");
-                    pkid.push(kid);
-                });
-                obj.children = pkid;
-            } else {
-                obj.children = [];
-            }
+            var obj = new ScrollableThing($(this));
             parr.push(obj);
         });
-        for (var i = 0; i < parr.length; i++) {
-            var next = i + 1
-                , prev = i - 1
-                , max = parr.length - 1
-                , min = 0
-                , diffCur = parr[i] ;
-            if (prev <= 0) {
-                prev = min;
-            } else{
-                prev =  i - 1;
-            }
-            if (next >= max) {
-                next = max;
-            }
-
-            var diffPrev = parr[prev]
-                , diffNext = parr[next]
-                , diffA = Math.abs(current.top - diffPrev.top)
-                , diffB = Math.abs(current.top - diffNext.top)
-                , diffC = diffCur.top;
             if (counter < 1) {
-                console.log(diffB + " " + diffA);
-                scrollDirection(direction);
                 counter++;
             }
-        }
         console.log("^^^^^^^^");
         direction = "none";
     }
@@ -278,14 +260,16 @@ jQuery(document).ready(function () {
     //
     $("#main_nav .workTypes a").click(function () {
         var post = $(this).attr('href');
-        scrollToThing(post, function(){
+        scrollToThing(post, 2000, function(){
 //            resizeTheThings(post, false);
         });
     });
     //
     $(".post-full > a").click(function (e) {
         var self = $(this);
-        scrollToThing(self, function () {
+
+        scrollToThing(self, 2000, function () {
+
             convertToType(self, resizeTheThings(self, true));
         });
 
@@ -295,7 +279,7 @@ jQuery(document).ready(function () {
             //console.log(deltaY);
             didScroll = true;
         }
-        if (deltaY >= 55 || deltaY <= -55){
+        if (deltaY >= 1 || deltaY <= -1){
             didScroll = true;
             animateScroll = true;
             if( deltaY > 0 ){
