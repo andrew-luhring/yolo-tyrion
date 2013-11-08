@@ -12,9 +12,13 @@ desc("get angry at everything");
         }));
     });
 
-des("run tests like a boss");
+desc("run tests like a boss");
 	task("test", [], function(){
-	 	
+	 	var reporter = require("nodeunit").reporters["minimal"];
+		reporter.run(['public/test/tests.js'], null, function(failures){
+		console.log("done");
+			complete();
+		});
 	});
 
 desc("lint stuff");
