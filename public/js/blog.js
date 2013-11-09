@@ -1,5 +1,6 @@
-"use strict";
+
 (function ($) {
+	"use strict";
 function getWindowDimensions(){
     var win = {
         widthRem: (window.innerWidth / 10) + "rem",
@@ -7,6 +8,7 @@ function getWindowDimensions(){
         width: window.innerWidth,
         height: window.innerHeight,
         top: window.pageYOffset
+
     };
     return win;
 }

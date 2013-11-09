@@ -1,0 +1,6 @@
+--require expect
+--require assert
+--reporter nyan
+--ui bdd
+--growl
+--version
