@@ -5,11 +5,13 @@ module.exports = function(config) {
   config.set({
 
     // base path, that will be used to resolve files and exclude
-    basePath: '../..',
+    basePath: '../../',
 
 
     // frameworks to use
     frameworks: ['mocha', 'expect'],
+
+	  plugins: ['karma-*'],
 
 
 
@@ -55,12 +57,33 @@ module.exports = function(config) {
     captureTimeout: 60000,
 
 	  // list of files / patterns to load in the browser
-	  files: [
-		  'public/js/lib/jquery.js',
-		  'public/**/*.js'
-	  ],
-
-
+	  files: [{
+			  pattern: 'public/js/lib/jquery.js',
+			  watched: false,
+		      included: true,
+			  served: true
+		  },{
+		      pattern: 'public/**/*.js',
+			  watched: true,
+		      included: true,
+			  served:true
+	    },{
+		  pattern: 'build/**/*.js',
+		  watched: true,
+		  included: false,
+		  served: false
+	  }, {
+		  pattern: 'jakefile.js',
+		  watched: true,
+		  included: false,
+		  served: false
+	  }, {
+		  pattern: 'test/*.js',
+		  watched: true,
+		  included: false,
+		  served: false
+	  }],
+	  exclude : ['node_modules/*'],
 	  // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
     singleRun: false
