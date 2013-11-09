@@ -41,6 +41,7 @@
     "karma-growl-reporter": "~0.1.1",
     "growly": "~1.1.1",
     "karma-unicorn-reporter": "~0.1.4",
-    "should": "~2.0.2"
+    "should": "~2.0.2",
+    "jake-mocha": "~0.9.0"
   }
 }

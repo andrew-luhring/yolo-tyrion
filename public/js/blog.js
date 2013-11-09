@@ -337,3 +337,60 @@ jQuery(document).ready(function () {
 });
 
 }(jQuery));
+
+(function forB(){
+	"use strict";
+/*
+
+
+	function FirstConstructor(selector){
+		if(selector instanceof jQuery){
+			this._selector = selector ;
+		} else {
+			this._selector = $( " '  "   + selector +  " ' " );
+		}}
+
+	FirstConstructor.prototype.selector= function sel(){
+		return this._selector;
+	}
+
+	FirstConstructor.prototype = Object.create(FirstConstructor.prototype);
+	FirstConstructor.constructor = FirstConstructor;
+
+	function ViewportConstructor(){
+		FirstConstructor.call($('html, body'));
+	} ;
+	var viewport = new ViewportConstructor();
+
+	console.log(ViewportConstructor.selector);
+*/
+
+
+	//var scrollToPosition = new Obj($("#bottom"));
+		//scrollToPosition.top = .offset().top
+
+})();
+
+
+
+
+/*
+	animate({
+		scrollTop: st
+	}, 60000);
+*/
+
+	//console.log(typeof scrollToPosition);
+
+
+
+
+
+
+
+
+
+
+
+
+
