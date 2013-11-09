@@ -1,32 +1,37 @@
 /*global should, exports, describe, mocha, it, jquery, expect, example, beforeEach, mocha */
 
-function debuggerer(smartAssRemark){
-	if(smartAssRemark){
-		console.log("\n >>>>>>>>>>>>>>>>>" +  smartAssRemark + "<<<<<<<<<<<<<<<<<  \n");
-	} else {
-		console.log("\n >>>>>>>>>>>>>>>>>DUDE YOU MESSED UP YOUR DEBUGGERER STATEMENT. TURN YOUR LIFE AROUND.<<<<<<<<<<<<<<<<<  \n");
-	}
-}
-
 (function(){
 	"use strict";
+
+	function debuggerer(smartAssRemark){
+		if(smartAssRemark){
+			console.log("\n >>>>>>>>>>>>>>>>>" +  smartAssRemark + "<<<<<<<<<<<<<<<<<  \n");
+		} else {
+			console.log("\n >>>>>>>>>>>>>>>>>DUDE YOU MESSED UP YOUR DEBUGGERER STATEMENT. TURN YOUR LIFE AROUND.<<<<<<<<<<<<<<<<<  \n");
+		}
+	}
 
 	function Obj(jQueryObj){
 		this.derp = jQueryObj;
 		this.prototype = this.prototype;
 		this.thing = "string";
-	};
+	}
 	Obj.prototype.things = function(justTheNumberInObject){
 		var arr = [];
 		for (var i in this){
-			arr.push(i);
+			if (this.hasOwnProperty(this[i])) {
+				debuggerer("todo: I should figure out why this hasownproperty thing is important ");
+			} else {
+				arr.push(i);
+			}
+
 		}
 		if(justTheNumberInObject){
 			return arr.length;
 		} else {
 			return arr;
 		}
-	}
+	};
 
 
 	describe("lists length of properties array", function(){

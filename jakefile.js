@@ -4,7 +4,7 @@
     "use strict";
 
 	var REQUIRED_BROWSERS = [
-		"Chrome 30.0.1599.101 (Mac OS X 10.8.5)"
+		//"Chrome 30.0.1599.101 (Mac OS X 10.8.5)"
 	];
 
 	var lint = require("./build/util/lint_runner.js");
@@ -47,18 +47,24 @@
 			karma.runTests(REQUIRED_BROWSERS, complete, fail);
 		}, {async: true});
 
+	desc("list the prevent broken builds thing");
+		task("howToIntegrate", function(){
+				console.log("1. Make sure 'git status' is clean");
+				console.log("2. Build on the integration box.");
+				console.log("   a. Walk over to integration box");
+				console.log("   b. 'get pull' ");
+				console.log("   c. 'jake'");
+				console.log("   d. If jake fails, stop. Fix whatever, then try again.");
+				console.log("3. 'git checkout jake' ");
+				console.log("4. 'git merge master --no-ff --log' ");
+				console.log("5. 'git checkout master'");
+
+		});
 	desc("Integration== make it physically impossible to have broken build.");
-	    task("integrate", ["default"], function(){
-	        console.log("1. Make sure 'git status' is clean");
-	        console.log("2. Build on the integration box.");
-	        console.log("   a. Walk over to integration box");
-	        console.log("   b. 'get pull' ");
-	        console.log("   c. 'jake'");
-	        console.log("   d. If jake fails, stop. Fix whatever, then try again.");
-	        console.log("3. 'git checkout jake' ");
-	        console.log("4. 'git merge master --no-ff --log' ");
-	        console.log("5. 'git checkout master'");
-	    });
+	    task("integrate", [
+		        "default"
+		        , "howToIntegrate"
+	    ]);
 
 	function propertiesList(obj){
 		var result = "";
