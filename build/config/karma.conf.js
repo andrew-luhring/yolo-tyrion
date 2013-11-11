@@ -1,9 +1,10 @@
 // Karma configuration
 // Generated on Tue Sep 24 2013 14:33:42 GMT-0700 (PDT)
+"use strict";
+
 
 module.exports = function(config) {
   config.set({
-
     // base path, that will be used to resolve files and exclude
     basePath: '../../',
 
@@ -11,14 +12,13 @@ module.exports = function(config) {
     // frameworks to use
     frameworks: ['mocha', 'expect'],
 
+
 	  plugins: ['karma-*'],
 
 
 
     // list of files to exclude
-    exclude: [
-      
-    ],
+	  exclude : ['node_modules/*'],
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
@@ -63,6 +63,11 @@ module.exports = function(config) {
 		      included: true,
 			  served: true
 		  },{
+			  pattern: 'public/js/lib/jquery.min.map',
+			  watched: false,
+			  included: false,
+			  served: true
+        },{
 		      pattern: 'public/**/*.js',
 			  watched: true,
 		      included: true,
@@ -83,7 +88,7 @@ module.exports = function(config) {
 		  included: false,
 		  served: false
 	  }],
-	  exclude : ['node_modules/*'],
+
 	  // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
     singleRun: false

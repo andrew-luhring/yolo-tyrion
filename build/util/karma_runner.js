@@ -1,10 +1,15 @@
 // Copyright (c) 2012 Titanium I.T. LLC. All rights reserved. See LICENSE.txt for details.
+
 (function() {
 	"use strict";
 
 	var KARMA = "node node_modules/karma/bin/karma";
-	var KARMA_START = KARMA + " start build/config/karma.conf.js";
+	var MOCHA = "node node_modules/karma-mocha/lib/index.js";
+	var KARMA_MOCHA_CONFIG = "build/config/karma.conf.js ";
+	var KARMA_START = KARMA + " start " + KARMA_MOCHA_CONFIG ;
+
 	var CONFIG = {};
+	var CLEAR = "clear";
 
 	var sh = require("./sh.js");
 	var runner = require("karma/lib/runner");
@@ -13,6 +18,14 @@
 		sh.run(KARMA_START, success, function() {
 			fail("Could not start Karma server");
 		});
+	};
+
+	exports.clearConsole = function(doIt){
+			sh.run(CLEAR, function(){
+				console.log("cleared");
+			}, function(){
+				console.log("karma_runner FAILED TO CLEAR CONSOLE ");
+			});
 	};
 
 	exports.runTests = function(requiredBrowsers, success, fail) {
