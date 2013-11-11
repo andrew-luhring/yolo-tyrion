@@ -1,7 +1,5 @@
 /*global should, exports, describe, mocha, it, jquery, expect, example, beforeEach, mocha */
 
-var mocha = new Mocha();
-console.log(mocha);
 
 (function(){
 	"use strict";
