@@ -82,6 +82,7 @@
 		files.exclude("./build/util/**/*.js");
 		files.include("./models/**/*.js");
 		files.include("./routes/**/*.js");
+		files.include("./build/config/*.js");
 		files.exclude("./node_modules/*");
 
 		return files.toArray();
